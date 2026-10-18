@@ -6,10 +6,10 @@
 # (in ROOT/usr/lib/firefox). B8K_CACHE keeps the downloaded extension and
 # language pack between runs.
 #
-# Puts the prefs (b8k-lean.js, b8k-ram.js, zz-b8k-webapp.js) into Firefox's
-# defaults, its autoconfig file (b8k-webapp.cfg: mobile-config-firefox's
-# autoconfig, then b8k-webapp.js for chromeless web-app windows), the
-# stylesheets and b8k-firefox-profile into PREFIX, and writes
+# Puts the prefs (b8k-lean.js, b8k-ram.js, zz-b8k-firefox.js) into Firefox's
+# defaults, its autoconfig file (b8k-firefox.cfg: mobile-config-firefox's
+# autoconfig, then b8k-calm.js, which keeps the keyboard down on a new
+# window), the stylesheets and b8k-firefox-profile into PREFIX, and writes
 # /etc/firefox/policies/policies.json: mobile-config-firefox's, with
 # uBlock Origin Lite in complete mode and the Russian language pack, both
 # Mozilla-signed files checked against their sha256.
@@ -21,7 +21,7 @@ here=$(cd "$(dirname "$0")" && pwd)
 share=$prefix/share/b8k-firefox
 ff=$root/usr/lib/firefox
 install -D -m 755 "$here/b8k-firefox-profile" "$root$prefix/bin/b8k-firefox-profile"
-for f in userChrome.css userChrome-shell.css userContent.css b8k-webapp.js; do
+for f in userChrome.css userChrome-shell.css userContent.css b8k-calm.js; do
 	install -D -m 644 "$here/$f" "$root$share/$f"
 done
 # The shell's old copies, from before this repository.
@@ -31,11 +31,14 @@ if [ ! -d "$ff/defaults/pref" ]; then
 	echo "b8k-firefox: no Firefox in $ff: only the profile files installed" >&2
 	exit 0
 fi
-sed "s|@SHARE@|$share|g" "$here/b8k-webapp.cfg.in" >"$ff/b8k-webapp.cfg"
-chmod 644 "$ff/b8k-webapp.cfg"
-for f in zz-b8k-webapp.js b8k-ram.js b8k-lean.js; do
+sed "s|@SHARE@|$share|g" "$here/b8k-firefox.cfg.in" >"$ff/b8k-firefox.cfg"
+chmod 644 "$ff/b8k-firefox.cfg"
+for f in zz-b8k-firefox.js b8k-ram.js b8k-lean.js; do
 	install -m 644 "$here/$f" "$ff/defaults/pref/$f"
 done
+# The shell's web-app windows are gone (chromeless windows could show a
+# page under a trusted name): its autoconfig and loader go too.
+rm -f "$ff/b8k-webapp.cfg" "$ff/defaults/pref/zz-b8k-webapp.js" "$root$share/b8k-webapp.js"
 # uBlock Origin Lite in complete mode instead of uBlock Origin. The
 # extension goes into the image: addons.mozilla.org answers 406 from some
 # networks, and Firefox then never installed it. The release on GitHub is
@@ -73,15 +76,17 @@ if [ -f "$ff/distribution/policies.json" ]; then
 	python3 "$here/b8k-policies.py" "$ff/distribution/policies.json" \
 		"$root/etc/firefox/policies/policies.json" "$ubol" "$ru"
 fi
-# mobile-config-firefox's autoconfig runs b8k-webapp.js too.
+# The loader for b8k-webapp.js the shell once appended to
+# mobile-config-firefox's autoconfig (b8k-firefox.cfg loads b8k-calm.js).
 mc=$ff/mobile-config-autoconfig.js
-[ -f "$mc" ] && sed -i "s|file:///usr/local/share/b8k/b8k-webapp.js|file://$share/b8k-webapp.js|" "$mc"
-if [ -f "$mc" ] && ! grep -q 'b8k-webapp.js' "$mc"; then
-	cat >>"$mc" <<EOT
-try {
-  Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
-    .getService(Components.interfaces.mozIJSSubScriptLoader)
-    .loadSubScript("file://$share/b8k-webapp.js");
-} catch (e) {}
+if [ -f "$mc" ] && grep -q 'b8k-webapp.js' "$mc"; then
+	python3 - "$mc" <<'EOT'
+import re, sys
+p = sys.argv[1]
+s = open(p).read()
+s = re.sub(r'try \{\n  Components\.classes\["@mozilla\.org/moz/jssubscript-loader;1"\]\n'
+           r'    \.getService\(Components\.interfaces\.mozIJSSubScriptLoader\)\n'
+           r'    \.loadSubScript\("file://[^"]*b8k-webapp\.js"\);\n\} catch \(e\) \{\}\n', '', s)
+open(p, "w").write(s)
 EOT
 fi

@@ -1,6 +1,6 @@
 # Maintainer: Mikhail Nevskiy <rensomail@gmail.com>
 pkgname=b8k-firefox
-pkgver=1.0
+pkgver=1.1
 pkgrel=0
 pkgdesc="Firefox for a touch screen and weak hardware: large toolbar, lean prefs, uBlock Origin Lite"
 url="https://github.com/trudenboy/b8k-firefox"

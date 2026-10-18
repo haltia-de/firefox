@@ -8,9 +8,8 @@ Tablet 10 (B8000-H) с оболочкой
 - `userChrome.css` — крупные вкладки и кнопки панели; `userContent.css`.
 - `b8k-lean.js`, `b8k-ram.js` — фоновые службы Firefox выключены, один
   процесс содержимого, светлые страницы по умолчанию.
-- `b8k-webapp.cfg` + `b8k-webapp.js` — autoconfig: окна без панелей для
-  веб-приложений, снятие фокуса с адресной строки, чтобы клавиатура не
-  выезжала сама.
+- `b8k-firefox.cfg` + `b8k-calm.js` — autoconfig: снимает фокус с
+  адресной строки нового окна, чтобы экранная клавиатура не выезжала сама.
 - `b8k-policies.py` — политики mobile-config-firefox с uBlock Origin Lite
   (полный режим) и русским языковым пакетом вместо uBlock Origin.
 - `b8k-firefox-profile [--shell]` — готовит профили (стили, нужные

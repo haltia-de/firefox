@@ -1,4 +1,4 @@
-// B8000-H: weather and MAX open in a window without browser controls.
+// b8k-firefox: mobile-config-firefox's autoconfig, then b8k-calm.js.
 try {
   Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
     .getService(Components.interfaces.mozIJSSubScriptLoader)
@@ -7,5 +7,5 @@ try {
 try {
   Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
     .getService(Components.interfaces.mozIJSSubScriptLoader)
-    .loadSubScript("file://@SHARE@/b8k-webapp.js");
+    .loadSubScript("file://@SHARE@/b8k-calm.js");
 } catch (e) {}
