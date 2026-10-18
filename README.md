@@ -16,9 +16,11 @@ Tablet 10 (B8000-H) с оболочкой
   настройки в `user.js`); с `--shell` панели оставляют место под кнопку
   «✕» оболочки в правом верхнем углу.
 
-Установка: `sh install.sh [ROOT] [PREFIX]` (нужны Firefox и
-mobile-config-firefox в `ROOT/usr/lib/firefox`; расширение и языковой пакет
-скачиваются и проверяются по sha256) или пакет Alpine из
-`packaging/alpine/APKBUILD`.
+Установка: пакет Alpine из выпусков GitHub (подписан ключом проекта, см.
+[b8k-ci](https://github.com/trudenboy/b8k-ci)) или `sh install.sh [ROOT]
+[PREFIX]`. Расширение и языковой пакет скачиваются при сборке и проверяются
+по sha256; политики Firefox (`/etc/firefox/policies/policies.json`)
+пишет `b8k-firefox-configure` — при установке пакета и всякий раз, как его
+запускают после обновления Firefox или mobile-config-firefox.
 
 Лицензия — GPL-2.0.

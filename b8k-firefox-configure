@@ -1,0 +1,40 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0
+# What depends on the Firefox installed, run by install.sh and by the
+# package's post-install and post-upgrade: /etc/firefox/policies/policies.json
+# from mobile-config-firefox's (uBlock Origin Lite in complete mode, the
+# Russian language pack when it is for this Firefox's version), and the
+# shell's old b8k-webapp.js loader taken out of mobile-config-firefox's
+# autoconfig. ROOT (empty: this system) as for install.sh.
+set -eu
+root=${ROOT:-}
+here=$(cd "$(dirname "$0")" && pwd)
+share=${here#"$root"}
+ff=$root/usr/lib/firefox
+ru_for=151.0.3
+ubol=$share/ubol.xpi
+[ -f "$root$ubol" ] || ubol=
+ru=$share/langpack-ru.xpi
+ff_ver=$(sed -n 's/^Version=//p' "$ff/application.ini" 2>/dev/null | head -1)
+if [ ! -f "$root$ru" ] || [ "$ff_ver" != "$ru_for" ]; then
+	[ -z "$ff_ver" ] || [ "$ff_ver" = "$ru_for" ] ||
+		echo "b8k-firefox: the Russian language pack is for Firefox $ru_for, not $ff_ver" >&2
+	ru=
+fi
+if [ -f "$ff/distribution/policies.json" ]; then
+	mkdir -p "$root/etc/firefox/policies"
+	python3 "$here/b8k-policies.py" "$ff/distribution/policies.json" \
+		"$root/etc/firefox/policies/policies.json" "$ubol" "$ru"
+fi
+mc=$ff/mobile-config-autoconfig.js
+if [ -f "$mc" ] && grep -q 'b8k-webapp.js' "$mc"; then
+	python3 - "$mc" <<'EOT'
+import re, sys
+p = sys.argv[1]
+s = open(p).read()
+s = re.sub(r'try \{\n  Components\.classes\["@mozilla\.org/moz/jssubscript-loader;1"\]\n'
+           r'    \.getService\(Components\.interfaces\.mozIJSSubScriptLoader\)\n'
+           r'    \.loadSubScript\("file://[^"]*b8k-webapp\.js"\);\n\} catch \(e\) \{\}\n', '', s)
+open(p, "w").write(s)
+EOT
+fi
