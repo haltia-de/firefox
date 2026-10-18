@@ -1,0 +1,18 @@
+# Maintainer: Mikhail Nevskiy <rensomail@gmail.com>
+pkgname=b8k-firefox
+pkgver=1.0
+pkgrel=0
+pkgdesc="Firefox for a touch screen and weak hardware: large toolbar, lean prefs, uBlock Origin Lite"
+url="https://github.com/trudenboy/b8k-firefox"
+arch="noarch"
+license="GPL-2.0-only"
+depends="firefox mobile-config-firefox python3"
+options="!check net"
+source="$pkgname-$pkgver.tar.gz::https://github.com/trudenboy/b8k-firefox/archive/v$pkgver.tar.gz"
+
+package() {
+	B8K_CACHE="$srcdir" sh ./install.sh "$pkgdir" /usr
+}
+
+# `abuild checksum` fills this in for a release.
+sha512sums="SKIP"

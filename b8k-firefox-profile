@@ -1,0 +1,65 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0
+# Make Firefox's profiles fit a touch screen and weak hardware:
+#   b8k-firefox-profile [--shell]
+# Makes a default profile when there is none, copies the large toolbar
+# (userChrome.css) and userContent.css into every profile's chrome folder,
+# and adds the prefs it needs to user.js (one content process, no fission,
+# no crash-restore page, the home page on start, stylesheets allowed). With
+# --shell (the b8k tablet shell), the toolbars also end short of the shell's
+# close button in the top right corner (userChrome-shell.css). Run it before
+# starting Firefox; it changes only what differs.
+set -eu
+here=$(cd "$(dirname "$0")" && pwd)
+share=$(dirname "$here")/share/b8k-firefox
+[ -f "$share/userChrome.css" ] || share=$here
+home=${HOME:-/home/user}
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+cp "$share/userChrome.css" "$tmp/userChrome.css"
+if [ "${1:-}" = --shell ]; then
+	printf '\n' >> "$tmp/userChrome.css"
+	cat "$share/userChrome-shell.css" >> "$tmp/userChrome.css"
+fi
+cp "$share/userContent.css" "$tmp/userContent.css"
+root=$home/.config/mozilla/firefox
+if [ ! -e "$root/profiles.ini" ] && [ ! -e "$home/.mozilla/firefox/profiles.ini" ]; then
+	mkdir -p "$root/b8k.default"
+	printf '%s\n' '[Profile0]' 'Name=default' 'IsRelative=1' 'Path=b8k.default' \
+		'Default=1' '' '[General]' 'StartWithLastProfile=1' 'Version=2' >"$root/profiles.ini"
+fi
+	for root in "$home/.config/mozilla/firefox" "$home/.mozilla/firefox"; do
+		[ -d "$root" ] || continue
+		for prof in "$root"/*.*; do
+			[ -d "$prof" ] || continue
+			mkdir -p "$prof/chrome"
+			for css in userChrome.css userContent.css; do
+				want=$tmp/$css
+				if ! cmp -s "$want" "$prof/chrome/$css" 2>/dev/null; then
+					cp "$want" "$prof/chrome/$css"
+					chmod 644 "$prof/chrome/$css" 2>/dev/null || true
+				fi
+			done
+			js=$prof/user.js
+			touch "$js"
+			line='user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("browser.tabs.tabClipWidth", 1);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("browser.tabs.tabMinWidth", 240);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("dom.ipc.processCount", 1);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("dom.ipc.processCount.webIsolated", 1);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("fission.autostart", false);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("dom.ipc.keepProcessesAlive.web", 0);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			line='user_pref("browser.sessionstore.resume_from_crash", false);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+			sed -i 's/user_pref("browser.startup.page", 0);/user_pref("browser.startup.page", 1);/g' "$js"
+			line='user_pref("browser.startup.page", 1);'
+			grep -qxF "$line" "$js" || printf '%s\n' "$line" >> "$js"
+		done
+	done
