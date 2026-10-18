@@ -21,6 +21,7 @@ here=$(cd "$(dirname "$0")" && pwd)
 share=$prefix/share/b8k-firefox
 ff=$root/usr/lib/firefox
 install -D -m 755 "$here/b8k-firefox-profile" "$root$prefix/bin/b8k-firefox-profile"
+install -D -m 644 "$here/b8k-profile-prefs.py" "$root$share/b8k-profile-prefs.py"
 for f in userChrome.css userChrome-shell.css userContent.css b8k-calm.js; do
 	install -D -m 644 "$here/$f" "$root$share/$f"
 done
@@ -61,5 +62,5 @@ install -m 644 "$here/b8k-policies.py" "$root$share/b8k-policies.py"
 # What depends on the Firefox installed (its policies, its version): now
 # when there is one, else at the package's installation (post-install).
 if [ -f "$ff/application.ini" ]; then
-	ROOT=$root sh "$here/b8k-firefox-configure"
+	ROOT=$root sh "$root$share/b8k-firefox-configure"
 fi
