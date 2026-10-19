@@ -1,5 +1,5 @@
-/* Added by b8k-firefox-profile --shell (the b8k tablet shell): the top
-   right corner is the shell's close button (b8k-close, 110 x 104 px), so
+/* Added by haltia-firefox-profile --shell (the Haltia shell): the top
+   right corner is the shell's close button (the shell's close button, 110 x 104 px), so
    both toolbar rows end short of it. */
 #TabsToolbar,
 #nav-bar {

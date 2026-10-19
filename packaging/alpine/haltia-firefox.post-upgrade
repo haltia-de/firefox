@@ -1,0 +1,3 @@
+#!/bin/sh
+/usr/share/haltia-firefox/haltia-firefox-configure
+exit 0

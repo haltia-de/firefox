@@ -1,3 +1,0 @@
-#!/bin/sh
-/usr/share/b8k-firefox/b8k-firefox-configure
-exit 0

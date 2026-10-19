@@ -1,22 +1,22 @@
 #!/bin/sh
 # SPDX-License-Identifier: GPL-2.0
 # Make Firefox's profiles fit a touch screen and weak hardware:
-#   b8k-firefox-profile [--shell] [OPTIONS] (see --help)
+#   haltia-firefox-profile [--shell] [OPTIONS] (see --help)
 # Makes a default profile when there is none, copies the large toolbar
 # (userChrome.css) and userContent.css into every profile's chrome folder,
 # and adds the UI prefs it needs to user.js. Hardware defaults come from
-# b8k-ram.js, so manual profile overrides remain effective. With
-# --shell (the b8k tablet shell), the toolbars also end short of the shell's
+# haltia-ram.js, so manual profile overrides remain effective. With
+# --shell (the Haltia shell), the toolbars also end short of the shell's
 # close button in the top right corner (userChrome-shell.css). Run it before
 # starting Firefox; it changes only what differs.
 set -eu
 here=$(cd "$(dirname "$0")" && pwd)
-share=$(dirname "$here")/share/b8k-firefox
+share=$(dirname "$here")/share/haltia-firefox
 [ -f "$share/userChrome.css" ] || share=$here
 for arg in "$@"; do
-	case "$arg" in -h|--help) exec python3 "$share/b8k-profile-prefs.py" --help ;; esac
+	case "$arg" in -h|--help) exec python3 "$share/haltia-profile-prefs.py" --help ;; esac
 done
-python3 "$share/b8k-profile-prefs.py" --check "$@"
+python3 "$share/haltia-profile-prefs.py" --check "$@"
 home=${HOME:-/home/user}
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
@@ -28,6 +28,8 @@ esac
 cp "$share/userContent.css" "$tmp/userContent.css"
 root=$home/.config/mozilla/firefox
 if [ ! -e "$root/profiles.ini" ] && [ ! -e "$home/.mozilla/firefox/profiles.ini" ]; then
+	# The profile folder keeps the name before ADR 0004: it holds the
+	# person's data.
 	mkdir -p "$root/b8k.default"
 	printf '%s\n' '[Profile0]' 'Name=default' 'IsRelative=1' 'Path=b8k.default' \
 		'Default=1' '' '[General]' 'StartWithLastProfile=1' 'Version=2' >"$root/profiles.ini"
@@ -44,6 +46,6 @@ fi
 					chmod 644 "$prof/chrome/$css" 2>/dev/null || true
 				fi
 			done
-			python3 "$share/b8k-profile-prefs.py" --profile "$prof" "$@"
+			python3 "$share/haltia-profile-prefs.py" --profile "$prof" "$@"
 		done
 	done

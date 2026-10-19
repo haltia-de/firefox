@@ -19,7 +19,7 @@ class ProfileInstallTests(unittest.TestCase):
         self.profile = self.home / '.config/mozilla/firefox/b8k.default'
 
     def prepare(self, *args, script=None, check=True):
-        return subprocess.run(['sh', str(script or ROOT / 'b8k-firefox-profile'), *args],
+        return subprocess.run(['sh', str(script or ROOT / 'haltia-firefox-profile'), *args],
                               env=self.env, text=True, capture_output=True, check=check)
 
     def test_migration_preserves_manual_settings_and_is_idempotent(self):
@@ -96,7 +96,7 @@ class ProfileInstallTests(unittest.TestCase):
         (stub / 'wget').write_text('#!/bin/sh\nexit 1\n')
         (stub / 'wget').chmod(0o755)
         self.env.update(PATH=str(stub) + ':' + os.environ['PATH'],
-                        B8K_CACHE=str(self.home / 'cache'))
+                        HALTIA_CACHE=str(self.home / 'cache'))
         for prefix in ['/usr', '/usr/local']:
             with self.subTest(prefix=prefix):
                 staged = self.home / ('stage' + prefix.replace('/', '-'))
@@ -106,23 +106,23 @@ class ProfileInstallTests(unittest.TestCase):
                 (ff / 'distribution/policies.json').write_text(json.dumps({
                     'policies': {'DisableTelemetry': True}}))
                 (ff / 'defaults/pref').mkdir(parents=True)
-                for name in ['b8k-ram.js', 'b8k-lean.js', 'zz-b8k-firefox.js']:
+                for name in ['haltia-ram.js', 'haltia-lean.js', 'zz-haltia-firefox.js']:
                     (ff / 'defaults/pref' / name).write_text('// Old package location\n')
-                share = staged / prefix.lstrip('/') / 'share/b8k-firefox'
+                share = staged / prefix.lstrip('/') / 'share/haltia-firefox'
                 share.mkdir(parents=True)
                 (share / 'ubol.xpi').write_text('path-selection fixture')
                 subprocess.run(['sh', str(ROOT / 'install.sh'), str(staged), prefix],
                                env=self.env, check=True, capture_output=True)
-                for name in ['b8k-ram.js', 'b8k-lean.js', 'zz-b8k-firefox.js']:
+                for name in ['haltia-ram.js', 'haltia-lean.js', 'zz-haltia-firefox.js']:
                     self.assertEqual((ff / 'browser/defaults/preferences' / name).read_bytes(),
                                      (ROOT / name).read_bytes())
                     self.assertFalse((ff / 'defaults/pref' / name).exists())
                 policies = json.loads((staged / 'etc/firefox/policies/policies.json').read_text())['policies']
                 self.assertTrue(policies['DisableTelemetry'])
                 self.assertEqual(policies['ExtensionSettings']['uBOLiteRedux@raymondhill.net']['install_url'],
-                                 'file://' + prefix + '/share/b8k-firefox/ubol.xpi')
+                                 'file://' + prefix + '/share/haltia-firefox/ubol.xpi')
                 self.assertNotIn('langpack-ru@firefox.mozilla.org', policies['ExtensionSettings'])
-                self.prepare('--fps', '30', script=staged / prefix.lstrip('/') / 'bin/b8k-firefox-profile')
+                self.prepare('--fps', '30', script=staged / prefix.lstrip('/') / 'bin/haltia-firefox-profile')
                 self.assertIn('"layout.frame_rate", 30', (self.profile / 'user.js').read_text())
 
 

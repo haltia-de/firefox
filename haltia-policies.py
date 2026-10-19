@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write Firefox's policies for the tablet: mobile-config-firefox's, changed.
 
-    b8k-policies.py SRC DST [XPI [LANGPACK]]
+    haltia-policies.py SRC DST [XPI [LANGPACK]]
 
 SRC is the policies.json of mobile-config-firefox
 (/usr/lib/firefox/distribution/policies.json), DST is

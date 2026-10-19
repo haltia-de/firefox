@@ -1,4 +1,4 @@
-// b8k-firefox: mobile-config-firefox's autoconfig, then b8k-calm.js.
+// haltia-firefox: mobile-config-firefox's autoconfig, then haltia-calm.js.
 try {
   Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
     .getService(Components.interfaces.mozIJSSubScriptLoader)
@@ -7,5 +7,5 @@ try {
 try {
   Components.classes["@mozilla.org/moz/jssubscript-loader;1"]
     .getService(Components.interfaces.mozIJSSubScriptLoader)
-    .loadSubScript("file://@SHARE@/b8k-calm.js");
+    .loadSubScript("file://@SHARE@/haltia-calm.js");
 } catch (e) {}

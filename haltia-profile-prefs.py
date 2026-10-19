@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import re
 
+# The markers keep the name before ADR 0004: they are in people's user.js.
 BEGIN = '// BEGIN b8k-firefox managed prefs\n'
 END = '// END b8k-firefox managed prefs\n'
 BASE = {

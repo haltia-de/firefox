@@ -18,12 +18,12 @@ ru=$share/langpack-ru.xpi
 ff_ver=$(sed -n 's/^Version=//p' "$ff/application.ini" 2>/dev/null | head -1)
 if [ ! -f "$root$ru" ] || [ "$ff_ver" != "$ru_for" ]; then
 	[ -z "$ff_ver" ] || [ "$ff_ver" = "$ru_for" ] ||
-		echo "b8k-firefox: the Russian language pack is for Firefox $ru_for, not $ff_ver" >&2
+		echo "haltia-firefox: the Russian language pack is for Firefox $ru_for, not $ff_ver" >&2
 	ru=
 fi
 if [ -f "$ff/distribution/policies.json" ]; then
 	mkdir -p "$root/etc/firefox/policies"
-	python3 "$here/b8k-policies.py" "$ff/distribution/policies.json" \
+	python3 "$here/haltia-policies.py" "$ff/distribution/policies.json" \
 		"$root/etc/firefox/policies/policies.json" "$ubol" "$ru"
 fi
 mc=$ff/mobile-config-autoconfig.js

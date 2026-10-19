@@ -1,35 +1,35 @@
-# b8k-firefox
+# firefox
 
 Firefox для сенсорного экрана и слабого железа — для планшета Lenovo YOGA
 Tablet 10 (B8000-H) с оболочкой
-[lenovo-b8000h-linux](https://github.com/trudenboy/lenovo-b8000h-linux), но
+[lenovo-b8000h-linux](https://github.com/haltia-de/device-lenovo-b8000h), но
 пригодно и без неё (поверх mobile-config-firefox).
 
 - `userChrome.css` — крупные вкладки и кнопки панели; `userContent.css`.
-- `b8k-lean.js`, `b8k-ram.js` — фоновые службы Firefox выключены, один
+- `haltia-lean.js`, `haltia-ram.js` — фоновые службы Firefox выключены, один
   процесс содержимого, светлые страницы по умолчанию. Устанавливаются в
   `browser/defaults/preferences`, после штатных настроек приложения Firefox.
-- `b8k-firefox.cfg` + `b8k-calm.js` — autoconfig: снимает фокус с
+- `haltia-firefox.cfg` + `haltia-calm.js` — autoconfig: снимает фокус с
   адресной строки нового окна, чтобы экранная клавиатура не выезжала сама.
-- `b8k-policies.py` — политики mobile-config-firefox с uBlock Origin Lite
+- `haltia-policies.py` — политики mobile-config-firefox с uBlock Origin Lite
   (полный режим) и русским языковым пакетом вместо uBlock Origin.
-- `b8k-firefox-profile [--shell]` — готовит профили (стили, нужные
+- `haltia-firefox-profile [--shell]` — готовит профили (стили, нужные
   настройки в `user.js`); с `--shell` панели оставляют место под кнопку
   «✕» оболочки в правом верхнем углу.
 
 Установка: пакет Alpine из выпусков GitHub (подписан ключом проекта, см.
-[b8k-ci](https://github.com/trudenboy/b8k-ci)) или `sh install.sh [ROOT]
+[haltia-de/ci](https://github.com/haltia-de/ci)) или `sh install.sh [ROOT]
 [PREFIX]`. Расширение и языковой пакет скачиваются при сборке и проверяются
 по sha256; политики Firefox (`/etc/firefox/policies/policies.json`)
-пишет `b8k-firefox-configure` — при установке пакета и всякий раз, как его
+пишет `haltia-firefox-configure` — при установке пакета и всякий раз, как его
 запускают после обновления Firefox или mobile-config-firefox.
 
 Перед запуском Firefox можно выбрать экспериментальные ограничения:
 
 ```sh
-b8k-firefox-profile --image-cache-factor 8
-b8k-firefox-profile --fps 30
-b8k-firefox-profile --unload-after 30 --unload-threshold-percent 25
+haltia-firefox-profile --image-cache-factor 8
+haltia-firefox-profile --fps 30
+haltia-firefox-profile --unload-after 30 --unload-threshold-percent 25
 ```
 
 Менять по одному параметру и сравнивать с исходным режимом. Это кандидаты
@@ -53,14 +53,14 @@ Firefox также проверяет 200 МиБ доступной памяти
 `--shell`. Вернуть системные значения:
 
 ```sh
-b8k-firefox-profile --reset-optimizations
+haltia-firefox-profile --reset-optimizations
 ```
 
 **Выполнять команды при закрытом Firefox.** Сброс очищает четыре
 экспериментальных параметра в управляемом блоке `user.js` и в `prefs.js`.
 Ручные строки вне блока сохраняются и, находясь после него, имеют приоритет.
 Прежние автоматически добавленные значения мигрируют; аппаратные настройки
-теперь берутся из `b8k-ram.js`, поэтому ручной `dom.ipc.processCount=2`
+теперь берутся из `haltia-ram.js`, поэтому ручной `dom.ipc.processCount=2`
 не перекрывается повторным запуском команды. Подробнее: `--help` и
 [план проверки на планшете](docs/device-validation.md).
 
@@ -71,3 +71,8 @@ python3 -m unittest discover -s tests -v
 ```
 
 Лицензия — GPL-2.0.
+
+До ADR 0004 пакет назывался `b8k-firefox`: `haltia-firefox` заменяет его при
+`apk upgrade`, команда `b8k-firefox-profile` остаётся ссылкой до 3.0. Каталог
+профиля `b8k.default` и метки блока в `user.js` не переименовываются: это
+данные человека.

@@ -2,12 +2,12 @@
 // and an on-screen keyboard comes up over half the screen though nobody
 // has touched a text field. Once per window, take the focus off it; a tap
 // on the address bar brings the keyboard as usual. Loaded by autoconfig
-// (b8k-firefox.cfg).
+// (haltia-firefox.cfg).
 (function () {
-  if (globalThis.__b8kCalm) {
+  if (globalThis.__haltiaCalm) {
     return;
   }
-  globalThis.__b8kCalm = true;
+  globalThis.__haltiaCalm = true;
 
   var Cc = Components.classes;
   var Ci = Components.interfaces;
@@ -34,10 +34,10 @@
     var wins = browserWindows();
     for (var i = 0; i < wins.length; i++) {
       try {
-        if (wins[i].__b8kCalm) {
+        if (wins[i].__haltiaCalm) {
           continue;
         }
-        wins[i].__b8kCalm = true;
+        wins[i].__haltiaCalm = true;
         var spec = wins[i].gBrowser.selectedBrowser.currentURI.spec;
         if (/^about:(home|newtab|blank)/.test(spec)) {
           wins[i].gURLBar.blur();
@@ -49,6 +49,6 @@
 
   var timer = Cc["@mozilla.org/timer;1"].createInstance(Ci.nsITimer);
   var callback = { notify: function () { try { calmStart(); } catch (e) {} } };
-  globalThis.__b8kCalmTimer = [timer, callback];
+  globalThis.__haltiaCalmTimer = [timer, callback];
   timer.initWithCallback(callback, 400, Ci.nsITimer.TYPE_REPEATING_SLACK);
 })();
