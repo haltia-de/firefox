@@ -1,0 +1,22 @@
+{
+  "container": {
+    "returncode": 0,
+    "stdout": "{\"Binds\":null,\"ContainerIDFile\":\"\",\"LogConfig\":{\"Type\":\"json-file\",\"Config\":{}},\"NetworkMode\":\"bridge\",\"PortBindings\":{},\"RestartPolicy\":{\"Name\":\"no\",\"MaximumRetryCount\":0},\"AutoRemove\":false,\"VolumeDriver\":\"\",\"VolumesFrom\":null,\"ConsoleSize\":[0,0],\"CapAdd\":null,\"CapDrop\":null,\"CgroupnsMode\":\"private\",\"Dns\":null,\"DnsOptions\":[],\"DnsSearch\":[],\"ExtraHosts\":null,\"GroupAdd\":null,\"IpcMode\":\"private\",\"Cgroup\":\"\",\"Links\":null,\"OomScoreAdj\":0,\"PidMode\":\"\",\"Privileged\":false,\"PublishAllPorts\":false,\"ReadonlyRootfs\":false,\"SecurityOpt\":null,\"UTSMode\":\"\",\"UsernsMode\":\"\",\"ShmSize\":268435456,\"Runtime\":\"runc\",\"Isolation\":\"\",\"CpuShares\":0,\"Memory\":1073741824,\"NanoCpus\":2000000000,\"CgroupParent\":\"\",\"BlkioWeight\":0,\"BlkioWeightDevice\":[],\"BlkioDeviceReadBps\":[],\"BlkioDeviceWriteBps\":[],\"BlkioDeviceReadIOps\":[],\"BlkioDeviceWriteIOps\":[],\"CpuPeriod\":0,\"CpuQuota\":0,\"CpuRealtimePeriod\":0,\"CpuRealtimeRuntime\":0,\"CpusetCpus\":\"\",\"CpusetMems\":\"\",\"Devices\":[],\"DeviceCgroupRules\":null,\"DeviceRequests\":null,\"MemoryReservation\":0,\"MemorySwap\":1073741824,\"MemorySwappiness\":null,\"OomKillDisable\":null,\"PidsLimit\":null,\"Ulimits\":[],\"CpuCount\":0,\"CpuPercent\":0,\"IOMaximumIOps\":0,\"IOMaximumBandwidth\":0,\"Mounts\":[{\"Type\":\"bind\",\"Source\":\"/mnt/data/Projects/b8k-firefox\",\"Target\":\"/work\",\"ReadOnly\":true},{\"Type\":\"bind\",\"Source\":\"/mnt/data/Projects/b8k-firefox/benchmarks/local-2026-10-18\",\"Target\":\"/results\"}],\"MaskedPaths\":[\"/proc/acpi\",\"/proc/asound\",\"/proc/interrupts\",\"/proc/kcore\",\"/proc/keys\",\"/proc/latency_stats\",\"/proc/sched_debug\",\"/proc/scsi\",\"/proc/timer_list\",\"/proc/timer_stats\",\"/sys/devices/virtual/powercap\",\"/sys/firmware\",\"/sys/devices/system/cpu/cpu0/thermal_throttle\",\"/sys/devices/system/cpu/cpu1/thermal_throttle\",\"/sys/devices/system/cpu/cpu2/thermal_throttle\",\"/sys/devices/system/cpu/cpu3/thermal_throttle\"],\"ReadonlyPaths\":[\"/proc/bus\",\"/proc/fs\",\"/proc/irq\",\"/proc/sys\",\"/proc/sysrq-trigger\"]}\n",
+    "stderr": ""
+  },
+  "network": {
+    "returncode": 0,
+    "stdout": "{}\n",
+    "stderr": ""
+  },
+  "alpine_image": {
+    "returncode": 0,
+    "stdout": "[\"alpine@sha256:294b683cb724975bec92580e1e685676bd4b50bda910ddb8c51d4cabeaec77e6\"]\n",
+    "stderr": ""
+  },
+  "ffmpeg": {
+    "returncode": 0,
+    "stdout": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers\nbuilt with gcc 13 (Ubuntu 13.2.0-23ubuntu3)\nconfiguration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared\nlibavutil      58. 29.100 / 58. 29.100\nlibavcodec     60. 31.102 / 60. 31.102\nlibavformat    60. 16.100 / 60. 16.100\nlibavdevice    60.  3.100 / 60.  3.100\nlibavfilter     9. 12.100 /  9. 12.100\nlibswscale      7.  5.100 /  7.  5.100\nlibswresample   4. 12.100 /  4. 12.100\nlibpostproc    57.  3.100 / 57.  3.100\n",
+    "stderr": ""
+  }
+}

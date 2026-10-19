@@ -30,15 +30,20 @@ rm -f "$root/usr/local/share/b8k/userChrome.css" "$root/usr/local/share/b8k/user
 	"$root/usr/local/share/b8k/b8k-webapp.js"
 # Firefox's own folder: our autoconfig and prefs. A package (ROOT a
 # package's folder, no Firefox in it) installs them all the same.
-install -d -m 755 "$ff/defaults/pref"
+install -d -m 755 "$ff/browser/defaults/preferences"
 sed "s|@SHARE@|$share|g" "$here/b8k-firefox.cfg.in" >"$ff/b8k-firefox.cfg"
 chmod 644 "$ff/b8k-firefox.cfg"
 for f in zz-b8k-firefox.js b8k-ram.js b8k-lean.js; do
-	install -m 644 "$here/$f" "$ff/defaults/pref/$f"
+	# GRE defaults/pref loads before Firefox's own application prefs, which
+	# override e.g. tab unloading and prelaunch. Application defaults also
+	# select our autoconfig after mobile-config-firefox's GRE loader.
+	install -m 644 "$here/$f" "$ff/browser/defaults/preferences/$f"
+	rm -f "$ff/defaults/pref/$f"
 done
 # The shell's web-app windows are gone (chromeless windows could show a
 # page under a trusted name): its autoconfig and loader go too.
-rm -f "$ff/b8k-webapp.cfg" "$ff/defaults/pref/zz-b8k-webapp.js" "$root$share/b8k-webapp.js"
+rm -f "$ff/b8k-webapp.cfg" "$ff/defaults/pref/zz-b8k-webapp.js" \
+	"$ff/browser/defaults/preferences/zz-b8k-webapp.js" "$root$share/b8k-webapp.js"
 # uBlock Origin Lite instead of uBlock Origin, and the Russian language
 # pack: Mozilla-signed files, checked against their sha256. The extension
 # goes into the image: addons.mozilla.org answers 406 from some networks.

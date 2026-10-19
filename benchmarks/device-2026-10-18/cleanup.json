@@ -1,0 +1,95 @@
+{
+  "time": 1792358264.1955822,
+  "running_before": [],
+  "profile_comparison": {
+    "equal": false,
+    "entries": 90,
+    "differences": [
+      "AlternateServices.bin",
+      "bounce-tracking-protection.sqlite",
+      "content-prefs.sqlite",
+      "datareporting/glean/db/data.safe.bin",
+      "datareporting/session-state.json",
+      "domain_to_categories.sqlite",
+      "lock",
+      "prefs.js",
+      "sessionstore-backups/previous.jsonlz4",
+      "sessionstore.jsonlz4",
+      "storage.sqlite",
+      "storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite"
+    ],
+    "difference_times": [
+      {
+        "name": "AlternateServices.bin",
+        "mtime": 1792346262.5583332,
+        "mtime_before_main": true
+      },
+      {
+        "name": "bounce-tracking-protection.sqlite",
+        "mtime": 1792346244.0004084,
+        "mtime_before_main": true
+      },
+      {
+        "name": "content-prefs.sqlite",
+        "mtime": 1792346249.1933873,
+        "mtime_before_main": true
+      },
+      {
+        "name": "datareporting/glean/db/data.safe.bin",
+        "mtime": 1792346617.051894,
+        "mtime_before_main": true
+      },
+      {
+        "name": "datareporting/session-state.json",
+        "mtime": 1792346307.5781503,
+        "mtime_before_main": true
+      },
+      {
+        "name": "domain_to_categories.sqlite",
+        "mtime": 1792346261.5493371,
+        "mtime_before_main": true
+      },
+      {
+        "name": "lock",
+        "mtime": 1792346221.0815015,
+        "mtime_before_main": true
+      },
+      {
+        "name": "prefs.js",
+        "mtime": 1792346616.7098954,
+        "mtime_before_main": true
+      },
+      {
+        "name": "sessionstore-backups/previous.jsonlz4",
+        "mtime": 1792342106.8513684,
+        "mtime_before_main": true
+      },
+      {
+        "name": "sessionstore.jsonlz4",
+        "mtime": 1792346616.3308969,
+        "mtime_before_main": true
+      },
+      {
+        "name": "storage.sqlite",
+        "mtime": 1792346616.9468944,
+        "mtime_before_main": true
+      },
+      {
+        "name": "storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite",
+        "mtime": 1792346616.9308944,
+        "mtime_before_main": true
+      }
+    ],
+    "main_started": 1792352630.9564295,
+    "backup_retained": true,
+    "restored": false
+  },
+  "removed": [
+    "firefox-app",
+    "calibration-profile",
+    "runs"
+  ],
+  "remaining_validation_inhibitors": [],
+  "running_after": [],
+  "status": "pass"
+}

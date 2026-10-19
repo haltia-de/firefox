@@ -1,0 +1,5 @@
+{
+  "at": 1792338200.670206,
+  "cgroup_final": "low 0\nhigh 0\nmax 1690\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13\nsome avg10=0.00 avg60=0.00 avg300=0.00 total=108316\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=100816\n1073778688\n",
+  "note": "memory.peak cumulative for all runs, not per variant"
+}

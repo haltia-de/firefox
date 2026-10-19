@@ -1,0 +1,22 @@
+{
+  "time": 1792356029.190206,
+  "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+  "uptime": "264.95 981.86",
+  "guard": {
+    "time": 1792356028.9355285,
+    "pid": 1869,
+    "active": true,
+    "inhibitors": [
+      [
+        "idle",
+        "Firefox validation guard",
+        "Keep the display awake across test failures",
+        "block",
+        1000,
+        1869
+      ]
+    ]
+  },
+  "kernel": "7.1.0-b8000h25-g7dd245445adf-dirty",
+  "thermal": {}
+}

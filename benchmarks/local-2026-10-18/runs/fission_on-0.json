@@ -1,0 +1,3960 @@
+{
+  "variant": "fission_on",
+  "repeat": 0,
+  "prefs_requested": {
+    "dom.ipc.processCount": 1,
+    "dom.ipc.processCount.webIsolated": 1,
+    "fission.autostart": true,
+    "dom.ipc.keepProcessesAlive.web": 0,
+    "browser.sessionstore.resume_from_crash": false,
+    "browser.startup.page": 1,
+    "browser.tabs.unloadOnLowMemory": true,
+    "browser.low_commit_space_threshold_percent": 10,
+    "browser.tabs.min_inactive_duration_before_unload": 60000,
+    "media.autoplay.default": 5,
+    "ui.prefersReducedMotion": 1,
+    "accessibility.force_disabled": 1,
+    "layout.css.prefers-color-scheme.content-override": 1,
+    "browser.theme.content-theme": 1,
+    "browser.theme.toolbar-theme": 1,
+    "dom.ipc.processPrelaunch.enabled": false,
+    "browser.sessionhistory.max_total_viewers": 0,
+    "network.prefetch-next": false,
+    "network.dns.disablePrefetch": true,
+    "network.http.speculative-parallel-limit": 0,
+    "browser.urlbar.speculativeConnect.enabled": false,
+    "browser.places.speculativeConnect.enabled": false,
+    "browser.ml.enable": false,
+    "browser.ml.chat.enabled": false,
+    "browser.translations.enable": false,
+    "extensions.pocket.enabled": false,
+    "browser.newtabpage.activity-stream.feeds.topsites": false,
+    "browser.newtabpage.activity-stream.feeds.section.topstories": false,
+    "browser.newtabpage.activity-stream.feeds.system.topstories": false,
+    "browser.newtabpage.activity-stream.feeds.snippets": false,
+    "browser.newtabpage.activity-stream.showSponsored": false,
+    "browser.newtabpage.activity-stream.showSponsoredTopSites": false,
+    "browser.newtabpage.activity-stream.feeds.weatherfeed": false,
+    "browser.contentblocking.report.lockwise.enabled": false,
+    "app.normandy.enabled": false,
+    "app.shield.optoutstudies.enabled": false,
+    "browser.discovery.enabled": false,
+    "extensions.getAddons.cache.enabled": false,
+    "extensions.htmlaboutaddons.recommendations.enabled": false,
+    "toolkit.legacyUserProfileCustomizations.stylesheets": true,
+    "browser.tabs.tabClipWidth": 1,
+    "browser.tabs.tabMinWidth": 240,
+    "remote.prefs.recommended": false,
+    "browser.shell.checkDefaultBrowser": false,
+    "browser.startup.homepage_override.mstone": "ignore",
+    "browser.aboutwelcome.enabled": false,
+    "browser.startup.firstrunSkipsHomepage": false,
+    "browser.newtabpage.activity-stream.showWelcome": false,
+    "app.update.auto": false,
+    "datareporting.policy.dataSubmissionEnabled": false,
+    "toolkit.telemetry.reportingpolicy.firstRun": false,
+    "browser.warnOnQuitShortcut": false
+  },
+  "started": 1792336201.3429015,
+  "phases": {
+    "start": [
+      {
+        "at": 1792336215.746225,
+        "totals": {
+          "Rss": 818328,
+          "Pss": 485311,
+          "Private_Dirty": 292496,
+          "SwapPss": 0,
+          "ticks": 337,
+          "major_faults": 0
+        },
+        "count": 8,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 233,
+            "major_faults": 0,
+            "Rss": 377336,
+            "Pss": 285942,
+            "Private_Dirty": 187820,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 65660,
+            "Pss": 23739,
+            "Private_Dirty": 9260,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13678,
+            "Private_Dirty": 448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3565,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108440,
+            "Pss": 54484,
+            "Private_Dirty": 34736,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 41464,
+            "Pss": 16198,
+            "Private_Dirty": 3580,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 66,
+            "major_faults": 0,
+            "Rss": 141344,
+            "Pss": 81424,
+            "Private_Dirty": 54708,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 28988,
+            "Pss": 6281,
+            "Private_Dirty": 1548,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "671068160",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 229354364\nuser_usec 177622649\nsystem_usec 51731715\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4771\nnr_throttled 159\nthrottled_usec 4760099\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336216.287732,
+        "totals": {
+          "Rss": 818328,
+          "Pss": 485311,
+          "Private_Dirty": 292496,
+          "SwapPss": 0,
+          "ticks": 337,
+          "major_faults": 0
+        },
+        "count": 8,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 233,
+            "major_faults": 0,
+            "Rss": 377336,
+            "Pss": 285942,
+            "Private_Dirty": 187820,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 65660,
+            "Pss": 23739,
+            "Private_Dirty": 9260,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13678,
+            "Private_Dirty": 448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3565,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108440,
+            "Pss": 54484,
+            "Private_Dirty": 34736,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 41464,
+            "Pss": 16198,
+            "Private_Dirty": 3580,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 66,
+            "major_faults": 0,
+            "Rss": 141344,
+            "Pss": 81424,
+            "Private_Dirty": 54708,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 28988,
+            "Pss": 6281,
+            "Private_Dirty": 1548,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "671182848",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 229397606\nuser_usec 177636659\nsystem_usec 51760947\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4773\nnr_throttled 159\nthrottled_usec 4760099\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336216.8296542,
+        "totals": {
+          "Rss": 819748,
+          "Pss": 486731,
+          "Private_Dirty": 293916,
+          "SwapPss": 0,
+          "ticks": 348,
+          "major_faults": 0
+        },
+        "count": 8,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 244,
+            "major_faults": 0,
+            "Rss": 378756,
+            "Pss": 287362,
+            "Private_Dirty": 189240,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 65660,
+            "Pss": 23739,
+            "Private_Dirty": 9260,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13678,
+            "Private_Dirty": 448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3565,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108440,
+            "Pss": 54484,
+            "Private_Dirty": 34736,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 41464,
+            "Pss": 16198,
+            "Private_Dirty": 3580,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 66,
+            "major_faults": 0,
+            "Rss": 141344,
+            "Pss": 81424,
+            "Private_Dirty": 54708,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 28988,
+            "Pss": 6281,
+            "Private_Dirty": 1548,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "686858240",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 229543466\nuser_usec 177711201\nsystem_usec 51832265\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4778\nnr_throttled 159\nthrottled_usec 4760099\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      }
+    ],
+    "one_tab": [
+      {
+        "at": 1792336218.1463683,
+        "totals": {
+          "Rss": 975144,
+          "Pss": 556647,
+          "Private_Dirty": 360000,
+          "SwapPss": 0,
+          "ticks": 410,
+          "major_faults": 0
+        },
+        "count": 9,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 281,
+            "major_faults": 0,
+            "Rss": 392620,
+            "Pss": 295111,
+            "Private_Dirty": 199432,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67052,
+            "Pss": 23087,
+            "Private_Dirty": 9292,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13078,
+            "Private_Dirty": 460,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3561,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108520,
+            "Pss": 50458,
+            "Private_Dirty": 34752,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 42972,
+            "Pss": 15669,
+            "Private_Dirty": 3612,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 71,
+            "major_faults": 0,
+            "Rss": 141476,
+            "Pss": 76056,
+            "Private_Dirty": 54304,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30500,
+            "Pss": 5834,
+            "Private_Dirty": 1588,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 20,
+            "major_faults": 0,
+            "Rss": 136908,
+            "Pss": 73793,
+            "Private_Dirty": 56164,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "766746624",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 230280285\nuser_usec 178265037\nsystem_usec 52015248\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4791\nnr_throttled 160\nthrottled_usec 4865052\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336218.6915202,
+        "totals": {
+          "Rss": 975056,
+          "Pss": 556559,
+          "Private_Dirty": 359848,
+          "SwapPss": 0,
+          "ticks": 422,
+          "major_faults": 0
+        },
+        "count": 9,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 290,
+            "major_faults": 0,
+            "Rss": 392532,
+            "Pss": 295023,
+            "Private_Dirty": 199280,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67052,
+            "Pss": 23087,
+            "Private_Dirty": 9292,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13078,
+            "Private_Dirty": 460,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3561,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108520,
+            "Pss": 50458,
+            "Private_Dirty": 34752,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 42972,
+            "Pss": 15669,
+            "Private_Dirty": 3612,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 71,
+            "major_faults": 0,
+            "Rss": 141476,
+            "Pss": 76056,
+            "Private_Dirty": 54304,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30500,
+            "Pss": 5834,
+            "Private_Dirty": 1588,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136908,
+            "Pss": 73793,
+            "Private_Dirty": 56164,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "766619648",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 230440844\nuser_usec 178357921\nsystem_usec 52082923\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4796\nnr_throttled 160\nthrottled_usec 4865052\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336219.2367396,
+        "totals": {
+          "Rss": 975060,
+          "Pss": 556563,
+          "Private_Dirty": 359852,
+          "SwapPss": 0,
+          "ticks": 422,
+          "major_faults": 0
+        },
+        "count": 9,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 290,
+            "major_faults": 0,
+            "Rss": 392536,
+            "Pss": 295027,
+            "Private_Dirty": 199284,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67052,
+            "Pss": 23087,
+            "Private_Dirty": 9292,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 3,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 13078,
+            "Private_Dirty": 460,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3561,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 108520,
+            "Pss": 50458,
+            "Private_Dirty": 34752,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 42972,
+            "Pss": 15669,
+            "Private_Dirty": 3612,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 71,
+            "major_faults": 0,
+            "Rss": 141476,
+            "Pss": 76056,
+            "Private_Dirty": 54304,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30500,
+            "Pss": 5834,
+            "Private_Dirty": 1588,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136908,
+            "Pss": 73793,
+            "Private_Dirty": 56164,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "766607360",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 230488995\nuser_usec 178368469\nsystem_usec 52120525\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4801\nnr_throttled 160\nthrottled_usec 4865052\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      }
+    ],
+    "three_tabs": [
+      {
+        "at": 1792336221.845318,
+        "totals": {
+          "Rss": 1240476,
+          "Pss": 656392,
+          "Private_Dirty": 455412,
+          "SwapPss": 0,
+          "ticks": 570,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 384,
+            "major_faults": 0,
+            "Rss": 388120,
+            "Pss": 283408,
+            "Private_Dirty": 190988,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21938,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12284,
+            "Private_Dirty": 460,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 32,
+            "major_faults": 0,
+            "Rss": 106568,
+            "Pss": 43319,
+            "Private_Dirty": 31340,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43036,
+            "Pss": 14636,
+            "Private_Dirty": 3612,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 76,
+            "major_faults": 0,
+            "Rss": 137792,
+            "Pss": 66625,
+            "Private_Dirty": 49580,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4899,
+            "Private_Dirty": 1592,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136908,
+            "Pss": 68249,
+            "Private_Dirty": 55880,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 21,
+            "major_faults": 0,
+            "Rss": 136704,
+            "Pss": 68124,
+            "Private_Dirty": 55768,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6823,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 138624,
+            "Pss": 69356,
+            "Private_Dirty": 56496,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "888508416",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 232285077\nuser_usec 179782300\nsystem_usec 52502777\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4827\nnr_throttled 163\nthrottled_usec 5033344\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336222.3850396,
+        "totals": {
+          "Rss": 1248016,
+          "Pss": 663708,
+          "Private_Dirty": 462672,
+          "SwapPss": 0,
+          "ticks": 591,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 396,
+            "major_faults": 0,
+            "Rss": 387988,
+            "Pss": 282907,
+            "Private_Dirty": 190628,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 32,
+            "major_faults": 0,
+            "Rss": 106568,
+            "Pss": 43294,
+            "Private_Dirty": 31340,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 81,
+            "major_faults": 0,
+            "Rss": 146548,
+            "Pss": 74861,
+            "Private_Dirty": 57224,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 21,
+            "major_faults": 0,
+            "Rss": 136356,
+            "Pss": 68011,
+            "Private_Dirty": 55768,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6823,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 27,
+            "major_faults": 0,
+            "Rss": 138296,
+            "Pss": 69242,
+            "Private_Dirty": 56516,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "894967808",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 232561378\nuser_usec 179977913\nsystem_usec 52583464\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4832\nnr_throttled 163\nthrottled_usec 5033344\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336222.92706,
+        "totals": {
+          "Rss": 1246988,
+          "Pss": 662606,
+          "Private_Dirty": 461580,
+          "SwapPss": 0,
+          "ticks": 596,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 398,
+            "major_faults": 0,
+            "Rss": 388004,
+            "Pss": 282881,
+            "Private_Dirty": 190644,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 32,
+            "major_faults": 0,
+            "Rss": 106568,
+            "Pss": 43294,
+            "Private_Dirty": 31340,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 84,
+            "major_faults": 0,
+            "Rss": 145504,
+            "Pss": 73785,
+            "Private_Dirty": 56116,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 21,
+            "major_faults": 0,
+            "Rss": 136356,
+            "Pss": 68011,
+            "Private_Dirty": 55768,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6823,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 27,
+            "major_faults": 0,
+            "Rss": 138296,
+            "Pss": 69242,
+            "Private_Dirty": 56516,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "895041536",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 232623565\nuser_usec 180000046\nsystem_usec 52623518\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4838\nnr_throttled 163\nthrottled_usec 5033344\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      }
+    ],
+    "after_back": [
+      {
+        "at": 1792336225.271714,
+        "totals": {
+          "Rss": 1242920,
+          "Pss": 659754,
+          "Private_Dirty": 458824,
+          "SwapPss": 0,
+          "ticks": 704,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 506,
+            "major_faults": 0,
+            "Rss": 386904,
+            "Pss": 282817,
+            "Private_Dirty": 190808,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105340,
+            "Pss": 42054,
+            "Private_Dirty": 30032,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66265,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4902,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 21,
+            "major_faults": 0,
+            "Rss": 144056,
+            "Pss": 75243,
+            "Private_Dirty": 62600,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "892604416",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 234845813\nuser_usec 181777271\nsystem_usec 53068542\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4861\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336225.8127916,
+        "totals": {
+          "Rss": 1244460,
+          "Pss": 660106,
+          "Private_Dirty": 457988,
+          "SwapPss": 0,
+          "ticks": 714,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 513,
+            "major_faults": 0,
+            "Rss": 388444,
+            "Pss": 283169,
+            "Private_Dirty": 189972,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105340,
+            "Pss": 42054,
+            "Private_Dirty": 30032,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66265,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4902,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 24,
+            "major_faults": 0,
+            "Rss": 144056,
+            "Pss": 75243,
+            "Private_Dirty": 62600,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "892055552",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 234974026\nuser_usec 181852114\nsystem_usec 53121912\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4867\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336226.3593853,
+        "totals": {
+          "Rss": 1244448,
+          "Pss": 660094,
+          "Private_Dirty": 457976,
+          "SwapPss": 0,
+          "ticks": 719,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 517,
+            "major_faults": 0,
+            "Rss": 388424,
+            "Pss": 283149,
+            "Private_Dirty": 189952,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105340,
+            "Pss": 42054,
+            "Private_Dirty": 30032,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66265,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4902,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 25,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "892022784",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235082060\nuser_usec 181910912\nsystem_usec 53171148\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4872\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      }
+    ],
+    "idle": [
+      {
+        "at": 1792336226.4029286,
+        "totals": {
+          "Rss": 1244448,
+          "Pss": 660094,
+          "Private_Dirty": 457976,
+          "SwapPss": 0,
+          "ticks": 721,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 518,
+            "major_faults": 0,
+            "Rss": 388424,
+            "Pss": 283149,
+            "Private_Dirty": 189952,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105340,
+            "Pss": 42054,
+            "Private_Dirty": 30032,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66265,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4902,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "892268544",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235131566\nuser_usec 181923290\nsystem_usec 53208275\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4873\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336226.9406004,
+        "totals": {
+          "Rss": 1244452,
+          "Pss": 660098,
+          "Private_Dirty": 457980,
+          "SwapPss": 0,
+          "ticks": 727,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 522,
+            "major_faults": 0,
+            "Rss": 388424,
+            "Pss": 283149,
+            "Private_Dirty": 189952,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21937,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12287,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105344,
+            "Pss": 42058,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66265,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4902,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 23,
+            "major_faults": 0,
+            "Rss": 136496,
+            "Pss": 68072,
+            "Private_Dirty": 55816,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "891604992",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235236848\nuser_usec 181980474\nsystem_usec 53256374\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4878\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336227.4809384,
+        "totals": {
+          "Rss": 1241344,
+          "Pss": 655670,
+          "Private_Dirty": 453488,
+          "SwapPss": 0,
+          "ticks": 732,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 524,
+            "major_faults": 0,
+            "Rss": 388064,
+            "Pss": 282632,
+            "Private_Dirty": 189464,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105344,
+            "Pss": 41972,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 87,
+            "major_faults": 0,
+            "Rss": 138028,
+            "Pss": 66136,
+            "Private_Dirty": 48448,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "887107584",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235311949\nuser_usec 182013870\nsystem_usec 53298078\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4883\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336228.0232654,
+        "totals": {
+          "Rss": 1236692,
+          "Pss": 650741,
+          "Private_Dirty": 448548,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 388476,
+            "Pss": 282932,
+            "Private_Dirty": 189876,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 132900,
+            "Pss": 60885,
+            "Private_Dirty": 43096,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "882147328",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235390186\nuser_usec 182055883\nsystem_usec 53334303\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4889\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336228.564115,
+        "totals": {
+          "Rss": 1236696,
+          "Pss": 650734,
+          "Private_Dirty": 448552,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 388480,
+            "Pss": 282925,
+            "Private_Dirty": 189880,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 132900,
+            "Pss": 60885,
+            "Private_Dirty": 43096,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "882032640",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235435782\nuser_usec 182068131\nsystem_usec 53367651\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4894\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336229.1074204,
+        "totals": {
+          "Rss": 1236696,
+          "Pss": 650734,
+          "Private_Dirty": 448552,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 388480,
+            "Pss": 282925,
+            "Private_Dirty": 189880,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 132900,
+            "Pss": 60885,
+            "Private_Dirty": 43096,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "882077696",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235480456\nuser_usec 182076638\nsystem_usec 53403817\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4897\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336229.6499922,
+        "totals": {
+          "Rss": 1236592,
+          "Pss": 650630,
+          "Private_Dirty": 448448,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 388376,
+            "Pss": 282821,
+            "Private_Dirty": 189776,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 132900,
+            "Pss": 60885,
+            "Private_Dirty": 43096,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144064,
+            "Pss": 75251,
+            "Private_Dirty": 62608,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "880877568",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235528810\nuser_usec 182083859\nsystem_usec 53444950\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4901\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336230.1946895,
+        "totals": {
+          "Rss": 1234384,
+          "Pss": 648422,
+          "Private_Dirty": 446240,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 387192,
+            "Pss": 281637,
+            "Private_Dirty": 188592,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 131892,
+            "Pss": 59877,
+            "Private_Dirty": 42088,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144048,
+            "Pss": 75235,
+            "Private_Dirty": 62592,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "879497216",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235578239\nuser_usec 182096271\nsystem_usec 53481967\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4906\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336230.7400012,
+        "totals": {
+          "Rss": 1234384,
+          "Pss": 648422,
+          "Private_Dirty": 446240,
+          "SwapPss": 0,
+          "ticks": 736,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 526,
+            "major_faults": 0,
+            "Rss": 387192,
+            "Pss": 281637,
+            "Private_Dirty": 188592,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41994,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 131892,
+            "Pss": 59877,
+            "Private_Dirty": 42088,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133748,
+            "Pss": 64387,
+            "Private_Dirty": 51812,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144048,
+            "Pss": 75235,
+            "Private_Dirty": 62592,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "879181824",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235623857\nuser_usec 182100692\nsystem_usec 53523165\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4909\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336231.2856865,
+        "totals": {
+          "Rss": 1234268,
+          "Pss": 648178,
+          "Private_Dirty": 445996,
+          "SwapPss": 0,
+          "ticks": 738,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 528,
+            "major_faults": 0,
+            "Rss": 387192,
+            "Pss": 281625,
+            "Private_Dirty": 188592,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41985,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 131892,
+            "Pss": 59857,
+            "Private_Dirty": 42088,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133632,
+            "Pss": 64184,
+            "Private_Dirty": 51568,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144048,
+            "Pss": 75235,
+            "Private_Dirty": 62592,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "879652864",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235684244\nuser_usec 182119276\nsystem_usec 53564968\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4913\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      },
+      {
+        "at": 1792336231.8321757,
+        "totals": {
+          "Rss": 1234268,
+          "Pss": 648178,
+          "Private_Dirty": 445996,
+          "SwapPss": 0,
+          "ticks": 738,
+          "major_faults": 0
+        },
+        "count": 11,
+        "processes": [
+          {
+            "pid": 6484,
+            "ppid": 6481,
+            "name": "firefox",
+            "ticks": 528,
+            "major_faults": 0,
+            "Rss": 387192,
+            "Pss": 281625,
+            "Private_Dirty": 188592,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6540,
+            "ppid": 6484,
+            "name": "Socket Process",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 67060,
+            "Pss": 21931,
+            "Private_Dirty": 9300,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6548,
+            "ppid": 6484,
+            "name": "forkserver",
+            "ticks": 4,
+            "major_faults": 0,
+            "Rss": 50896,
+            "Pss": 12281,
+            "Private_Dirty": 468,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6555,
+            "ppid": 6484,
+            "name": "glycin-image-rs",
+            "ticks": 0,
+            "major_faults": 0,
+            "Rss": 4200,
+            "Pss": 3554,
+            "Private_Dirty": 396,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6570,
+            "ppid": 6548,
+            "name": "WebExtensions",
+            "ticks": 34,
+            "major_faults": 0,
+            "Rss": 105408,
+            "Pss": 41985,
+            "Private_Dirty": 30036,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6578,
+            "ppid": 6548,
+            "name": "RDD Process",
+            "ticks": 2,
+            "major_faults": 0,
+            "Rss": 43040,
+            "Pss": 14640,
+            "Private_Dirty": 3616,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6610,
+            "ppid": 6548,
+            "name": "Privileged Cont",
+            "ticks": 89,
+            "major_faults": 0,
+            "Rss": 131892,
+            "Pss": 59857,
+            "Private_Dirty": 42088,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6668,
+            "ppid": 6548,
+            "name": "Utility Process",
+            "ticks": 1,
+            "major_faults": 0,
+            "Rss": 30568,
+            "Pss": 4903,
+            "Private_Dirty": 1600,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6696,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 26,
+            "major_faults": 0,
+            "Rss": 133632,
+            "Pss": 64184,
+            "Private_Dirty": 51568,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6762,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 22,
+            "major_faults": 0,
+            "Rss": 136332,
+            "Pss": 67983,
+            "Private_Dirty": 55740,
+            "SwapPss": 0
+          },
+          {
+            "pid": 6887,
+            "ppid": 6548,
+            "name": "Isolated Web Co",
+            "ticks": 28,
+            "major_faults": 0,
+            "Rss": 144048,
+            "Pss": 75235,
+            "Private_Dirty": 62592,
+            "SwapPss": 0
+          }
+        ],
+        "unreadable": [],
+        "cgroup": {
+          "memory.current": "879562752",
+          "memory.peak": "1073778688",
+          "memory.events": "low 0\nhigh 0\nmax 1263\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+          "cpu.stat": "usage_usec 235730697\nuser_usec 182130626\nsystem_usec 53600070\nnice_usec 4000\ncore_sched.force_idle_usec 0\nnr_periods 4916\nnr_throttled 164\nthrottled_usec 5037846\nnr_bursts 0\nburst_usec 0",
+          "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=46940\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=41157"
+        }
+      }
+    ]
+  },
+  "load_seconds": [
+    0.226192586007528,
+    0.17897897493094206,
+    0.15437679993920028
+  ],
+  "session_start_seconds": 12.246106880018488,
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "151.0.3",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20260602093637",
+    "moz:geckodriverVersion": "0.36.0",
+    "moz:headless": false,
+    "moz:platformVersion": "7.0.0-34-generic",
+    "moz:processID": 6484,
+    "moz:profile": "/home/bench/lab/fission_on-0",
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0"
+  },
+  "effective_prefs": {
+    "accessibility.force_disabled": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "app.normandy.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "app.shield.optoutstudies.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "app.update.auto": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "b8k.bench.autoconfig": {
+      "type": 32,
+      "user": true,
+      "value": "poll"
+    },
+    "browser.aboutwelcome.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.cache.memory.capacity": {
+      "type": 64,
+      "user": false,
+      "value": -1
+    },
+    "browser.contentblocking.report.lockwise.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.discovery.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.low_commit_space_threshold_mb": {
+      "type": 64,
+      "user": false,
+      "value": 200
+    },
+    "browser.low_commit_space_threshold_percent": {
+      "type": 64,
+      "user": true,
+      "value": 10
+    },
+    "browser.ml.chat.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.ml.enable": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.feeds.section.topstories": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.feeds.snippets": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.feeds.system.topstories": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.feeds.topsites": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.feeds.weatherfeed": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.showSponsored": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.showSponsoredTopSites": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.newtabpage.activity-stream.showWelcome": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.places.speculativeConnect.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.sessionhistory.max_total_viewers": {
+      "type": 64,
+      "user": true,
+      "value": 0
+    },
+    "browser.sessionstore.resume_from_crash": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.shell.checkDefaultBrowser": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.startup.firstrunSkipsHomepage": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.startup.homepage_override.mstone": {
+      "type": 32,
+      "user": true,
+      "value": "ignore"
+    },
+    "browser.startup.page": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "browser.tabs.min_inactive_duration_before_unload": {
+      "type": 64,
+      "user": true,
+      "value": 60000
+    },
+    "browser.tabs.tabClipWidth": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "browser.tabs.tabMinWidth": {
+      "type": 64,
+      "user": true,
+      "value": 240
+    },
+    "browser.tabs.unloadOnLowMemory": {
+      "type": 128,
+      "user": true,
+      "value": true
+    },
+    "browser.theme.content-theme": {
+      "type": 64,
+      "user": false,
+      "value": 2
+    },
+    "browser.theme.toolbar-theme": {
+      "type": 64,
+      "user": false,
+      "value": 2
+    },
+    "browser.translations.enable": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.urlbar.speculativeConnect.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "browser.warnOnQuitShortcut": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "datareporting.policy.dataSubmissionEnabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "dom.ipc.forkserver.enable": {
+      "type": 128,
+      "user": false,
+      "value": true
+    },
+    "dom.ipc.keepProcessesAlive.web": {
+      "type": 64,
+      "user": true,
+      "value": 0
+    },
+    "dom.ipc.processCount": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "dom.ipc.processCount.webIsolated": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "dom.ipc.processPrelaunch.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "extensions.getAddons.cache.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "extensions.htmlaboutaddons.recommendations.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "extensions.pocket.enabled": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "fission.autostart": {
+      "type": 128,
+      "user": true,
+      "value": true
+    },
+    "image.mem.surfacecache.max_size_kb": {
+      "type": 64,
+      "user": false,
+      "value": 2072576
+    },
+    "image.mem.surfacecache.size_factor": {
+      "type": 64,
+      "user": false,
+      "value": 4
+    },
+    "layout.css.prefers-color-scheme.content-override": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    },
+    "layout.frame_rate": {
+      "type": 64,
+      "user": false,
+      "value": -1
+    },
+    "media.autoplay.default": {
+      "type": 64,
+      "user": true,
+      "value": 5
+    },
+    "network.dns.disablePrefetch": {
+      "type": 128,
+      "user": true,
+      "value": true
+    },
+    "network.http.speculative-parallel-limit": {
+      "type": 64,
+      "user": true,
+      "value": 0
+    },
+    "network.prefetch-next": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "remote.prefs.recommended": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "toolkit.legacyUserProfileCustomizations.stylesheets": {
+      "type": 128,
+      "user": true,
+      "value": true
+    },
+    "toolkit.telemetry.reportingpolicy.firstRun": {
+      "type": 128,
+      "user": true,
+      "value": false
+    },
+    "ui.prefersReducedMotion": {
+      "type": 64,
+      "user": true,
+      "value": 1
+    }
+  },
+  "runtime": {
+    "calm_timer": "undefined",
+    "fission": true,
+    "gfx": {
+      "ApzAutoscrollInput": 1,
+      "ApzDragInput": 1,
+      "ApzKeyboardInput": 1,
+      "ApzWheelInput": 1,
+      "ApzZoomingInput": 1,
+      "AzureCanvasBackend": "skia",
+      "AzureContentBackend": "skia",
+      "AzureFallbackCanvasBackend": "skia",
+      "CMSOutputProfile": "Empty profile data",
+      "Display0": "1280x800@0Hz scales:1.000000|1.000000 SDR",
+      "DisplayCount": 1
+    },
+    "physical_memory": 25103867904,
+    "policies": null,
+    "policy_status": 0,
+    "windows": true
+  },
+  "addons": [
+    {
+      "active": true,
+      "id": "data-leak-blocker@mozilla.com",
+      "type": "extension",
+      "version": "144.0.0"
+    },
+    {
+      "active": true,
+      "id": "formautofill@mozilla.org",
+      "type": "extension",
+      "version": "1.0.1"
+    },
+    {
+      "active": true,
+      "id": "ipp-activator@mozilla.com",
+      "type": "extension",
+      "version": "0.1"
+    },
+    {
+      "active": true,
+      "id": "newtab@mozilla.org",
+      "type": "extension",
+      "version": "151.4.0"
+    },
+    {
+      "active": true,
+      "id": "pictureinpicture@mozilla.org",
+      "type": "extension",
+      "version": "1.0.0"
+    },
+    {
+      "active": true,
+      "id": "addons-search-detection@mozilla.com",
+      "type": "extension",
+      "version": "3.0.0"
+    },
+    {
+      "active": true,
+      "id": "webcompat@mozilla.org",
+      "type": "extension",
+      "version": "151.6.0"
+    },
+    {
+      "active": true,
+      "id": "default-theme@mozilla.org",
+      "type": "theme",
+      "version": "1.4.2"
+    },
+    {
+      "active": false,
+      "id": "firefox-compact-light@mozilla.org",
+      "type": "theme",
+      "version": "1.3.4"
+    },
+    {
+      "active": false,
+      "id": "firefox-compact-dark@mozilla.org",
+      "type": "theme",
+      "version": "1.3.4"
+    },
+    {
+      "active": false,
+      "id": "firefox-alpenglow@mozilla.org",
+      "type": "theme",
+      "version": "1.5.2"
+    },
+    {
+      "active": true,
+      "id": "gmp-gmpopenh264",
+      "type": "plugin",
+      "version": null
+    }
+  ],
+  "fixture": {
+    "decoded": 16,
+    "elements": 1545,
+    "entries": [
+      {
+        "decoded": 513803,
+        "name": "http://127.0.0.3:37663/image-00.jpg",
+        "transfer": 514103
+      },
+      {
+        "decoded": 514223,
+        "name": "http://127.0.0.3:37663/image-05.jpg",
+        "transfer": 514523
+      },
+      {
+        "decoded": 513672,
+        "name": "http://127.0.0.3:37663/image-03.jpg",
+        "transfer": 513972
+      },
+      {
+        "decoded": 513802,
+        "name": "http://127.0.0.3:37663/image-02.jpg",
+        "transfer": 514102
+      },
+      {
+        "decoded": 513987,
+        "name": "http://127.0.0.3:37663/image-01.jpg",
+        "transfer": 514287
+      },
+      {
+        "decoded": 514030,
+        "name": "http://127.0.0.3:37663/image-04.jpg",
+        "transfer": 514330
+      },
+      {
+        "decoded": 513973,
+        "name": "http://127.0.0.3:37663/image-06.jpg",
+        "transfer": 514273
+      },
+      {
+        "decoded": 513625,
+        "name": "http://127.0.0.3:37663/image-07.jpg",
+        "transfer": 513925
+      },
+      {
+        "decoded": 513735,
+        "name": "http://127.0.0.3:37663/image-08.jpg",
+        "transfer": 514035
+      },
+      {
+        "decoded": 325,
+        "name": "http://127.0.0.3:37663/payload.js",
+        "transfer": 625
+      },
+      {
+        "decoded": 513977,
+        "name": "http://127.0.0.3:37663/image-09.jpg",
+        "transfer": 514277
+      },
+      {
+        "decoded": 513915,
+        "name": "http://127.0.0.3:37663/image-13.jpg",
+        "transfer": 514215
+      },
+      {
+        "decoded": 513736,
+        "name": "http://127.0.0.3:37663/image-10.jpg",
+        "transfer": 514036
+      },
+      {
+        "decoded": 514131,
+        "name": "http://127.0.0.3:37663/image-11.jpg",
+        "transfer": 514431
+      },
+      {
+        "decoded": 514026,
+        "name": "http://127.0.0.3:37663/image-12.jpg",
+        "transfer": 514326
+      },
+      {
+        "decoded": 513885,
+        "name": "http://127.0.0.3:37663/image-14.jpg",
+        "transfer": 514185
+      },
+      {
+        "decoded": 513615,
+        "name": "http://127.0.0.3:37663/image-15.jpg",
+        "transfer": 513915
+      },
+      {
+        "decoded": 19060,
+        "name": "http://127.0.0.3:37663/favicon.ico",
+        "transfer": 19360
+      }
+    ],
+    "images": 16,
+    "ready": true,
+    "reduced": true
+  },
+  "raf": {
+    "elapsed": 2000.3599999999997,
+    "frames": 120
+  },
+  "animation_cpu_seconds": 1.44,
+  "back_test": {
+    "away": 0.06903121795039624,
+    "seconds": 0.13282263209111989
+  },
+  "requests": [
+    {
+      "path": "/article",
+      "bytes": 19060
+    },
+    {
+      "path": "/payload.js",
+      "bytes": 325
+    },
+    {
+      "path": "/image-00.jpg",
+      "bytes": 513803
+    },
+    {
+      "path": "/image-01.jpg",
+      "bytes": 513987
+    },
+    {
+      "path": "/image-02.jpg",
+      "bytes": 513802
+    },
+    {
+      "path": "/image-03.jpg",
+      "bytes": 513672
+    },
+    {
+      "path": "/image-04.jpg",
+      "bytes": 514030
+    },
+    {
+      "path": "/image-06.jpg",
+      "bytes": 513973
+    },
+    {
+      "path": "/image-05.jpg",
+      "bytes": 514223
+    },
+    {
+      "path": "/image-08.jpg",
+      "bytes": 513735
+    },
+    {
+      "path": "/image-07.jpg",
+      "bytes": 513625
+    },
+    {
+      "path": "/image-09.jpg",
+      "bytes": 513977
+    },
+    {
+      "path": "/image-11.jpg",
+      "bytes": 514131
+    },
+    {
+      "path": "/image-10.jpg",
+      "bytes": 513736
+    },
+    {
+      "path": "/image-15.jpg",
+      "bytes": 513615
+    },
+    {
+      "path": "/image-12.jpg",
+      "bytes": 514026
+    },
+    {
+      "path": "/image-14.jpg",
+      "bytes": 513885
+    },
+    {
+      "path": "/image-13.jpg",
+      "bytes": 513915
+    },
+    {
+      "path": "/favicon.ico",
+      "bytes": 19060
+    },
+    {
+      "path": "/article",
+      "bytes": 19060
+    },
+    {
+      "path": "/payload.js",
+      "bytes": 325
+    },
+    {
+      "path": "/image-00.jpg",
+      "bytes": 513803
+    },
+    {
+      "path": "/image-01.jpg",
+      "bytes": 513987
+    },
+    {
+      "path": "/image-02.jpg",
+      "bytes": 513802
+    },
+    {
+      "path": "/image-03.jpg",
+      "bytes": 513672
+    },
+    {
+      "path": "/image-04.jpg",
+      "bytes": 514030
+    },
+    {
+      "path": "/image-05.jpg",
+      "bytes": 514223
+    },
+    {
+      "path": "/image-06.jpg",
+      "bytes": 513973
+    },
+    {
+      "path": "/image-07.jpg",
+      "bytes": 513625
+    },
+    {
+      "path": "/image-08.jpg",
+      "bytes": 513735
+    },
+    {
+      "path": "/image-10.jpg",
+      "bytes": 513736
+    },
+    {
+      "path": "/image-11.jpg",
+      "bytes": 514131
+    },
+    {
+      "path": "/image-09.jpg",
+      "bytes": 513977
+    },
+    {
+      "path": "/image-12.jpg",
+      "bytes": 514026
+    },
+    {
+      "path": "/image-13.jpg",
+      "bytes": 513915
+    },
+    {
+      "path": "/image-15.jpg",
+      "bytes": 513615
+    },
+    {
+      "path": "/image-14.jpg",
+      "bytes": 513885
+    },
+    {
+      "path": "/favicon.ico",
+      "bytes": 19060
+    },
+    {
+      "path": "/article",
+      "bytes": 19060
+    },
+    {
+      "path": "/payload.js",
+      "bytes": 325
+    },
+    {
+      "path": "/image-03.jpg",
+      "bytes": 513672
+    },
+    {
+      "path": "/image-02.jpg",
+      "bytes": 513802
+    },
+    {
+      "path": "/image-01.jpg",
+      "bytes": 513987
+    },
+    {
+      "path": "/image-04.jpg",
+      "bytes": 514030
+    },
+    {
+      "path": "/image-00.jpg",
+      "bytes": 513803
+    },
+    {
+      "path": "/image-05.jpg",
+      "bytes": 514223
+    },
+    {
+      "path": "/image-06.jpg",
+      "bytes": 513973
+    },
+    {
+      "path": "/image-07.jpg",
+      "bytes": 513625
+    },
+    {
+      "path": "/image-08.jpg",
+      "bytes": 513735
+    },
+    {
+      "path": "/image-09.jpg",
+      "bytes": 513977
+    },
+    {
+      "path": "/image-10.jpg",
+      "bytes": 513736
+    },
+    {
+      "path": "/image-13.jpg",
+      "bytes": 513915
+    },
+    {
+      "path": "/image-11.jpg",
+      "bytes": 514131
+    },
+    {
+      "path": "/image-14.jpg",
+      "bytes": 513885
+    },
+    {
+      "path": "/image-15.jpg",
+      "bytes": 513615
+    },
+    {
+      "path": "/image-12.jpg",
+      "bytes": 514026
+    },
+    {
+      "path": "/favicon.ico",
+      "bytes": 19060
+    }
+  ],
+  "status": "ok",
+  "ended": 1792336233.4475157
+}

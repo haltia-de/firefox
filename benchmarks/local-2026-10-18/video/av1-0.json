@@ -1,0 +1,33 @@
+{
+  "codec": "av1",
+  "repeat": 0,
+  "started": 1792337903.4043515,
+  "autoplay": {
+    "allowed": false,
+    "error": "NotAllowedError"
+  },
+  "before": {
+    "dropped": 1,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 1.103616,
+    "total": 34,
+    "width": 640
+  },
+  "after": {
+    "dropped": 1,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 5.175746,
+    "total": 156,
+    "width": 640
+  },
+  "cpu_s": 2.02,
+  "pss_mib": 512.6484375,
+  "status": "ok",
+  "ended": 1792337928.9612617
+}

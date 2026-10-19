@@ -105,11 +105,18 @@ class ProfileInstallTests(unittest.TestCase):
                 (ff / 'application.ini').write_text('[App]\nVersion=151.0.3\n')
                 (ff / 'distribution/policies.json').write_text(json.dumps({
                     'policies': {'DisableTelemetry': True}}))
+                (ff / 'defaults/pref').mkdir(parents=True)
+                for name in ['b8k-ram.js', 'b8k-lean.js', 'zz-b8k-firefox.js']:
+                    (ff / 'defaults/pref' / name).write_text('// Old package location\n')
                 share = staged / prefix.lstrip('/') / 'share/b8k-firefox'
                 share.mkdir(parents=True)
                 (share / 'ubol.xpi').write_text('path-selection fixture')
                 subprocess.run(['sh', str(ROOT / 'install.sh'), str(staged), prefix],
                                env=self.env, check=True, capture_output=True)
+                for name in ['b8k-ram.js', 'b8k-lean.js', 'zz-b8k-firefox.js']:
+                    self.assertEqual((ff / 'browser/defaults/preferences' / name).read_bytes(),
+                                     (ROOT / name).read_bytes())
+                    self.assertFalse((ff / 'defaults/pref' / name).exists())
                 policies = json.loads((staged / 'etc/firefox/policies/policies.json').read_text())['policies']
                 self.assertTrue(policies['DisableTelemetry'])
                 self.assertEqual(policies['ExtensionSettings']['uBOLiteRedux@raymondhill.net']['install_url'],

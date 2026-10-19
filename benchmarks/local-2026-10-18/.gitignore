@@ -1,0 +1,12 @@
+/*.xpi
+/autotab-*
+/fixtures/*.jpg
+/fixtures/*.mp4
+/fixtures/*.webm
+/logs/
+/calibration/
+/focused-*/*.log
+/video/*.log
+/extension-state/*.log
+/source-audit/*configure
+__pycache__/

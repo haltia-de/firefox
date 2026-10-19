@@ -1,0 +1,19 @@
+{
+  "description": "Derived from real Marionette default/effective branch checks on the tablet",
+  "firefox": "151.0.3-r0 armv7",
+  "installed_package": "b8k-firefox 1.3.0-r0",
+  "reproducer": "python3 check_runtime.py --binary BINARY",
+  "installed_exit_code": 1,
+  "fixed_copy_exit_code": 0,
+  "all_checked_prefs_have_user_value": false,
+  "all_checked_prefs_locked": false,
+  "preferences": {
+    "browser.tabs.unloadOnLowMemory": {"installed": false, "fixed_copy": true},
+    "browser.tabs.min_inactive_duration_before_unload": {"installed": 600000, "fixed_copy": 60000},
+    "general.config.filename": {"installed": "mobile-config-autoconfig.js", "fixed_copy": "b8k-firefox.cfg"},
+    "dom.ipc.processPrelaunch.enabled": {"installed": true, "fixed_copy": false}
+  },
+  "fixed_copy_change": "Move b8k defaults from GRE defaults/pref to browser/defaults/preferences",
+  "system_installation_modified": false,
+  "preference_loader_source": "https://github.com/mozilla-firefox/firefox/blob/FIREFOX_151_0_3_RELEASE/modules/libpref/Preferences.cpp"
+}

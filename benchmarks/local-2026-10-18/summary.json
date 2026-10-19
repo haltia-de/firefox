@@ -1,0 +1,6223 @@
+{
+  "runs": [
+    {
+      "variant": "autotab",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 97.6520745754242,
+      "start_pss_mib": 544.0224609375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 610.1376953125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 679.6923828125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 581.9287109375,
+      "after_action_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 604.9873046875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 605.0341796875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.980206531844495,
+      "animation_cpu_s": 1.07,
+      "idle_cpu_s": 0.07,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": [
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "variant": "betterfox",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.228336572647095,
+      "start_pss_mib": 470.4521484375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 546.021484375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 637.7294921875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 677.0966796875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 666.044921875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99280086389634,
+      "animation_cpu_s": 1.03,
+      "idle_cpu_s": 0.21,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "bfcache_auto",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.21168065071106,
+      "start_pss_mib": 473.32421875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 541.7724609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 617.55078125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 632.5732421875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 622.298828125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.029965371143945,
+      "animation_cpu_s": 1.15,
+      "idle_cpu_s": 0.19,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "calm_event",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.11376404762268,
+      "start_pss_mib": 472.6708984375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 541.2529296875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.267578125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 656.9404296875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 642.9306640625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.021627627806396,
+      "animation_cpu_s": 1.27,
+      "idle_cpu_s": 0.23,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "calm_none",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.07347369194031,
+      "start_pss_mib": 471.51953125,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.71875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 614.1240234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 658.873046875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 645.1708984375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.00733974072862,
+      "animation_cpu_s": 1.22,
+      "idle_cpu_s": 0.19,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "disk_cache_off",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.18229842185974,
+      "start_pss_mib": 473.814453125,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 548.3203125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 645.46875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 683.8798828125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 670.8291015625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99781826115414,
+      "animation_cpu_s": 1.18,
+      "idle_cpu_s": 0.22,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "fission_on",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.1046142578125,
+      "start_pss_mib": 473.9365234375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 543.5185546875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 647.076171875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 644.623046875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 635.482421875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 11,
+      "raf_hz": 59.98920194365015,
+      "animation_cpu_s": 1.44,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "forkserver_off",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.152527809143066,
+      "start_pss_mib": 493.763671875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 570.2197265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 642.0634765625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 684.3134765625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 672.70703125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 8,
+      "raf_hz": 59.98200539838047,
+      "animation_cpu_s": 1.26,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.05867862701416,
+      "start_pss_mib": 473.1904296875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.9599609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 626.7841796875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 668.9443359375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 652.7568359375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 30.988686669945896,
+      "animation_cpu_s": 0.95,
+      "idle_cpu_s": 0.22,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "http_cache16",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.05701208114624,
+      "start_pss_mib": 474.7314453125,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 543.2646484375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 614.66015625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 659.83984375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 644.64453125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.003768831761334,
+      "animation_cpu_s": 1.11,
+      "idle_cpu_s": 0.19,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "http_cache8",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.05410122871399,
+      "start_pss_mib": 472.6533203125,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 541.607421875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.05859375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 655.712890625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 643.1279296875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99820005399837,
+      "animation_cpu_s": 1.32,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "images_cap128",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.20563840866089,
+      "start_pss_mib": 474.943359375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 544.48828125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 614.36328125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 658.7626953125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 649.48046875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.01745962461807,
+      "animation_cpu_s": 1.03,
+      "idle_cpu_s": 0.14,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "images_cap64",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 31.99657130241394,
+      "start_pss_mib": 472.5341796875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 541.798828125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.2001953125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 655.900390625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 647.0576171875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99820005399837,
+      "animation_cpu_s": 0.97,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "images_expire5s",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.81629776954651,
+      "start_pss_mib": 474.6630859375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 544.2041015625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 620.4228515625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 658.2158203125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 639.8330078125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.97541008186645,
+      "animation_cpu_s": 0.76,
+      "idle_cpu_s": 0.14,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "images_factor16",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.03226566314697,
+      "start_pss_mib": 472.390625,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.4453125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 657.451171875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 643.529296875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.00674455971912,
+      "animation_cpu_s": 1.3,
+      "idle_cpu_s": 0.21,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "images_factor8",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.02415680885315,
+      "start_pss_mib": 472.8388671875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.5,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.615234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 655.65625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 642.986328125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99900828085486,
+      "animation_cpu_s": 1.04,
+      "idle_cpu_s": 0.18,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "jit_off",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.0073082447052,
+      "start_pss_mib": 464.5,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 532.59765625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 610.70703125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 655.3955078125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 645.84765625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.997000149992495,
+      "animation_cpu_s": 1.46,
+      "idle_cpu_s": 0.18,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 36.67226195335388,
+      "start_pss_mib": 472.908203125,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 544.6064453125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 613.421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 616.7353515625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 633.4541015625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 625.763671875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.02579620994146,
+      "animation_cpu_s": 1.13,
+      "idle_cpu_s": 0.3,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": [
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "variant": "no_images",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.33907747268677,
+      "start_pss_mib": 472.771484375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 520.568359375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 559.21484375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 580.1865234375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 574.6015625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.01150633840539,
+      "animation_cpu_s": 0.78,
+      "idle_cpu_s": 0.18,
+      "fixture": {
+        "decoded": 0,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "no_js",
+      "repeat": 0,
+      "status": "error",
+      "error": "{\"value\":{\"error\":\"script timeout\",\"message\":\"Timed out after 20000 ms\",\"stacktrace\":\"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:169:5\\nScriptTimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:781:5\\nevaluate.sandbox/timeoutPromise</scriptTimeoutID<@chrome://remote/content/marionette/evaluate.sys.mjs:97:11\\nnotify@resource://gre/modules/Timer.sys.mjs:66:16\\n\"}}",
+      "suite": "screening",
+      "duration_s": 45.68890118598938,
+      "start_pss_mib": 472.5732421875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 515.5849609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 534.1884765625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "processes": 9,
+      "animation_cpu_s": null,
+      "fixture": {
+        "decoded": 16,
+        "elements": 45,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": false,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "no_lean",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 36.82633852958679,
+      "start_pss_mib": 486.333984375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 554.4140625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 636.1474609375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 640.0771484375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 629.52734375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.97840777320164,
+      "animation_cpu_s": 1.18,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "prelaunch_on",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.110817670822144,
+      "start_pss_mib": 480.4130859375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 543.4130859375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 622.4599609375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 659.90625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 648.0419921875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99520038396928,
+      "animation_cpu_s": 1.19,
+      "idle_cpu_s": 0.24,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "processes2",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.13125777244568,
+      "start_pss_mib": 472.54296875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.029296875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 625.6357421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 670.9775390625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 652.8798828125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 10,
+      "raf_hz": 60.00138846188176,
+      "animation_cpu_s": 1.16,
+      "idle_cpu_s": 0.19,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 32.37855005264282,
+      "start_pss_mib": 472.912109375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 541.3427734375,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 612.0703125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 656.8193359375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 643.55859375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99305865437058,
+      "animation_cpu_s": 0.79,
+      "idle_cpu_s": 0.1,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "reader",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 36.975563049316406,
+      "start_pss_mib": 471.9375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 540.53515625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 611.8466796875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 652.2822265625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 649.3134765625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 614.8837890625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.98800239952011,
+      "animation_cpu_s": 1.4,
+      "idle_cpu_s": 0.19,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": [
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "variant": "software_wr",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 31.978578090667725,
+      "start_pss_mib": 473.7451171875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 544.392578125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 626.798828125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 663.884765625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 647.4013671875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.0,
+      "animation_cpu_s": 1.26,
+      "idle_cpu_s": 0.28,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "start_blank",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 31.989084720611572,
+      "start_pss_mib": 460.3896484375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 518.966796875,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 593.7705078125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 639.7822265625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 634.5673828125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.00674455971912,
+      "animation_cpu_s": 1.17,
+      "idle_cpu_s": 0.14,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "stock",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 36.273045778274536,
+      "start_pss_mib": 497.7197265625,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 583.92578125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 677.431640625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 695.564453125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 687.015625,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 14,
+      "raf_hz": 59.094610968754324,
+      "animation_cpu_s": 0.89,
+      "idle_cpu_s": 0.77,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": false
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "ubol_basic",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 33.43138790130615,
+      "start_pss_mib": 707.935546875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 810.03125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 818.3359375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 809.41015625,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 800.49609375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.98980173370527,
+      "animation_cpu_s": 0.96,
+      "idle_cpu_s": 0.16,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "ubol_complete",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 33.2028865814209,
+      "start_pss_mib": 706.818359375,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 787.056640625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 799.4541015625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 825.1328125,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 795.763671875,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 60.00495908752789,
+      "animation_cpu_s": 1.12,
+      "idle_cpu_s": 0.25,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "ubol_optimal",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 36.83517670631409,
+      "start_pss_mib": 709.0810546875,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 822.9072265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 844.5478515625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 836.708984375,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 810.736328125,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.99543836336412,
+      "animation_cpu_s": 1.08,
+      "idle_cpu_s": 0.17,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": null
+    },
+    {
+      "variant": "unload_early",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "screening",
+      "duration_s": 38.883567571640015,
+      "start_pss_mib": 473.931640625,
+      "start_swap_pss_mib": 0.0,
+      "one_tab_pss_mib": 542.4736328125,
+      "one_tab_swap_pss_mib": 0.0,
+      "three_tabs_pss_mib": 613.76953125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 505.185546875,
+      "after_action_swap_pss_mib": 0.0,
+      "after_back_pss_mib": 543.88671875,
+      "after_back_swap_pss_mib": 0.0,
+      "idle_pss_mib": 530.615234375,
+      "idle_swap_pss_mib": 0.0,
+      "processes": 9,
+      "raf_hz": 59.866497710106465,
+      "animation_cpu_s": 1.41,
+      "idle_cpu_s": 0.11,
+      "fixture": {
+        "decoded": 16,
+        "elements": 1545,
+        "entries": [
+          {
+            "decoded": 513803,
+            "name": "http://127.0.0.3:37663/image-00.jpg",
+            "transfer": 514103
+          },
+          {
+            "decoded": 514223,
+            "name": "http://127.0.0.3:37663/image-05.jpg",
+            "transfer": 514523
+          },
+          {
+            "decoded": 513987,
+            "name": "http://127.0.0.3:37663/image-01.jpg",
+            "transfer": 514287
+          },
+          {
+            "decoded": 513973,
+            "name": "http://127.0.0.3:37663/image-06.jpg",
+            "transfer": 514273
+          },
+          {
+            "decoded": 513672,
+            "name": "http://127.0.0.3:37663/image-03.jpg",
+            "transfer": 513972
+          },
+          {
+            "decoded": 513625,
+            "name": "http://127.0.0.3:37663/image-07.jpg",
+            "transfer": 513925
+          },
+          {
+            "decoded": 513802,
+            "name": "http://127.0.0.3:37663/image-02.jpg",
+            "transfer": 514102
+          },
+          {
+            "decoded": 513735,
+            "name": "http://127.0.0.3:37663/image-08.jpg",
+            "transfer": 514035
+          },
+          {
+            "decoded": 513977,
+            "name": "http://127.0.0.3:37663/image-09.jpg",
+            "transfer": 514277
+          },
+          {
+            "decoded": 514030,
+            "name": "http://127.0.0.3:37663/image-04.jpg",
+            "transfer": 514330
+          },
+          {
+            "decoded": 513736,
+            "name": "http://127.0.0.3:37663/image-10.jpg",
+            "transfer": 514036
+          },
+          {
+            "decoded": 514131,
+            "name": "http://127.0.0.3:37663/image-11.jpg",
+            "transfer": 514431
+          },
+          {
+            "decoded": 325,
+            "name": "http://127.0.0.3:37663/payload.js",
+            "transfer": 625
+          },
+          {
+            "decoded": 514026,
+            "name": "http://127.0.0.3:37663/image-12.jpg",
+            "transfer": 514326
+          },
+          {
+            "decoded": 513915,
+            "name": "http://127.0.0.3:37663/image-13.jpg",
+            "transfer": 514215
+          },
+          {
+            "decoded": 513885,
+            "name": "http://127.0.0.3:37663/image-14.jpg",
+            "transfer": 514185
+          },
+          {
+            "decoded": 513615,
+            "name": "http://127.0.0.3:37663/image-15.jpg",
+            "transfer": 513915
+          },
+          {
+            "decoded": 19060,
+            "name": "http://127.0.0.3:37663/favicon.ico",
+            "transfer": 19360
+          }
+        ],
+        "images": 16,
+        "ready": true,
+        "reduced": true
+      },
+      "tab_state": [
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": true,
+          "remote": "web",
+          "selected": false
+        },
+        {
+          "pending": false,
+          "remote": "web",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.06256699562073,
+      "three_tabs_pss_mib": 621.689453125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 622.515625,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 471.943359375,
+      "processes": 9,
+      "raf_hz": 30.984419263456097,
+      "animation_cpu_s": 0.84,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.38030457496643,
+      "three_tabs_pss_mib": 622.9677734375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 620.0576171875,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.9384765625,
+      "processes": 9,
+      "raf_hz": 31.0,
+      "animation_cpu_s": 0.9,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 2,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.07936692237854,
+      "three_tabs_pss_mib": 613.69921875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 614.14453125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 474.20703125,
+      "processes": 9,
+      "raf_hz": 30.997520198384127,
+      "animation_cpu_s": 0.93,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 3,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.075976610183716,
+      "three_tabs_pss_mib": 612.5107421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 615.3505859375,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.44140625,
+      "processes": 9,
+      "raf_hz": 30.982649716158953,
+      "animation_cpu_s": 0.92,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "frame_rate30",
+      "repeat": 4,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 31.978216409683228,
+      "three_tabs_pss_mib": 610.8173828125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 617.3271484375,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 471.5400390625,
+      "processes": 9,
+      "raf_hz": 30.993870101246642,
+      "animation_cpu_s": 1.12,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.15191912651062,
+      "three_tabs_pss_mib": 610.5361328125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 551.53125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 471.59375,
+      "processes": 9,
+      "raf_hz": 60.002578623213566,
+      "animation_cpu_s": 1.28,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 36.74454474449158,
+      "three_tabs_pss_mib": 613.78515625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 552.625,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 474.193359375,
+      "processes": 9,
+      "raf_hz": 59.99603332011107,
+      "animation_cpu_s": 0.95,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 2,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 36.747782707214355,
+      "three_tabs_pss_mib": 614.421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 553.3837890625,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 474.150390625,
+      "processes": 9,
+      "raf_hz": 60.0252006627576,
+      "animation_cpu_s": 1.23,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 3,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 36.4930145740509,
+      "three_tabs_pss_mib": 611.2998046875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 552.2041015625,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.212890625,
+      "processes": 9,
+      "raf_hz": 60.00138846188176,
+      "animation_cpu_s": 1.22,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "native_discard",
+      "repeat": 4,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 36.405393838882446,
+      "three_tabs_pss_mib": 610.365234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 551.7568359375,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.3046875,
+      "processes": 9,
+      "raf_hz": 59.99841326510372,
+      "animation_cpu_s": 1.25,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 31.896913290023804,
+      "three_tabs_pss_mib": 610.7822265625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 616.6767578125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.9560546875,
+      "processes": 9,
+      "raf_hz": 59.98860216558853,
+      "animation_cpu_s": 1.08,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 31.983004093170166,
+      "three_tabs_pss_mib": 612.8916015625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 616.5751953125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 474.5615234375,
+      "processes": 9,
+      "raf_hz": 59.980206531844495,
+      "animation_cpu_s": 1.24,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 2,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.18822932243347,
+      "three_tabs_pss_mib": 611.8203125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 616.537109375,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.712890625,
+      "processes": 9,
+      "raf_hz": 60.00853013816839,
+      "animation_cpu_s": 1.09,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 3,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 31.98767375946045,
+      "three_tabs_pss_mib": 611.80859375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 617.6201171875,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.8349609375,
+      "processes": 9,
+      "raf_hz": 59.9598269159663,
+      "animation_cpu_s": 1.15,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 4,
+      "status": "ok",
+      "error": null,
+      "suite": "memory",
+      "duration_s": 32.0227108001709,
+      "three_tabs_pss_mib": 613.201171875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 616.080078125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 475.0498046875,
+      "processes": 9,
+      "raf_hz": 60.00079339892097,
+      "animation_cpu_s": 1.24,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "images_cap64",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 32.01101112365723,
+      "three_tabs_pss_mib": 665.8740234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 635.8037109375,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.3251953125,
+      "processes": 9,
+      "raf_hz": 60.00674455971912,
+      "animation_cpu_s": 1.32,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "images_cap64",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 32.06082224845886,
+      "three_tabs_pss_mib": 654.568359375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 633.732421875,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 472.0927734375,
+      "processes": 9,
+      "raf_hz": 60.00495908752789,
+      "animation_cpu_s": 1.29,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "images_factor8",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 32.025455951690674,
+      "three_tabs_pss_mib": 807.50390625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 803.7314453125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 471.0537109375,
+      "processes": 9,
+      "raf_hz": 60.00019834776314,
+      "animation_cpu_s": 1.31,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "images_factor8",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 32.027071952819824,
+      "three_tabs_pss_mib": 799.2763671875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 795.5166015625,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 474.642578125,
+      "processes": 9,
+      "raf_hz": 60.00138846188176,
+      "animation_cpu_s": 1.31,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 31.901254177093506,
+      "three_tabs_pss_mib": 790.2138671875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 792.76171875,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 473.322265625,
+      "processes": 9,
+      "raf_hz": 59.980806142034545,
+      "animation_cpu_s": 1.19,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "project",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "image-stress",
+      "duration_s": 31.99799633026123,
+      "three_tabs_pss_mib": 790.2080078125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "after_action_pss_mib": 793.7939453125,
+      "after_action_swap_pss_mib": 0.0,
+      "start_pss_mib": 473.1591796875,
+      "processes": 9,
+      "raf_hz": 59.99040153575428,
+      "animation_cpu_s": 1.2,
+      "fixture": null,
+      "tab_state": null
+    },
+    {
+      "variant": "jit_off",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 25.692683696746826,
+      "start_pss_mib": 463.3994140625,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 294,
+      "checksums": [
+        58277562446.38358
+      ]
+    },
+    {
+      "variant": "jit_off",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 25.630845069885254,
+      "start_pss_mib": 462.6845703125,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 294,
+      "checksums": [
+        58277562446.38358
+      ]
+    },
+    {
+      "variant": "jit_off",
+      "repeat": 2,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 25.530213594436646,
+      "start_pss_mib": 465.22265625,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 289,
+      "checksums": [
+        58277562446.38358
+      ]
+    },
+    {
+      "variant": "project",
+      "repeat": 0,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 23.897627592086792,
+      "start_pss_mib": 472.748046875,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 28,
+      "checksums": [
+        58277562446.38358
+      ]
+    },
+    {
+      "variant": "project",
+      "repeat": 1,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 21.355159282684326,
+      "start_pss_mib": 472.884765625,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 24,
+      "checksums": [
+        58277562446.38358
+      ]
+    },
+    {
+      "variant": "project",
+      "repeat": 2,
+      "status": "ok",
+      "error": null,
+      "suite": "cpu",
+      "duration_s": 23.964832067489624,
+      "start_pss_mib": 472.2568359375,
+      "animation_cpu_s": null,
+      "fixture": null,
+      "tab_state": null,
+      "js_ms": 26,
+      "checksums": [
+        58277562446.38358
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "suite": "cpu",
+      "variant": "jit_off",
+      "n": 3,
+      "ok": 3,
+      "duration_s": 25.630845069885254,
+      "duration_s_min": 25.530213594436646,
+      "duration_s_max": 25.692683696746826,
+      "js_ms": 294,
+      "js_ms_min": 289,
+      "js_ms_max": 294,
+      "start_pss_mib": 463.3994140625,
+      "start_pss_mib_min": 462.6845703125,
+      "start_pss_mib_max": 465.22265625
+    },
+    {
+      "suite": "cpu",
+      "variant": "project",
+      "n": 3,
+      "ok": 3,
+      "duration_s": 23.897627592086792,
+      "duration_s_min": 21.355159282684326,
+      "duration_s_max": 23.964832067489624,
+      "js_ms": 26,
+      "js_ms_min": 24,
+      "js_ms_max": 28,
+      "start_pss_mib": 472.748046875,
+      "start_pss_mib_min": 472.2568359375,
+      "start_pss_mib_max": 472.884765625
+    },
+    {
+      "suite": "image-stress",
+      "variant": "images_cap64",
+      "n": 2,
+      "ok": 2,
+      "after_action_pss_mib": 634.76806640625,
+      "after_action_pss_mib_min": 633.732421875,
+      "after_action_pss_mib_max": 635.8037109375,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.3050000000000002,
+      "animation_cpu_s_min": 1.29,
+      "animation_cpu_s_max": 1.32,
+      "duration_s": 32.035916686058044,
+      "duration_s_min": 32.01101112365723,
+      "duration_s_max": 32.06082224845886,
+      "processes": 9.0,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.0058518236235,
+      "raf_hz_min": 60.00495908752789,
+      "raf_hz_max": 60.00674455971912,
+      "start_pss_mib": 472.208984375,
+      "start_pss_mib_min": 472.0927734375,
+      "start_pss_mib_max": 472.3251953125,
+      "three_tabs_pss_mib": 660.22119140625,
+      "three_tabs_pss_mib_min": 654.568359375,
+      "three_tabs_pss_mib_max": 665.8740234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "image-stress",
+      "variant": "images_factor8",
+      "n": 2,
+      "ok": 2,
+      "after_action_pss_mib": 799.6240234375,
+      "after_action_pss_mib_min": 795.5166015625,
+      "after_action_pss_mib_max": 803.7314453125,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.31,
+      "animation_cpu_s_min": 1.31,
+      "animation_cpu_s_max": 1.31,
+      "duration_s": 32.02626395225525,
+      "duration_s_min": 32.025455951690674,
+      "duration_s_max": 32.027071952819824,
+      "processes": 9.0,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.000793404822446,
+      "raf_hz_min": 60.00019834776314,
+      "raf_hz_max": 60.00138846188176,
+      "start_pss_mib": 472.84814453125,
+      "start_pss_mib_min": 471.0537109375,
+      "start_pss_mib_max": 474.642578125,
+      "three_tabs_pss_mib": 803.39013671875,
+      "three_tabs_pss_mib_min": 799.2763671875,
+      "three_tabs_pss_mib_max": 807.50390625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "image-stress",
+      "variant": "project",
+      "n": 2,
+      "ok": 2,
+      "after_action_pss_mib": 793.27783203125,
+      "after_action_pss_mib_min": 792.76171875,
+      "after_action_pss_mib_max": 793.7939453125,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.1949999999999998,
+      "animation_cpu_s_min": 1.19,
+      "animation_cpu_s_max": 1.2,
+      "duration_s": 31.949625253677368,
+      "duration_s_min": 31.901254177093506,
+      "duration_s_max": 31.99799633026123,
+      "processes": 9.0,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.98560383889441,
+      "raf_hz_min": 59.980806142034545,
+      "raf_hz_max": 59.99040153575428,
+      "start_pss_mib": 473.24072265625,
+      "start_pss_mib_min": 473.1591796875,
+      "start_pss_mib_max": 473.322265625,
+      "three_tabs_pss_mib": 790.2109375,
+      "three_tabs_pss_mib_min": 790.2080078125,
+      "three_tabs_pss_mib_max": 790.2138671875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "memory",
+      "variant": "frame_rate30",
+      "n": 5,
+      "ok": 5,
+      "after_action_pss_mib": 617.3271484375,
+      "after_action_pss_mib_min": 614.14453125,
+      "after_action_pss_mib_max": 622.515625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.92,
+      "animation_cpu_s_min": 0.84,
+      "animation_cpu_s_max": 1.12,
+      "duration_s": 32.075976610183716,
+      "duration_s_min": 31.978216409683228,
+      "duration_s_max": 32.38030457496643,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 30.993870101246642,
+      "raf_hz_min": 30.982649716158953,
+      "raf_hz_max": 31.0,
+      "start_pss_mib": 472.44140625,
+      "start_pss_mib_min": 471.5400390625,
+      "start_pss_mib_max": 474.20703125,
+      "three_tabs_pss_mib": 613.69921875,
+      "three_tabs_pss_mib_min": 610.8173828125,
+      "three_tabs_pss_mib_max": 622.9677734375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "memory",
+      "variant": "native_discard",
+      "n": 5,
+      "ok": 5,
+      "after_action_pss_mib": 552.2041015625,
+      "after_action_pss_mib_min": 551.53125,
+      "after_action_pss_mib_max": 553.3837890625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.23,
+      "animation_cpu_s_min": 0.95,
+      "animation_cpu_s_max": 1.28,
+      "duration_s": 36.4930145740509,
+      "duration_s_min": 32.15191912651062,
+      "duration_s_max": 36.747782707214355,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.00138846188176,
+      "raf_hz_min": 59.99603332011107,
+      "raf_hz_max": 60.0252006627576,
+      "start_pss_mib": 472.3046875,
+      "start_pss_mib_min": 471.59375,
+      "start_pss_mib_max": 474.193359375,
+      "three_tabs_pss_mib": 611.2998046875,
+      "three_tabs_pss_mib_min": 610.365234375,
+      "three_tabs_pss_mib_max": 614.421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "memory",
+      "variant": "project",
+      "n": 5,
+      "ok": 5,
+      "after_action_pss_mib": 616.5751953125,
+      "after_action_pss_mib_min": 616.080078125,
+      "after_action_pss_mib_max": 617.6201171875,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.15,
+      "animation_cpu_s_min": 1.08,
+      "animation_cpu_s_max": 1.24,
+      "duration_s": 31.98767375946045,
+      "duration_s_min": 31.896913290023804,
+      "duration_s_max": 32.18822932243347,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.98860216558853,
+      "raf_hz_min": 59.9598269159663,
+      "raf_hz_max": 60.00853013816839,
+      "start_pss_mib": 472.9560546875,
+      "start_pss_mib_min": 472.712890625,
+      "start_pss_mib_max": 475.0498046875,
+      "three_tabs_pss_mib": 611.8203125,
+      "three_tabs_pss_mib_min": 610.7822265625,
+      "three_tabs_pss_mib_max": 613.201171875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "autotab",
+      "n": 1,
+      "ok": 1,
+      "after_action_pss_mib": 581.9287109375,
+      "after_action_pss_mib_min": 581.9287109375,
+      "after_action_pss_mib_max": 581.9287109375,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "after_back_pss_mib": 604.9873046875,
+      "after_back_pss_mib_min": 604.9873046875,
+      "after_back_pss_mib_max": 604.9873046875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.07,
+      "animation_cpu_s_min": 1.07,
+      "animation_cpu_s_max": 1.07,
+      "duration_s": 97.6520745754242,
+      "duration_s_min": 97.6520745754242,
+      "duration_s_max": 97.6520745754242,
+      "idle_cpu_s": 0.07,
+      "idle_cpu_s_min": 0.07,
+      "idle_cpu_s_max": 0.07,
+      "idle_pss_mib": 605.0341796875,
+      "idle_pss_mib_min": 605.0341796875,
+      "idle_pss_mib_max": 605.0341796875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 610.1376953125,
+      "one_tab_pss_mib_min": 610.1376953125,
+      "one_tab_pss_mib_max": 610.1376953125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.980206531844495,
+      "raf_hz_min": 59.980206531844495,
+      "raf_hz_max": 59.980206531844495,
+      "start_pss_mib": 544.0224609375,
+      "start_pss_mib_min": 544.0224609375,
+      "start_pss_mib_max": 544.0224609375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 679.6923828125,
+      "three_tabs_pss_mib_min": 679.6923828125,
+      "three_tabs_pss_mib_max": 679.6923828125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "betterfox",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 677.0966796875,
+      "after_back_pss_mib_min": 677.0966796875,
+      "after_back_pss_mib_max": 677.0966796875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.03,
+      "animation_cpu_s_min": 1.03,
+      "animation_cpu_s_max": 1.03,
+      "duration_s": 32.228336572647095,
+      "duration_s_min": 32.228336572647095,
+      "duration_s_max": 32.228336572647095,
+      "idle_cpu_s": 0.21,
+      "idle_cpu_s_min": 0.21,
+      "idle_cpu_s_max": 0.21,
+      "idle_pss_mib": 666.044921875,
+      "idle_pss_mib_min": 666.044921875,
+      "idle_pss_mib_max": 666.044921875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 546.021484375,
+      "one_tab_pss_mib_min": 546.021484375,
+      "one_tab_pss_mib_max": 546.021484375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99280086389634,
+      "raf_hz_min": 59.99280086389634,
+      "raf_hz_max": 59.99280086389634,
+      "start_pss_mib": 470.4521484375,
+      "start_pss_mib_min": 470.4521484375,
+      "start_pss_mib_max": 470.4521484375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 637.7294921875,
+      "three_tabs_pss_mib_min": 637.7294921875,
+      "three_tabs_pss_mib_max": 637.7294921875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "bfcache_auto",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 632.5732421875,
+      "after_back_pss_mib_min": 632.5732421875,
+      "after_back_pss_mib_max": 632.5732421875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.15,
+      "animation_cpu_s_min": 1.15,
+      "animation_cpu_s_max": 1.15,
+      "duration_s": 32.21168065071106,
+      "duration_s_min": 32.21168065071106,
+      "duration_s_max": 32.21168065071106,
+      "idle_cpu_s": 0.19,
+      "idle_cpu_s_min": 0.19,
+      "idle_cpu_s_max": 0.19,
+      "idle_pss_mib": 622.298828125,
+      "idle_pss_mib_min": 622.298828125,
+      "idle_pss_mib_max": 622.298828125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 541.7724609375,
+      "one_tab_pss_mib_min": 541.7724609375,
+      "one_tab_pss_mib_max": 541.7724609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.029965371143945,
+      "raf_hz_min": 60.029965371143945,
+      "raf_hz_max": 60.029965371143945,
+      "start_pss_mib": 473.32421875,
+      "start_pss_mib_min": 473.32421875,
+      "start_pss_mib_max": 473.32421875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 617.55078125,
+      "three_tabs_pss_mib_min": 617.55078125,
+      "three_tabs_pss_mib_max": 617.55078125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "calm_event",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 656.9404296875,
+      "after_back_pss_mib_min": 656.9404296875,
+      "after_back_pss_mib_max": 656.9404296875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.27,
+      "animation_cpu_s_min": 1.27,
+      "animation_cpu_s_max": 1.27,
+      "duration_s": 32.11376404762268,
+      "duration_s_min": 32.11376404762268,
+      "duration_s_max": 32.11376404762268,
+      "idle_cpu_s": 0.23,
+      "idle_cpu_s_min": 0.23,
+      "idle_cpu_s_max": 0.23,
+      "idle_pss_mib": 642.9306640625,
+      "idle_pss_mib_min": 642.9306640625,
+      "idle_pss_mib_max": 642.9306640625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 541.2529296875,
+      "one_tab_pss_mib_min": 541.2529296875,
+      "one_tab_pss_mib_max": 541.2529296875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.021627627806396,
+      "raf_hz_min": 60.021627627806396,
+      "raf_hz_max": 60.021627627806396,
+      "start_pss_mib": 472.6708984375,
+      "start_pss_mib_min": 472.6708984375,
+      "start_pss_mib_max": 472.6708984375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.267578125,
+      "three_tabs_pss_mib_min": 612.267578125,
+      "three_tabs_pss_mib_max": 612.267578125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "calm_none",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 658.873046875,
+      "after_back_pss_mib_min": 658.873046875,
+      "after_back_pss_mib_max": 658.873046875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.22,
+      "animation_cpu_s_min": 1.22,
+      "animation_cpu_s_max": 1.22,
+      "duration_s": 32.07347369194031,
+      "duration_s_min": 32.07347369194031,
+      "duration_s_max": 32.07347369194031,
+      "idle_cpu_s": 0.19,
+      "idle_cpu_s_min": 0.19,
+      "idle_cpu_s_max": 0.19,
+      "idle_pss_mib": 645.1708984375,
+      "idle_pss_mib_min": 645.1708984375,
+      "idle_pss_mib_max": 645.1708984375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.71875,
+      "one_tab_pss_mib_min": 542.71875,
+      "one_tab_pss_mib_max": 542.71875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.00733974072862,
+      "raf_hz_min": 60.00733974072862,
+      "raf_hz_max": 60.00733974072862,
+      "start_pss_mib": 471.51953125,
+      "start_pss_mib_min": 471.51953125,
+      "start_pss_mib_max": 471.51953125,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 614.1240234375,
+      "three_tabs_pss_mib_min": 614.1240234375,
+      "three_tabs_pss_mib_max": 614.1240234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "disk_cache_off",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 683.8798828125,
+      "after_back_pss_mib_min": 683.8798828125,
+      "after_back_pss_mib_max": 683.8798828125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.18,
+      "animation_cpu_s_min": 1.18,
+      "animation_cpu_s_max": 1.18,
+      "duration_s": 32.18229842185974,
+      "duration_s_min": 32.18229842185974,
+      "duration_s_max": 32.18229842185974,
+      "idle_cpu_s": 0.22,
+      "idle_cpu_s_min": 0.22,
+      "idle_cpu_s_max": 0.22,
+      "idle_pss_mib": 670.8291015625,
+      "idle_pss_mib_min": 670.8291015625,
+      "idle_pss_mib_max": 670.8291015625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 548.3203125,
+      "one_tab_pss_mib_min": 548.3203125,
+      "one_tab_pss_mib_max": 548.3203125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99781826115414,
+      "raf_hz_min": 59.99781826115414,
+      "raf_hz_max": 59.99781826115414,
+      "start_pss_mib": 473.814453125,
+      "start_pss_mib_min": 473.814453125,
+      "start_pss_mib_max": 473.814453125,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 645.46875,
+      "three_tabs_pss_mib_min": 645.46875,
+      "three_tabs_pss_mib_max": 645.46875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "fission_on",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 644.623046875,
+      "after_back_pss_mib_min": 644.623046875,
+      "after_back_pss_mib_max": 644.623046875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.44,
+      "animation_cpu_s_min": 1.44,
+      "animation_cpu_s_max": 1.44,
+      "duration_s": 32.1046142578125,
+      "duration_s_min": 32.1046142578125,
+      "duration_s_max": 32.1046142578125,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 635.482421875,
+      "idle_pss_mib_min": 635.482421875,
+      "idle_pss_mib_max": 635.482421875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 543.5185546875,
+      "one_tab_pss_mib_min": 543.5185546875,
+      "one_tab_pss_mib_max": 543.5185546875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 11,
+      "processes_min": 11,
+      "processes_max": 11,
+      "raf_hz": 59.98920194365015,
+      "raf_hz_min": 59.98920194365015,
+      "raf_hz_max": 59.98920194365015,
+      "start_pss_mib": 473.9365234375,
+      "start_pss_mib_min": 473.9365234375,
+      "start_pss_mib_max": 473.9365234375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 647.076171875,
+      "three_tabs_pss_mib_min": 647.076171875,
+      "three_tabs_pss_mib_max": 647.076171875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "forkserver_off",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 684.3134765625,
+      "after_back_pss_mib_min": 684.3134765625,
+      "after_back_pss_mib_max": 684.3134765625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.26,
+      "animation_cpu_s_min": 1.26,
+      "animation_cpu_s_max": 1.26,
+      "duration_s": 32.152527809143066,
+      "duration_s_min": 32.152527809143066,
+      "duration_s_max": 32.152527809143066,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 672.70703125,
+      "idle_pss_mib_min": 672.70703125,
+      "idle_pss_mib_max": 672.70703125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 570.2197265625,
+      "one_tab_pss_mib_min": 570.2197265625,
+      "one_tab_pss_mib_max": 570.2197265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 8,
+      "processes_min": 8,
+      "processes_max": 8,
+      "raf_hz": 59.98200539838047,
+      "raf_hz_min": 59.98200539838047,
+      "raf_hz_max": 59.98200539838047,
+      "start_pss_mib": 493.763671875,
+      "start_pss_mib_min": 493.763671875,
+      "start_pss_mib_max": 493.763671875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 642.0634765625,
+      "three_tabs_pss_mib_min": 642.0634765625,
+      "three_tabs_pss_mib_max": 642.0634765625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "frame_rate30",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 668.9443359375,
+      "after_back_pss_mib_min": 668.9443359375,
+      "after_back_pss_mib_max": 668.9443359375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.95,
+      "animation_cpu_s_min": 0.95,
+      "animation_cpu_s_max": 0.95,
+      "duration_s": 32.05867862701416,
+      "duration_s_min": 32.05867862701416,
+      "duration_s_max": 32.05867862701416,
+      "idle_cpu_s": 0.22,
+      "idle_cpu_s_min": 0.22,
+      "idle_cpu_s_max": 0.22,
+      "idle_pss_mib": 652.7568359375,
+      "idle_pss_mib_min": 652.7568359375,
+      "idle_pss_mib_max": 652.7568359375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.9599609375,
+      "one_tab_pss_mib_min": 542.9599609375,
+      "one_tab_pss_mib_max": 542.9599609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 30.988686669945896,
+      "raf_hz_min": 30.988686669945896,
+      "raf_hz_max": 30.988686669945896,
+      "start_pss_mib": 473.1904296875,
+      "start_pss_mib_min": 473.1904296875,
+      "start_pss_mib_max": 473.1904296875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 626.7841796875,
+      "three_tabs_pss_mib_min": 626.7841796875,
+      "three_tabs_pss_mib_max": 626.7841796875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "http_cache16",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 659.83984375,
+      "after_back_pss_mib_min": 659.83984375,
+      "after_back_pss_mib_max": 659.83984375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.11,
+      "animation_cpu_s_min": 1.11,
+      "animation_cpu_s_max": 1.11,
+      "duration_s": 32.05701208114624,
+      "duration_s_min": 32.05701208114624,
+      "duration_s_max": 32.05701208114624,
+      "idle_cpu_s": 0.19,
+      "idle_cpu_s_min": 0.19,
+      "idle_cpu_s_max": 0.19,
+      "idle_pss_mib": 644.64453125,
+      "idle_pss_mib_min": 644.64453125,
+      "idle_pss_mib_max": 644.64453125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 543.2646484375,
+      "one_tab_pss_mib_min": 543.2646484375,
+      "one_tab_pss_mib_max": 543.2646484375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.003768831761334,
+      "raf_hz_min": 60.003768831761334,
+      "raf_hz_max": 60.003768831761334,
+      "start_pss_mib": 474.7314453125,
+      "start_pss_mib_min": 474.7314453125,
+      "start_pss_mib_max": 474.7314453125,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 614.66015625,
+      "three_tabs_pss_mib_min": 614.66015625,
+      "three_tabs_pss_mib_max": 614.66015625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "http_cache8",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 655.712890625,
+      "after_back_pss_mib_min": 655.712890625,
+      "after_back_pss_mib_max": 655.712890625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.32,
+      "animation_cpu_s_min": 1.32,
+      "animation_cpu_s_max": 1.32,
+      "duration_s": 32.05410122871399,
+      "duration_s_min": 32.05410122871399,
+      "duration_s_max": 32.05410122871399,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 643.1279296875,
+      "idle_pss_mib_min": 643.1279296875,
+      "idle_pss_mib_max": 643.1279296875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 541.607421875,
+      "one_tab_pss_mib_min": 541.607421875,
+      "one_tab_pss_mib_max": 541.607421875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99820005399837,
+      "raf_hz_min": 59.99820005399837,
+      "raf_hz_max": 59.99820005399837,
+      "start_pss_mib": 472.6533203125,
+      "start_pss_mib_min": 472.6533203125,
+      "start_pss_mib_max": 472.6533203125,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.05859375,
+      "three_tabs_pss_mib_min": 612.05859375,
+      "three_tabs_pss_mib_max": 612.05859375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "images_cap128",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 658.7626953125,
+      "after_back_pss_mib_min": 658.7626953125,
+      "after_back_pss_mib_max": 658.7626953125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.03,
+      "animation_cpu_s_min": 1.03,
+      "animation_cpu_s_max": 1.03,
+      "duration_s": 32.20563840866089,
+      "duration_s_min": 32.20563840866089,
+      "duration_s_max": 32.20563840866089,
+      "idle_cpu_s": 0.14,
+      "idle_cpu_s_min": 0.14,
+      "idle_cpu_s_max": 0.14,
+      "idle_pss_mib": 649.48046875,
+      "idle_pss_mib_min": 649.48046875,
+      "idle_pss_mib_max": 649.48046875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 544.48828125,
+      "one_tab_pss_mib_min": 544.48828125,
+      "one_tab_pss_mib_max": 544.48828125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.01745962461807,
+      "raf_hz_min": 60.01745962461807,
+      "raf_hz_max": 60.01745962461807,
+      "start_pss_mib": 474.943359375,
+      "start_pss_mib_min": 474.943359375,
+      "start_pss_mib_max": 474.943359375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 614.36328125,
+      "three_tabs_pss_mib_min": 614.36328125,
+      "three_tabs_pss_mib_max": 614.36328125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "images_cap64",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 655.900390625,
+      "after_back_pss_mib_min": 655.900390625,
+      "after_back_pss_mib_max": 655.900390625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.97,
+      "animation_cpu_s_min": 0.97,
+      "animation_cpu_s_max": 0.97,
+      "duration_s": 31.99657130241394,
+      "duration_s_min": 31.99657130241394,
+      "duration_s_max": 31.99657130241394,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 647.0576171875,
+      "idle_pss_mib_min": 647.0576171875,
+      "idle_pss_mib_max": 647.0576171875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 541.798828125,
+      "one_tab_pss_mib_min": 541.798828125,
+      "one_tab_pss_mib_max": 541.798828125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99820005399837,
+      "raf_hz_min": 59.99820005399837,
+      "raf_hz_max": 59.99820005399837,
+      "start_pss_mib": 472.5341796875,
+      "start_pss_mib_min": 472.5341796875,
+      "start_pss_mib_max": 472.5341796875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.2001953125,
+      "three_tabs_pss_mib_min": 612.2001953125,
+      "three_tabs_pss_mib_max": 612.2001953125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "images_expire5s",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 658.2158203125,
+      "after_back_pss_mib_min": 658.2158203125,
+      "after_back_pss_mib_max": 658.2158203125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.76,
+      "animation_cpu_s_min": 0.76,
+      "animation_cpu_s_max": 0.76,
+      "duration_s": 32.81629776954651,
+      "duration_s_min": 32.81629776954651,
+      "duration_s_max": 32.81629776954651,
+      "idle_cpu_s": 0.14,
+      "idle_cpu_s_min": 0.14,
+      "idle_cpu_s_max": 0.14,
+      "idle_pss_mib": 639.8330078125,
+      "idle_pss_mib_min": 639.8330078125,
+      "idle_pss_mib_max": 639.8330078125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 544.2041015625,
+      "one_tab_pss_mib_min": 544.2041015625,
+      "one_tab_pss_mib_max": 544.2041015625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.97541008186645,
+      "raf_hz_min": 59.97541008186645,
+      "raf_hz_max": 59.97541008186645,
+      "start_pss_mib": 474.6630859375,
+      "start_pss_mib_min": 474.6630859375,
+      "start_pss_mib_max": 474.6630859375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 620.4228515625,
+      "three_tabs_pss_mib_min": 620.4228515625,
+      "three_tabs_pss_mib_max": 620.4228515625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "images_factor16",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 657.451171875,
+      "after_back_pss_mib_min": 657.451171875,
+      "after_back_pss_mib_max": 657.451171875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.3,
+      "animation_cpu_s_min": 1.3,
+      "animation_cpu_s_max": 1.3,
+      "duration_s": 32.03226566314697,
+      "duration_s_min": 32.03226566314697,
+      "duration_s_max": 32.03226566314697,
+      "idle_cpu_s": 0.21,
+      "idle_cpu_s_min": 0.21,
+      "idle_cpu_s_max": 0.21,
+      "idle_pss_mib": 643.529296875,
+      "idle_pss_mib_min": 643.529296875,
+      "idle_pss_mib_max": 643.529296875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.265625,
+      "one_tab_pss_mib_min": 542.265625,
+      "one_tab_pss_mib_max": 542.265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.00674455971912,
+      "raf_hz_min": 60.00674455971912,
+      "raf_hz_max": 60.00674455971912,
+      "start_pss_mib": 472.390625,
+      "start_pss_mib_min": 472.390625,
+      "start_pss_mib_max": 472.390625,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.4453125,
+      "three_tabs_pss_mib_min": 612.4453125,
+      "three_tabs_pss_mib_max": 612.4453125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "images_factor8",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 655.65625,
+      "after_back_pss_mib_min": 655.65625,
+      "after_back_pss_mib_max": 655.65625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.04,
+      "animation_cpu_s_min": 1.04,
+      "animation_cpu_s_max": 1.04,
+      "duration_s": 32.02415680885315,
+      "duration_s_min": 32.02415680885315,
+      "duration_s_max": 32.02415680885315,
+      "idle_cpu_s": 0.18,
+      "idle_cpu_s_min": 0.18,
+      "idle_cpu_s_max": 0.18,
+      "idle_pss_mib": 642.986328125,
+      "idle_pss_mib_min": 642.986328125,
+      "idle_pss_mib_max": 642.986328125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.5,
+      "one_tab_pss_mib_min": 542.5,
+      "one_tab_pss_mib_max": 542.5,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99900828085486,
+      "raf_hz_min": 59.99900828085486,
+      "raf_hz_max": 59.99900828085486,
+      "start_pss_mib": 472.8388671875,
+      "start_pss_mib_min": 472.8388671875,
+      "start_pss_mib_max": 472.8388671875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.615234375,
+      "three_tabs_pss_mib_min": 612.615234375,
+      "three_tabs_pss_mib_max": 612.615234375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "jit_off",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 655.3955078125,
+      "after_back_pss_mib_min": 655.3955078125,
+      "after_back_pss_mib_max": 655.3955078125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.46,
+      "animation_cpu_s_min": 1.46,
+      "animation_cpu_s_max": 1.46,
+      "duration_s": 32.0073082447052,
+      "duration_s_min": 32.0073082447052,
+      "duration_s_max": 32.0073082447052,
+      "idle_cpu_s": 0.18,
+      "idle_cpu_s_min": 0.18,
+      "idle_cpu_s_max": 0.18,
+      "idle_pss_mib": 645.84765625,
+      "idle_pss_mib_min": 645.84765625,
+      "idle_pss_mib_max": 645.84765625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 532.59765625,
+      "one_tab_pss_mib_min": 532.59765625,
+      "one_tab_pss_mib_max": 532.59765625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.997000149992495,
+      "raf_hz_min": 59.997000149992495,
+      "raf_hz_max": 59.997000149992495,
+      "start_pss_mib": 464.5,
+      "start_pss_mib_min": 464.5,
+      "start_pss_mib_max": 464.5,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 610.70703125,
+      "three_tabs_pss_mib_min": 610.70703125,
+      "three_tabs_pss_mib_max": 610.70703125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "native_discard",
+      "n": 1,
+      "ok": 1,
+      "after_action_pss_mib": 616.7353515625,
+      "after_action_pss_mib_min": 616.7353515625,
+      "after_action_pss_mib_max": 616.7353515625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "after_back_pss_mib": 633.4541015625,
+      "after_back_pss_mib_min": 633.4541015625,
+      "after_back_pss_mib_max": 633.4541015625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.13,
+      "animation_cpu_s_min": 1.13,
+      "animation_cpu_s_max": 1.13,
+      "duration_s": 36.67226195335388,
+      "duration_s_min": 36.67226195335388,
+      "duration_s_max": 36.67226195335388,
+      "idle_cpu_s": 0.3,
+      "idle_cpu_s_min": 0.3,
+      "idle_cpu_s_max": 0.3,
+      "idle_pss_mib": 625.763671875,
+      "idle_pss_mib_min": 625.763671875,
+      "idle_pss_mib_max": 625.763671875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 544.6064453125,
+      "one_tab_pss_mib_min": 544.6064453125,
+      "one_tab_pss_mib_max": 544.6064453125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.02579620994146,
+      "raf_hz_min": 60.02579620994146,
+      "raf_hz_max": 60.02579620994146,
+      "start_pss_mib": 472.908203125,
+      "start_pss_mib_min": 472.908203125,
+      "start_pss_mib_max": 472.908203125,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 613.421875,
+      "three_tabs_pss_mib_min": 613.421875,
+      "three_tabs_pss_mib_max": 613.421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "no_images",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 580.1865234375,
+      "after_back_pss_mib_min": 580.1865234375,
+      "after_back_pss_mib_max": 580.1865234375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.78,
+      "animation_cpu_s_min": 0.78,
+      "animation_cpu_s_max": 0.78,
+      "duration_s": 32.33907747268677,
+      "duration_s_min": 32.33907747268677,
+      "duration_s_max": 32.33907747268677,
+      "idle_cpu_s": 0.18,
+      "idle_cpu_s_min": 0.18,
+      "idle_cpu_s_max": 0.18,
+      "idle_pss_mib": 574.6015625,
+      "idle_pss_mib_min": 574.6015625,
+      "idle_pss_mib_max": 574.6015625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 520.568359375,
+      "one_tab_pss_mib_min": 520.568359375,
+      "one_tab_pss_mib_max": 520.568359375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.01150633840539,
+      "raf_hz_min": 60.01150633840539,
+      "raf_hz_max": 60.01150633840539,
+      "start_pss_mib": 472.771484375,
+      "start_pss_mib_min": 472.771484375,
+      "start_pss_mib_max": 472.771484375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 559.21484375,
+      "three_tabs_pss_mib_min": 559.21484375,
+      "three_tabs_pss_mib_max": 559.21484375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "no_js",
+      "n": 1,
+      "ok": 0,
+      "duration_s": 45.68890118598938,
+      "duration_s_min": 45.68890118598938,
+      "duration_s_max": 45.68890118598938,
+      "one_tab_pss_mib": 515.5849609375,
+      "one_tab_pss_mib_min": 515.5849609375,
+      "one_tab_pss_mib_max": 515.5849609375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "start_pss_mib": 472.5732421875,
+      "start_pss_mib_min": 472.5732421875,
+      "start_pss_mib_max": 472.5732421875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 534.1884765625,
+      "three_tabs_pss_mib_min": 534.1884765625,
+      "three_tabs_pss_mib_max": 534.1884765625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "no_lean",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 640.0771484375,
+      "after_back_pss_mib_min": 640.0771484375,
+      "after_back_pss_mib_max": 640.0771484375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.18,
+      "animation_cpu_s_min": 1.18,
+      "animation_cpu_s_max": 1.18,
+      "duration_s": 36.82633852958679,
+      "duration_s_min": 36.82633852958679,
+      "duration_s_max": 36.82633852958679,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 629.52734375,
+      "idle_pss_mib_min": 629.52734375,
+      "idle_pss_mib_max": 629.52734375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 554.4140625,
+      "one_tab_pss_mib_min": 554.4140625,
+      "one_tab_pss_mib_max": 554.4140625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.97840777320164,
+      "raf_hz_min": 59.97840777320164,
+      "raf_hz_max": 59.97840777320164,
+      "start_pss_mib": 486.333984375,
+      "start_pss_mib_min": 486.333984375,
+      "start_pss_mib_max": 486.333984375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 636.1474609375,
+      "three_tabs_pss_mib_min": 636.1474609375,
+      "three_tabs_pss_mib_max": 636.1474609375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "prelaunch_on",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 659.90625,
+      "after_back_pss_mib_min": 659.90625,
+      "after_back_pss_mib_max": 659.90625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.19,
+      "animation_cpu_s_min": 1.19,
+      "animation_cpu_s_max": 1.19,
+      "duration_s": 32.110817670822144,
+      "duration_s_min": 32.110817670822144,
+      "duration_s_max": 32.110817670822144,
+      "idle_cpu_s": 0.24,
+      "idle_cpu_s_min": 0.24,
+      "idle_cpu_s_max": 0.24,
+      "idle_pss_mib": 648.0419921875,
+      "idle_pss_mib_min": 648.0419921875,
+      "idle_pss_mib_max": 648.0419921875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 543.4130859375,
+      "one_tab_pss_mib_min": 543.4130859375,
+      "one_tab_pss_mib_max": 543.4130859375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99520038396928,
+      "raf_hz_min": 59.99520038396928,
+      "raf_hz_max": 59.99520038396928,
+      "start_pss_mib": 480.4130859375,
+      "start_pss_mib_min": 480.4130859375,
+      "start_pss_mib_max": 480.4130859375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 622.4599609375,
+      "three_tabs_pss_mib_min": 622.4599609375,
+      "three_tabs_pss_mib_max": 622.4599609375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "processes2",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 670.9775390625,
+      "after_back_pss_mib_min": 670.9775390625,
+      "after_back_pss_mib_max": 670.9775390625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.16,
+      "animation_cpu_s_min": 1.16,
+      "animation_cpu_s_max": 1.16,
+      "duration_s": 32.13125777244568,
+      "duration_s_min": 32.13125777244568,
+      "duration_s_max": 32.13125777244568,
+      "idle_cpu_s": 0.19,
+      "idle_cpu_s_min": 0.19,
+      "idle_cpu_s_max": 0.19,
+      "idle_pss_mib": 652.8798828125,
+      "idle_pss_mib_min": 652.8798828125,
+      "idle_pss_mib_max": 652.8798828125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.029296875,
+      "one_tab_pss_mib_min": 542.029296875,
+      "one_tab_pss_mib_max": 542.029296875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 10,
+      "processes_min": 10,
+      "processes_max": 10,
+      "raf_hz": 60.00138846188176,
+      "raf_hz_min": 60.00138846188176,
+      "raf_hz_max": 60.00138846188176,
+      "start_pss_mib": 472.54296875,
+      "start_pss_mib_min": 472.54296875,
+      "start_pss_mib_max": 472.54296875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 625.6357421875,
+      "three_tabs_pss_mib_min": 625.6357421875,
+      "three_tabs_pss_mib_max": 625.6357421875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "project",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 656.8193359375,
+      "after_back_pss_mib_min": 656.8193359375,
+      "after_back_pss_mib_max": 656.8193359375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.79,
+      "animation_cpu_s_min": 0.79,
+      "animation_cpu_s_max": 0.79,
+      "duration_s": 32.37855005264282,
+      "duration_s_min": 32.37855005264282,
+      "duration_s_max": 32.37855005264282,
+      "idle_cpu_s": 0.1,
+      "idle_cpu_s_min": 0.1,
+      "idle_cpu_s_max": 0.1,
+      "idle_pss_mib": 643.55859375,
+      "idle_pss_mib_min": 643.55859375,
+      "idle_pss_mib_max": 643.55859375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 541.3427734375,
+      "one_tab_pss_mib_min": 541.3427734375,
+      "one_tab_pss_mib_max": 541.3427734375,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99305865437058,
+      "raf_hz_min": 59.99305865437058,
+      "raf_hz_max": 59.99305865437058,
+      "start_pss_mib": 472.912109375,
+      "start_pss_mib_min": 472.912109375,
+      "start_pss_mib_max": 472.912109375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 612.0703125,
+      "three_tabs_pss_mib_min": 612.0703125,
+      "three_tabs_pss_mib_max": 612.0703125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "reader",
+      "n": 1,
+      "ok": 1,
+      "after_action_pss_mib": 652.2822265625,
+      "after_action_pss_mib_min": 652.2822265625,
+      "after_action_pss_mib_max": 652.2822265625,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "after_back_pss_mib": 649.3134765625,
+      "after_back_pss_mib_min": 649.3134765625,
+      "after_back_pss_mib_max": 649.3134765625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.4,
+      "animation_cpu_s_min": 1.4,
+      "animation_cpu_s_max": 1.4,
+      "duration_s": 36.975563049316406,
+      "duration_s_min": 36.975563049316406,
+      "duration_s_max": 36.975563049316406,
+      "idle_cpu_s": 0.19,
+      "idle_cpu_s_min": 0.19,
+      "idle_cpu_s_max": 0.19,
+      "idle_pss_mib": 614.8837890625,
+      "idle_pss_mib_min": 614.8837890625,
+      "idle_pss_mib_max": 614.8837890625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 540.53515625,
+      "one_tab_pss_mib_min": 540.53515625,
+      "one_tab_pss_mib_max": 540.53515625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.98800239952011,
+      "raf_hz_min": 59.98800239952011,
+      "raf_hz_max": 59.98800239952011,
+      "start_pss_mib": 471.9375,
+      "start_pss_mib_min": 471.9375,
+      "start_pss_mib_max": 471.9375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 611.8466796875,
+      "three_tabs_pss_mib_min": 611.8466796875,
+      "three_tabs_pss_mib_max": 611.8466796875,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "software_wr",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 663.884765625,
+      "after_back_pss_mib_min": 663.884765625,
+      "after_back_pss_mib_max": 663.884765625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.26,
+      "animation_cpu_s_min": 1.26,
+      "animation_cpu_s_max": 1.26,
+      "duration_s": 31.978578090667725,
+      "duration_s_min": 31.978578090667725,
+      "duration_s_max": 31.978578090667725,
+      "idle_cpu_s": 0.28,
+      "idle_cpu_s_min": 0.28,
+      "idle_cpu_s_max": 0.28,
+      "idle_pss_mib": 647.4013671875,
+      "idle_pss_mib_min": 647.4013671875,
+      "idle_pss_mib_max": 647.4013671875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 544.392578125,
+      "one_tab_pss_mib_min": 544.392578125,
+      "one_tab_pss_mib_max": 544.392578125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.0,
+      "raf_hz_min": 60.0,
+      "raf_hz_max": 60.0,
+      "start_pss_mib": 473.7451171875,
+      "start_pss_mib_min": 473.7451171875,
+      "start_pss_mib_max": 473.7451171875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 626.798828125,
+      "three_tabs_pss_mib_min": 626.798828125,
+      "three_tabs_pss_mib_max": 626.798828125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "start_blank",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 639.7822265625,
+      "after_back_pss_mib_min": 639.7822265625,
+      "after_back_pss_mib_max": 639.7822265625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.17,
+      "animation_cpu_s_min": 1.17,
+      "animation_cpu_s_max": 1.17,
+      "duration_s": 31.989084720611572,
+      "duration_s_min": 31.989084720611572,
+      "duration_s_max": 31.989084720611572,
+      "idle_cpu_s": 0.14,
+      "idle_cpu_s_min": 0.14,
+      "idle_cpu_s_max": 0.14,
+      "idle_pss_mib": 634.5673828125,
+      "idle_pss_mib_min": 634.5673828125,
+      "idle_pss_mib_max": 634.5673828125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 518.966796875,
+      "one_tab_pss_mib_min": 518.966796875,
+      "one_tab_pss_mib_max": 518.966796875,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.00674455971912,
+      "raf_hz_min": 60.00674455971912,
+      "raf_hz_max": 60.00674455971912,
+      "start_pss_mib": 460.3896484375,
+      "start_pss_mib_min": 460.3896484375,
+      "start_pss_mib_max": 460.3896484375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 593.7705078125,
+      "three_tabs_pss_mib_min": 593.7705078125,
+      "three_tabs_pss_mib_max": 593.7705078125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "stock",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 695.564453125,
+      "after_back_pss_mib_min": 695.564453125,
+      "after_back_pss_mib_max": 695.564453125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.89,
+      "animation_cpu_s_min": 0.89,
+      "animation_cpu_s_max": 0.89,
+      "duration_s": 36.273045778274536,
+      "duration_s_min": 36.273045778274536,
+      "duration_s_max": 36.273045778274536,
+      "idle_cpu_s": 0.77,
+      "idle_cpu_s_min": 0.77,
+      "idle_cpu_s_max": 0.77,
+      "idle_pss_mib": 687.015625,
+      "idle_pss_mib_min": 687.015625,
+      "idle_pss_mib_max": 687.015625,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 583.92578125,
+      "one_tab_pss_mib_min": 583.92578125,
+      "one_tab_pss_mib_max": 583.92578125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 14,
+      "processes_min": 14,
+      "processes_max": 14,
+      "raf_hz": 59.094610968754324,
+      "raf_hz_min": 59.094610968754324,
+      "raf_hz_max": 59.094610968754324,
+      "start_pss_mib": 497.7197265625,
+      "start_pss_mib_min": 497.7197265625,
+      "start_pss_mib_max": 497.7197265625,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 677.431640625,
+      "three_tabs_pss_mib_min": 677.431640625,
+      "three_tabs_pss_mib_max": 677.431640625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "ubol_basic",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 809.41015625,
+      "after_back_pss_mib_min": 809.41015625,
+      "after_back_pss_mib_max": 809.41015625,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 0.96,
+      "animation_cpu_s_min": 0.96,
+      "animation_cpu_s_max": 0.96,
+      "duration_s": 33.43138790130615,
+      "duration_s_min": 33.43138790130615,
+      "duration_s_max": 33.43138790130615,
+      "idle_cpu_s": 0.16,
+      "idle_cpu_s_min": 0.16,
+      "idle_cpu_s_max": 0.16,
+      "idle_pss_mib": 800.49609375,
+      "idle_pss_mib_min": 800.49609375,
+      "idle_pss_mib_max": 800.49609375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 810.03125,
+      "one_tab_pss_mib_min": 810.03125,
+      "one_tab_pss_mib_max": 810.03125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.98980173370527,
+      "raf_hz_min": 59.98980173370527,
+      "raf_hz_max": 59.98980173370527,
+      "start_pss_mib": 707.935546875,
+      "start_pss_mib_min": 707.935546875,
+      "start_pss_mib_max": 707.935546875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 818.3359375,
+      "three_tabs_pss_mib_min": 818.3359375,
+      "three_tabs_pss_mib_max": 818.3359375,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "ubol_complete",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 825.1328125,
+      "after_back_pss_mib_min": 825.1328125,
+      "after_back_pss_mib_max": 825.1328125,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.12,
+      "animation_cpu_s_min": 1.12,
+      "animation_cpu_s_max": 1.12,
+      "duration_s": 33.2028865814209,
+      "duration_s_min": 33.2028865814209,
+      "duration_s_max": 33.2028865814209,
+      "idle_cpu_s": 0.25,
+      "idle_cpu_s_min": 0.25,
+      "idle_cpu_s_max": 0.25,
+      "idle_pss_mib": 795.763671875,
+      "idle_pss_mib_min": 795.763671875,
+      "idle_pss_mib_max": 795.763671875,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 787.056640625,
+      "one_tab_pss_mib_min": 787.056640625,
+      "one_tab_pss_mib_max": 787.056640625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 60.00495908752789,
+      "raf_hz_min": 60.00495908752789,
+      "raf_hz_max": 60.00495908752789,
+      "start_pss_mib": 706.818359375,
+      "start_pss_mib_min": 706.818359375,
+      "start_pss_mib_max": 706.818359375,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 799.4541015625,
+      "three_tabs_pss_mib_min": 799.4541015625,
+      "three_tabs_pss_mib_max": 799.4541015625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "ubol_optimal",
+      "n": 1,
+      "ok": 1,
+      "after_back_pss_mib": 836.708984375,
+      "after_back_pss_mib_min": 836.708984375,
+      "after_back_pss_mib_max": 836.708984375,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.08,
+      "animation_cpu_s_min": 1.08,
+      "animation_cpu_s_max": 1.08,
+      "duration_s": 36.83517670631409,
+      "duration_s_min": 36.83517670631409,
+      "duration_s_max": 36.83517670631409,
+      "idle_cpu_s": 0.17,
+      "idle_cpu_s_min": 0.17,
+      "idle_cpu_s_max": 0.17,
+      "idle_pss_mib": 810.736328125,
+      "idle_pss_mib_min": 810.736328125,
+      "idle_pss_mib_max": 810.736328125,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 822.9072265625,
+      "one_tab_pss_mib_min": 822.9072265625,
+      "one_tab_pss_mib_max": 822.9072265625,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.99543836336412,
+      "raf_hz_min": 59.99543836336412,
+      "raf_hz_max": 59.99543836336412,
+      "start_pss_mib": 709.0810546875,
+      "start_pss_mib_min": 709.0810546875,
+      "start_pss_mib_max": 709.0810546875,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 844.5478515625,
+      "three_tabs_pss_mib_min": 844.5478515625,
+      "three_tabs_pss_mib_max": 844.5478515625,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    },
+    {
+      "suite": "screening",
+      "variant": "unload_early",
+      "n": 1,
+      "ok": 1,
+      "after_action_pss_mib": 505.185546875,
+      "after_action_pss_mib_min": 505.185546875,
+      "after_action_pss_mib_max": 505.185546875,
+      "after_action_swap_pss_mib": 0.0,
+      "after_action_swap_pss_mib_min": 0.0,
+      "after_action_swap_pss_mib_max": 0.0,
+      "after_back_pss_mib": 543.88671875,
+      "after_back_pss_mib_min": 543.88671875,
+      "after_back_pss_mib_max": 543.88671875,
+      "after_back_swap_pss_mib": 0.0,
+      "after_back_swap_pss_mib_min": 0.0,
+      "after_back_swap_pss_mib_max": 0.0,
+      "animation_cpu_s": 1.41,
+      "animation_cpu_s_min": 1.41,
+      "animation_cpu_s_max": 1.41,
+      "duration_s": 38.883567571640015,
+      "duration_s_min": 38.883567571640015,
+      "duration_s_max": 38.883567571640015,
+      "idle_cpu_s": 0.11,
+      "idle_cpu_s_min": 0.11,
+      "idle_cpu_s_max": 0.11,
+      "idle_pss_mib": 530.615234375,
+      "idle_pss_mib_min": 530.615234375,
+      "idle_pss_mib_max": 530.615234375,
+      "idle_swap_pss_mib": 0.0,
+      "idle_swap_pss_mib_min": 0.0,
+      "idle_swap_pss_mib_max": 0.0,
+      "one_tab_pss_mib": 542.4736328125,
+      "one_tab_pss_mib_min": 542.4736328125,
+      "one_tab_pss_mib_max": 542.4736328125,
+      "one_tab_swap_pss_mib": 0.0,
+      "one_tab_swap_pss_mib_min": 0.0,
+      "one_tab_swap_pss_mib_max": 0.0,
+      "processes": 9,
+      "processes_min": 9,
+      "processes_max": 9,
+      "raf_hz": 59.866497710106465,
+      "raf_hz_min": 59.866497710106465,
+      "raf_hz_max": 59.866497710106465,
+      "start_pss_mib": 473.931640625,
+      "start_pss_mib_min": 473.931640625,
+      "start_pss_mib_max": 473.931640625,
+      "start_swap_pss_mib": 0.0,
+      "start_swap_pss_mib_min": 0.0,
+      "start_swap_pss_mib_max": 0.0,
+      "three_tabs_pss_mib": 613.76953125,
+      "three_tabs_pss_mib_min": 613.76953125,
+      "three_tabs_pss_mib_max": 613.76953125,
+      "three_tabs_swap_pss_mib": 0.0,
+      "three_tabs_swap_pss_mib_min": 0.0,
+      "three_tabs_swap_pss_mib_max": 0.0
+    }
+  ]
+}

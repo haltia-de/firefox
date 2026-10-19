@@ -1,0 +1,33 @@
+{
+  "codec": "h264",
+  "repeat": 2,
+  "started": 1792338005.668888,
+  "autoplay": {
+    "allowed": false,
+    "error": "NotAllowedError"
+  },
+  "before": {
+    "dropped": 0,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 1.107557,
+    "total": 34,
+    "width": 640
+  },
+  "after": {
+    "dropped": 0,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 5.188259,
+    "total": 156,
+    "width": 640
+  },
+  "cpu_s": 1.96,
+  "pss_mib": 510.8740234375,
+  "status": "ok",
+  "ended": 1792338031.2133691
+}

@@ -1,0 +1,260 @@
+{
+  "prefs": {
+    "browser.tabs.unloadOnLowMemory": {
+      "value": true,
+      "defaultValue": true,
+      "user": false,
+      "locked": false
+    },
+    "browser.tabs.min_inactive_duration_before_unload": {
+      "value": 60000,
+      "defaultValue": 60000,
+      "user": false,
+      "locked": false
+    },
+    "general.config.filename": {
+      "value": "b8k-firefox.cfg",
+      "defaultValue": "b8k-firefox.cfg",
+      "user": false,
+      "locked": false
+    },
+    "dom.ipc.processPrelaunch.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "dom.ipc.processCount": {
+      "value": 1,
+      "defaultValue": 1,
+      "user": false,
+      "locked": false
+    },
+    "dom.ipc.processCount.webIsolated": {
+      "value": 1,
+      "defaultValue": 1,
+      "user": false,
+      "locked": false
+    },
+    "fission.autostart": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "dom.ipc.keepProcessesAlive.web": {
+      "value": 0,
+      "defaultValue": 0,
+      "user": false,
+      "locked": false
+    },
+    "browser.sessionstore.resume_from_crash": {
+      "value": false,
+      "defaultValue": false,
+      "user": true,
+      "locked": false
+    },
+    "browser.startup.page": {
+      "value": 0,
+      "defaultValue": 1,
+      "user": true,
+      "locked": false
+    },
+    "browser.low_commit_space_threshold_percent": {
+      "value": 10,
+      "defaultValue": 10,
+      "user": false,
+      "locked": false
+    },
+    "media.autoplay.default": {
+      "value": 5,
+      "defaultValue": 5,
+      "user": false,
+      "locked": false
+    },
+    "ui.prefersReducedMotion": {
+      "value": 1,
+      "defaultValue": 1,
+      "user": false,
+      "locked": false
+    },
+    "accessibility.force_disabled": {
+      "value": 1,
+      "defaultValue": 1,
+      "user": false,
+      "locked": false
+    },
+    "layout.css.prefers-color-scheme.content-override": {
+      "value": 1,
+      "defaultValue": 1,
+      "user": false,
+      "locked": false
+    },
+    "browser.theme.content-theme": {
+      "value": 2,
+      "defaultValue": 1,
+      "user": true,
+      "locked": false
+    },
+    "browser.theme.toolbar-theme": {
+      "value": 2,
+      "defaultValue": 1,
+      "user": true,
+      "locked": false
+    },
+    "browser.sessionhistory.max_total_viewers": {
+      "value": 0,
+      "defaultValue": 0,
+      "user": false,
+      "locked": false
+    },
+    "network.prefetch-next": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "network.dns.disablePrefetch": {
+      "value": true,
+      "defaultValue": true,
+      "user": false,
+      "locked": false
+    },
+    "network.http.speculative-parallel-limit": {
+      "value": 0,
+      "defaultValue": 0,
+      "user": false,
+      "locked": false
+    },
+    "browser.urlbar.speculativeConnect.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.places.speculativeConnect.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.ml.enable": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.ml.chat.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.translations.enable": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "extensions.pocket.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.feeds.topsites": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.feeds.section.topstories": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.feeds.system.topstories": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.feeds.snippets": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.showSponsored": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.showSponsoredTopSites": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.newtabpage.activity-stream.feeds.weatherfeed": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.contentblocking.report.lockwise.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "app.normandy.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "app.shield.optoutstudies.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "browser.discovery.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "extensions.getAddons.cache.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "extensions.htmlaboutaddons.recommendations.enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    },
+    "general.config.obscure_value": {
+      "value": 0,
+      "defaultValue": 0,
+      "user": false,
+      "locked": false
+    },
+    "general.config.sandbox_enabled": {
+      "value": false,
+      "defaultValue": false,
+      "user": false,
+      "locked": false
+    }
+  },
+  "mismatches": {},
+  "checked": 42,
+  "comparison_field": "defaultValue",
+  "status": "pass"
+}

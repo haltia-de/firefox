@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/user/.local/state/b8k-firefox-validation/after_main.py", line 20, in <module>
+    assert len(results) == 25 and all(json.loads(p.read_text())['status'] == 'ok' for p in results)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

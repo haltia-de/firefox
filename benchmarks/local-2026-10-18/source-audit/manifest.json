@@ -1,0 +1,32 @@
+[
+  {
+    "file": "build/moz.configure/lto-pgo.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/build/moz.configure/lto-pgo.configure",
+    "bytes": 15402
+  },
+  {
+    "file": "build/moz.configure/arm.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/build/moz.configure/arm.configure",
+    "bytes": 8353
+  },
+  {
+    "file": "build/moz.configure/memory.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/build/moz.configure/memory.configure",
+    "bytes": 5531
+  },
+  {
+    "file": "toolkit/moz.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/toolkit/moz.configure",
+    "bytes": 131847
+  },
+  {
+    "file": "js/moz.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/js/moz.configure",
+    "bytes": 40633
+  },
+  {
+    "file": "browser/moz.configure",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/browser/moz.configure",
+    "bytes": 1891
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "mode_requested": "optimal",
+  "started": 1792338118.1474652,
+  "startup_tabs": [
+    {
+      "selected": true,
+      "uri": "about:home"
+    }
+  ],
+  "extension_state": {
+    "managed": {
+      "defaultFiltering": "optimal"
+    },
+    "modes": {
+      "basic": [],
+      "complete": [],
+      "none": [],
+      "optimal": [
+        "all-urls"
+      ]
+    },
+    "permissions": {
+      "data_collection": [],
+      "origins": [
+        "<all_urls>"
+      ],
+      "permissions": [
+        "activeTab",
+        "alarms",
+        "declarativeNetRequest",
+        "scripting",
+        "storage",
+        "unlimitedStorage"
+      ]
+    }
+  },
+  "status": "ok",
+  "ended": 1792338142.6076152
+}

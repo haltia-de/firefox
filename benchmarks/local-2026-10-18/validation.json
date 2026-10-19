@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "counts": {
+    "runs": {
+      "ok": 31,
+      "error": 1
+    },
+    "focused-memory": {
+      "ok": 15
+    },
+    "focused-cpu": {
+      "ok": 6
+    },
+    "focused-image-stress": {
+      "ok": 6
+    },
+    "video": {
+      "ok": 9
+    },
+    "extension-state": {
+      "ok": 3
+    }
+  },
+  "checks": [
+    "Python AST",
+    "local Markdown links",
+    "whitespace",
+    "expected run counts",
+    "expected statuses",
+    "uBOL effective modes",
+    "unchanged project input SHA256"
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "corpus": "repeated_text",
+    "codec": "lz4",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 43008,
+    "ratio": 48.76190476190476,
+    "median_ms": 1.1300870683044195,
+    "min_ms": 1.0766139021143317,
+    "max_ms": 2.3813520092517138,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "repeated_text",
+    "codec": "zstd1",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 39424,
+    "ratio": 53.1948051948052,
+    "median_ms": 2.7454260271042585,
+    "min_ms": 2.6115659857168794,
+    "max_ms": 4.394112038426101,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "repeated_text",
+    "codec": "zstd3",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 39424,
+    "ratio": 53.1948051948052,
+    "median_ms": 2.984216087497771,
+    "min_ms": 2.7284829411655664,
+    "max_ms": 3.533273935317993,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "random_pixels",
+    "codec": "lz4",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 2106368,
+    "ratio": 0.9956246961594555,
+    "median_ms": 1.451381016522646,
+    "min_ms": 1.413908088579774,
+    "max_ms": 1.796187018044293,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "random_pixels",
+    "codec": "zstd1",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 2102272,
+    "ratio": 0.997564539698003,
+    "median_ms": 4.155444912612438,
+    "min_ms": 3.9191879332065582,
+    "max_ms": 4.367197980172932,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "random_pixels",
+    "codec": "zstd3",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 2102272,
+    "ratio": 0.997564539698003,
+    "median_ms": 5.282027064822614,
+    "min_ms": 5.084775970317423,
+    "max_ms": 5.853799055330455,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "sparse_heap",
+    "codec": "lz4",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 13822,
+    "ratio": 151.72565475329185,
+    "median_ms": 0.914031988941133,
+    "min_ms": 0.9060280863195658,
+    "max_ms": 0.9715559426695108,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "sparse_heap",
+    "codec": "zstd1",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 9728,
+    "ratio": 215.57894736842104,
+    "median_ms": 2.6701510651037097,
+    "min_ms": 2.5419339071959257,
+    "max_ms": 3.2838620245456696,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  },
+  {
+    "corpus": "sparse_heap",
+    "codec": "zstd3",
+    "page_bytes": 4096,
+    "input_bytes": 2097152,
+    "output_bytes": 9728,
+    "ratio": 215.57894736842104,
+    "median_ms": 2.862837049178779,
+    "min_ms": 2.759016933850944,
+    "max_ms": 3.0898660188540816,
+    "scope": "synthetic x86_64 userspace pages; Python/FFI overhead; no zram allocator, Firefox heap or ARM timing"
+  }
+]

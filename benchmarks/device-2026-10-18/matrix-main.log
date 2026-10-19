@@ -1,0 +1,192 @@
+{"time": 1792352630.9242141, "event": "inhibitor", "held": true}
+{"time": 1792352630.9564295, "event": "start", "run": "main-installed-0"}
+{"time": 1792352687.5725884, "event": "session_ready", "run": "main-installed-0", "seconds": 56.61603403091431}
+{"time": 1792352693.4199274, "event": "tab_decoded", "run": "main-installed-0", "tab": 0, "decoded": 16}
+{"time": 1792352700.3992996, "event": "tab_decoded", "run": "main-installed-0", "tab": 1, "decoded": 16}
+{"time": 1792352706.533007, "event": "tab_decoded", "run": "main-installed-0", "tab": 2, "decoded": 16}
+{"time": 1792352742.7009194, "event": "finish", "run": "main-installed-0", "status": "ok", "seconds": 111.70836567878723, "error": null}
+{"time": 1792352746.2366626, "event": "start", "run": "main-baseline-0"}
+{"time": 1792352801.7934031, "event": "session_ready", "run": "main-baseline-0", "seconds": 55.556599855422974}
+{"time": 1792352807.9267895, "event": "tab_decoded", "run": "main-baseline-0", "tab": 0, "decoded": 16}
+{"time": 1792352813.3212695, "event": "tab_decoded", "run": "main-baseline-0", "tab": 1, "decoded": 16}
+{"time": 1792352819.4308658, "event": "tab_decoded", "run": "main-baseline-0", "tab": 2, "decoded": 16}
+{"time": 1792352855.5936947, "event": "finish", "run": "main-baseline-0", "status": "ok", "seconds": 109.30934119224548, "error": null}
+{"time": 1792352859.14651, "event": "start", "run": "main-factor8-0"}
+{"time": 1792352910.109202, "event": "session_ready", "run": "main-factor8-0", "seconds": 50.96265530586243}
+{"time": 1792352915.9042892, "event": "tab_decoded", "run": "main-factor8-0", "tab": 0, "decoded": 16}
+{"time": 1792352921.5820231, "event": "tab_decoded", "run": "main-factor8-0", "tab": 1, "decoded": 16}
+{"time": 1792352928.8225791, "event": "tab_decoded", "run": "main-factor8-0", "tab": 2, "decoded": 16}
+{"time": 1792352964.9852552, "event": "finish", "run": "main-factor8-0", "status": "ok", "seconds": 105.80761671066284, "error": null}
+{"time": 1792352968.5031056, "event": "start", "run": "main-factor16-0"}
+{"time": 1792353019.2013903, "event": "session_ready", "run": "main-factor16-0", "seconds": 50.69827651977539}
+{"time": 1792353025.0703006, "event": "tab_decoded", "run": "main-factor16-0", "tab": 0, "decoded": 16}
+{"time": 1792353030.5751798, "event": "tab_decoded", "run": "main-factor16-0", "tab": 1, "decoded": 16}
+{"time": 1792353035.796358, "event": "tab_decoded", "run": "main-factor16-0", "tab": 2, "decoded": 16}
+{"time": 1792353071.865798, "event": "finish", "run": "main-factor16-0", "status": "ok", "seconds": 103.32703757286072, "error": null}
+{"time": 1792353075.4946096, "event": "start", "run": "main-fps30-0"}
+{"time": 1792353126.6590705, "event": "session_ready", "run": "main-fps30-0", "seconds": 51.16444659233093}
+{"time": 1792353131.8280158, "event": "tab_decoded", "run": "main-fps30-0", "tab": 0, "decoded": 16}
+{"time": 1792353136.7619753, "event": "tab_decoded", "run": "main-fps30-0", "tab": 1, "decoded": 16}
+{"time": 1792353142.603019, "event": "tab_decoded", "run": "main-fps30-0", "tab": 2, "decoded": 16}
+{"time": 1792353178.575183, "event": "finish", "run": "main-fps30-0", "status": "ok", "seconds": 103.04101133346558, "error": null}
+{"time": 1792353182.1927168, "event": "start", "run": "main-fps30-1"}
+{"time": 1792353233.2424734, "event": "session_ready", "run": "main-fps30-1", "seconds": 51.04973006248474}
+{"time": 1792353238.6511881, "event": "tab_decoded", "run": "main-fps30-1", "tab": 0, "decoded": 16}
+{"time": 1792353244.9028642, "event": "tab_decoded", "run": "main-fps30-1", "tab": 1, "decoded": 16}
+{"time": 1792353249.5174737, "event": "tab_decoded", "run": "main-fps30-1", "tab": 2, "decoded": 16}
+{"time": 1792353285.5259528, "event": "finish", "run": "main-fps30-1", "status": "ok", "seconds": 103.29014778137207, "error": null}
+{"time": 1792353288.9539614, "event": "start", "run": "main-factor16-1"}
+{"time": 1792353339.186656, "event": "session_ready", "run": "main-factor16-1", "seconds": 50.23265194892883}
+{"time": 1792353344.541397, "event": "tab_decoded", "run": "main-factor16-1", "tab": 0, "decoded": 16}
+{"time": 1792353350.6478245, "event": "tab_decoded", "run": "main-factor16-1", "tab": 1, "decoded": 16}
+{"time": 1792353356.0818994, "event": "tab_decoded", "run": "main-factor16-1", "tab": 2, "decoded": 16}
+{"time": 1792353392.1118603, "event": "finish", "run": "main-factor16-1", "status": "ok", "seconds": 103.13020849227905, "error": null}
+{"time": 1792353395.6998413, "event": "start", "run": "main-factor8-1"}
+{"time": 1792353447.0132518, "event": "session_ready", "run": "main-factor8-1", "seconds": 51.31337070465088}
+{"time": 1792353452.7090962, "event": "tab_decoded", "run": "main-factor8-1", "tab": 0, "decoded": 16}
+{"time": 1792353459.0414217, "event": "tab_decoded", "run": "main-factor8-1", "tab": 1, "decoded": 16}
+{"time": 1792353465.7834878, "event": "tab_decoded", "run": "main-factor8-1", "tab": 2, "decoded": 16}
+{"time": 1792353503.116841, "event": "finish", "run": "main-factor8-1", "status": "ok", "seconds": 107.36958026885986, "error": null}
+{"time": 1792353506.6692576, "event": "start", "run": "main-baseline-1"}
+{"time": 1792353556.1865304, "event": "session_ready", "run": "main-baseline-1", "seconds": 49.51706123352051}
+{"time": 1792353561.4340782, "event": "tab_decoded", "run": "main-baseline-1", "tab": 0, "decoded": 16}
+{"time": 1792353568.148324, "event": "tab_decoded", "run": "main-baseline-1", "tab": 1, "decoded": 16}
+{"time": 1792353574.2560062, "event": "tab_decoded", "run": "main-baseline-1", "tab": 2, "decoded": 16}
+{"time": 1792353610.175127, "event": "finish", "run": "main-baseline-1", "status": "ok", "seconds": 103.49120736122131, "error": null}
+{"time": 1792353613.8113637, "event": "start", "run": "main-installed-1"}
+Traceback (most recent call last):
+  File "/home/user/.local/state/b8k-firefox-validation/run_device.py", line 378, in run
+    assert result['restored']['ready'] and result['restored']['images'] == 16
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1279, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 2076, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/usr/lib/firefox/firefox', '--no-remote', '--profile', '/home/user/.local/state/b8k-firefox-validation/runs/main-installed-1/home/.config/mozilla/firefox/b8k.default', '--marionette', '--remote-allow-system-access', 'about:blank']' timed out after 30 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/.local/state/b8k-firefox-validation/run_device.py", line 433, in <module>
+    if existing.exists() and json.loads(existing.read_text()).get('status') == 'ok':
+    
+  File "/home/user/.local/state/b8k-firefox-validation/run_device.py", line 424, in main
+    raise SystemExit('Cannot inhibit idle; refusing timed rendering measurements')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/.local/state/b8k-firefox-validation/run_device.py", line 381, in run
+    except Exception:
+                ^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1279, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 2076, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/usr/lib/firefox/firefox', '--no-remote', '--profile', '/home/user/.local/state/b8k-firefox-validation/runs/main-installed-1/home/.config/mozilla/firefox/b8k.default', '--marionette', '--remote-allow-system-access', 'about:blank']' timed out after 10 seconds
+{"time": 1792356030.5994327, "event": "inhibitor", "held": true}
+{"time": 1792356030.622179, "event": "skip_completed", "run": "main-installed-0"}
+{"time": 1792356030.625293, "event": "skip_completed", "run": "main-baseline-0"}
+{"time": 1792356030.6282263, "event": "skip_completed", "run": "main-factor8-0"}
+{"time": 1792356030.6311522, "event": "skip_completed", "run": "main-factor16-0"}
+{"time": 1792356030.6339931, "event": "skip_completed", "run": "main-fps30-0"}
+{"time": 1792356030.6368868, "event": "skip_completed", "run": "main-fps30-1"}
+{"time": 1792356030.639725, "event": "skip_completed", "run": "main-factor16-1"}
+{"time": 1792356030.6425269, "event": "skip_completed", "run": "main-factor8-1"}
+{"time": 1792356030.645333, "event": "skip_completed", "run": "main-baseline-1"}
+{"time": 1792356030.6461496, "event": "start", "run": "main-installed-1"}
+{"time": 1792356082.6884153, "event": "session_ready", "run": "main-installed-1", "seconds": 52.04220390319824}
+{"time": 1792356087.5575762, "event": "tab_decoded", "run": "main-installed-1", "tab": 0, "decoded": 16}
+{"time": 1792356092.6711788, "event": "tab_decoded", "run": "main-installed-1", "tab": 1, "decoded": 16}
+{"time": 1792356097.0300784, "event": "tab_decoded", "run": "main-installed-1", "tab": 2, "decoded": 16}
+{"time": 1792356132.8601289, "event": "finish", "run": "main-installed-1", "status": "ok", "seconds": 102.20410227775574, "error": null}
+{"time": 1792356136.0985973, "event": "start", "run": "main-installed-2"}
+{"time": 1792356182.235031, "event": "session_ready", "run": "main-installed-2", "seconds": 46.136430740356445}
+{"time": 1792356187.2713227, "event": "tab_decoded", "run": "main-installed-2", "tab": 0, "decoded": 16}
+{"time": 1792356191.6501245, "event": "tab_decoded", "run": "main-installed-2", "tab": 1, "decoded": 16}
+{"time": 1792356195.6706283, "event": "tab_decoded", "run": "main-installed-2", "tab": 2, "decoded": 16}
+{"time": 1792356231.4967804, "event": "finish", "run": "main-installed-2", "status": "ok", "seconds": 95.3912091255188, "error": null}
+{"time": 1792356234.690693, "event": "start", "run": "main-baseline-2"}
+{"time": 1792356285.9046128, "event": "session_ready", "run": "main-baseline-2", "seconds": 51.213907957077026}
+{"time": 1792356290.7471185, "event": "tab_decoded", "run": "main-baseline-2", "tab": 0, "decoded": 16}
+{"time": 1792356295.3643064, "event": "tab_decoded", "run": "main-baseline-2", "tab": 1, "decoded": 16}
+{"time": 1792356299.7999644, "event": "tab_decoded", "run": "main-baseline-2", "tab": 2, "decoded": 16}
+{"time": 1792356335.8031342, "event": "finish", "run": "main-baseline-2", "status": "ok", "seconds": 101.10206246376038, "error": null}
+{"time": 1792356338.997322, "event": "start", "run": "main-factor8-2"}
+{"time": 1792356382.5989878, "event": "session_ready", "run": "main-factor8-2", "seconds": 43.60165524482727}
+{"time": 1792356387.4093893, "event": "tab_decoded", "run": "main-factor8-2", "tab": 0, "decoded": 16}
+{"time": 1792356391.6992369, "event": "tab_decoded", "run": "main-factor8-2", "tab": 1, "decoded": 16}
+{"time": 1792356396.1157978, "event": "tab_decoded", "run": "main-factor8-2", "tab": 2, "decoded": 16}
+{"time": 1792356432.0625067, "event": "finish", "run": "main-factor8-2", "status": "ok", "seconds": 93.05276846885681, "error": null}
+{"time": 1792356435.3565037, "event": "start", "run": "main-factor16-2"}
+{"time": 1792356479.9496503, "event": "session_ready", "run": "main-factor16-2", "seconds": 44.593138217926025}
+{"time": 1792356484.7999818, "event": "tab_decoded", "run": "main-factor16-2", "tab": 0, "decoded": 16}
+{"time": 1792356489.2812426, "event": "tab_decoded", "run": "main-factor16-2", "tab": 1, "decoded": 16}
+{"time": 1792356493.359517, "event": "tab_decoded", "run": "main-factor16-2", "tab": 2, "decoded": 16}
+{"time": 1792356529.1976266, "event": "finish", "run": "main-factor16-2", "status": "ok", "seconds": 93.83361196517944, "error": null}
+{"time": 1792356532.4139805, "event": "start", "run": "main-fps30-2"}
+{"time": 1792356575.0595436, "event": "session_ready", "run": "main-fps30-2", "seconds": 42.645551443099976}
+{"time": 1792356579.7178218, "event": "tab_decoded", "run": "main-fps30-2", "tab": 0, "decoded": 16}
+{"time": 1792356584.173476, "event": "tab_decoded", "run": "main-fps30-2", "tab": 1, "decoded": 16}
+{"time": 1792356589.010538, "event": "tab_decoded", "run": "main-fps30-2", "tab": 2, "decoded": 16}
+{"time": 1792356625.12359, "event": "finish", "run": "main-fps30-2", "status": "ok", "seconds": 92.70436000823975, "error": null}
+{"time": 1792356628.3475327, "event": "start", "run": "main-fps30-3"}
+{"time": 1792356671.0048244, "event": "session_ready", "run": "main-fps30-3", "seconds": 42.65729022026062}
+{"time": 1792356675.8315008, "event": "tab_decoded", "run": "main-fps30-3", "tab": 0, "decoded": 16}
+{"time": 1792356680.6327245, "event": "tab_decoded", "run": "main-fps30-3", "tab": 1, "decoded": 16}
+{"time": 1792356684.9285164, "event": "tab_decoded", "run": "main-fps30-3", "tab": 2, "decoded": 16}
+{"time": 1792356720.7845588, "event": "finish", "run": "main-fps30-3", "status": "ok", "seconds": 92.41736078262329, "error": null}
+{"time": 1792356724.073565, "event": "start", "run": "main-factor16-3"}
+{"time": 1792356766.9716275, "event": "session_ready", "run": "main-factor16-3", "seconds": 42.89806008338928}
+{"time": 1792356771.7530482, "event": "tab_decoded", "run": "main-factor16-3", "tab": 0, "decoded": 16}
+{"time": 1792356776.1800609, "event": "tab_decoded", "run": "main-factor16-3", "tab": 1, "decoded": 16}
+{"time": 1792356780.0685358, "event": "tab_decoded", "run": "main-factor16-3", "tab": 2, "decoded": 16}
+{"time": 1792356815.9288013, "event": "finish", "run": "main-factor16-3", "status": "ok", "seconds": 91.84740257263184, "error": null}
+{"time": 1792356819.1482022, "event": "start", "run": "main-factor8-3"}
+{"time": 1792356860.359281, "event": "session_ready", "run": "main-factor8-3", "seconds": 41.21106433868408}
+{"time": 1792356865.3511612, "event": "tab_decoded", "run": "main-factor8-3", "tab": 0, "decoded": 16}
+{"time": 1792356869.9500442, "event": "tab_decoded", "run": "main-factor8-3", "tab": 1, "decoded": 16}
+{"time": 1792356874.3272724, "event": "tab_decoded", "run": "main-factor8-3", "tab": 2, "decoded": 16}
+{"time": 1792356910.2229369, "event": "finish", "run": "main-factor8-3", "status": "ok", "seconds": 91.06159496307373, "error": null}
+{"time": 1792356913.433768, "event": "start", "run": "main-baseline-3"}
+{"time": 1792356954.8562186, "event": "session_ready", "run": "main-baseline-3", "seconds": 41.42243719100952}
+{"time": 1792356959.5729127, "event": "tab_decoded", "run": "main-baseline-3", "tab": 0, "decoded": 16}
+{"time": 1792356964.383617, "event": "tab_decoded", "run": "main-baseline-3", "tab": 1, "decoded": 16}
+{"time": 1792356968.839738, "event": "tab_decoded", "run": "main-baseline-3", "tab": 2, "decoded": 16}
+{"time": 1792357004.7149074, "event": "finish", "run": "main-baseline-3", "status": "ok", "seconds": 91.27145385742188, "error": null}
+{"time": 1792357007.8949401, "event": "start", "run": "main-installed-3"}
+{"time": 1792357057.839909, "event": "session_ready", "run": "main-installed-3", "seconds": 49.94496297836304}
+{"time": 1792357062.6532447, "event": "tab_decoded", "run": "main-installed-3", "tab": 0, "decoded": 16}
+{"time": 1792357067.0890427, "event": "tab_decoded", "run": "main-installed-3", "tab": 1, "decoded": 16}
+{"time": 1792357071.5325959, "event": "tab_decoded", "run": "main-installed-3", "tab": 2, "decoded": 16}
+{"time": 1792357107.533161, "event": "finish", "run": "main-installed-3", "status": "ok", "seconds": 99.62680196762085, "error": null}
+{"time": 1792357110.8035238, "event": "start", "run": "main-installed-4"}
+{"time": 1792357155.7689111, "event": "session_ready", "run": "main-installed-4", "seconds": 44.96539115905762}
+{"time": 1792357160.4998653, "event": "tab_decoded", "run": "main-installed-4", "tab": 0, "decoded": 16}
+{"time": 1792357165.1378949, "event": "tab_decoded", "run": "main-installed-4", "tab": 1, "decoded": 16}
+{"time": 1792357169.468712, "event": "tab_decoded", "run": "main-installed-4", "tab": 2, "decoded": 16}
+{"time": 1792357205.3822563, "event": "finish", "run": "main-installed-4", "status": "ok", "seconds": 94.55638527870178, "error": null}
+{"time": 1792357208.5798218, "event": "start", "run": "main-baseline-4"}
+{"time": 1792357259.1402113, "event": "session_ready", "run": "main-baseline-4", "seconds": 50.56038689613342}
+{"time": 1792357263.9938273, "event": "tab_decoded", "run": "main-baseline-4", "tab": 0, "decoded": 16}
+{"time": 1792357268.5012286, "event": "tab_decoded", "run": "main-baseline-4", "tab": 1, "decoded": 16}
+{"time": 1792357272.90733, "event": "tab_decoded", "run": "main-baseline-4", "tab": 2, "decoded": 16}
+{"time": 1792357309.0117588, "event": "finish", "run": "main-baseline-4", "status": "ok", "seconds": 100.41014528274536, "error": null}
+{"time": 1792357312.2288525, "event": "start", "run": "main-factor8-4"}
+{"time": 1792357356.5532763, "event": "session_ready", "run": "main-factor8-4", "seconds": 44.32441735267639}
+{"time": 1792357361.457441, "event": "tab_decoded", "run": "main-factor8-4", "tab": 0, "decoded": 16}
+{"time": 1792357366.280143, "event": "tab_decoded", "run": "main-factor8-4", "tab": 1, "decoded": 16}
+{"time": 1792357371.6046686, "event": "tab_decoded", "run": "main-factor8-4", "tab": 2, "decoded": 16}
+{"time": 1792357407.5771937, "event": "finish", "run": "main-factor8-4", "status": "ok", "seconds": 95.34291052818298, "error": null}
+{"time": 1792357410.7743144, "event": "start", "run": "main-factor16-4"}
+{"time": 1792357452.702636, "event": "session_ready", "run": "main-factor16-4", "seconds": 41.9283127784729}
+{"time": 1792357457.5589736, "event": "tab_decoded", "run": "main-factor16-4", "tab": 0, "decoded": 16}
+{"time": 1792357462.5009346, "event": "tab_decoded", "run": "main-factor16-4", "tab": 1, "decoded": 16}
+{"time": 1792357466.2850616, "event": "tab_decoded", "run": "main-factor16-4", "tab": 2, "decoded": 16}
+{"time": 1792357502.1035106, "event": "finish", "run": "main-factor16-4", "status": "ok", "seconds": 91.31573534011841, "error": null}
+{"time": 1792357505.3216958, "event": "start", "run": "main-fps30-4"}
+{"time": 1792357547.615886, "event": "session_ready", "run": "main-fps30-4", "seconds": 42.2941734790802}
+{"time": 1792357552.2763164, "event": "tab_decoded", "run": "main-fps30-4", "tab": 0, "decoded": 16}
+{"time": 1792357557.3461611, "event": "tab_decoded", "run": "main-fps30-4", "tab": 1, "decoded": 16}
+{"time": 1792357561.8576198, "event": "tab_decoded", "run": "main-fps30-4", "tab": 2, "decoded": 16}
+{"time": 1792357597.8427522, "event": "finish", "run": "main-fps30-4", "status": "ok", "seconds": 92.50744318962097, "error": null}
+{"time": 1792357601.4394233, "event": "complete"}

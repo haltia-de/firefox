@@ -1,0 +1,889 @@
+{
+  "variant": "project",
+  "repeat": 0,
+  "suite": "cpu",
+  "phases": {},
+  "started": 1792337503.2613153,
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "151.0.3",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20260602093637",
+    "moz:geckodriverVersion": "0.36.0",
+    "moz:headless": false,
+    "moz:platformVersion": "7.0.0-34-generic",
+    "moz:processID": 17237,
+    "moz:profile": "/home/bench/lab/focused-cpu-project-0",
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0"
+  },
+  "start": [
+    {
+      "at": 1792337517.5532775,
+      "totals": {
+        "Rss": 813680,
+        "Pss": 484094,
+        "Private_Dirty": 291680,
+        "SwapPss": 0,
+        "ticks": 322,
+        "major_faults": 0
+      },
+      "count": 8,
+      "processes": [
+        {
+          "pid": 17237,
+          "ppid": 17234,
+          "name": "firefox",
+          "ticks": 225,
+          "major_faults": 0,
+          "Rss": 374180,
+          "Pss": 284633,
+          "Private_Dirty": 186456,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17298,
+          "ppid": 17237,
+          "name": "Socket Process",
+          "ticks": 4,
+          "major_faults": 0,
+          "Rss": 65076,
+          "Pss": 23673,
+          "Private_Dirty": 9276,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17305,
+          "ppid": 17237,
+          "name": "forkserver",
+          "ticks": 2,
+          "major_faults": 0,
+          "Rss": 50388,
+          "Pss": 13558,
+          "Private_Dirty": 440,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17313,
+          "ppid": 17237,
+          "name": "glycin-image-rs",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 4152,
+          "Pss": 3519,
+          "Private_Dirty": 400,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17321,
+          "ppid": 17305,
+          "name": "WebExtensions",
+          "ticks": 27,
+          "major_faults": 0,
+          "Rss": 108964,
+          "Pss": 55163,
+          "Private_Dirty": 35500,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17329,
+          "ppid": 17305,
+          "name": "RDD Process",
+          "ticks": 1,
+          "major_faults": 0,
+          "Rss": 41092,
+          "Pss": 16048,
+          "Private_Dirty": 3596,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17353,
+          "ppid": 17305,
+          "name": "Privileged Cont",
+          "ticks": 63,
+          "major_faults": 0,
+          "Rss": 141036,
+          "Pss": 81256,
+          "Private_Dirty": 54464,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17410,
+          "ppid": 17305,
+          "name": "Utility Process",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 28792,
+          "Pss": 6244,
+          "Private_Dirty": 1548,
+          "SwapPss": 0
+        }
+      ],
+      "unreadable": [],
+      "cgroup": {
+        "memory.current": "673513472",
+        "memory.peak": "1073778688",
+        "memory.events": "low 0\nhigh 0\nmax 1601\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+        "cpu.stat": "usage_usec 553110963\nuser_usec 428213799\nsystem_usec 124897163\nnice_usec 8000\ncore_sched.force_idle_usec 0\nnr_periods 12248\nnr_throttled 435\nthrottled_usec 14961411\nnr_bursts 0\nburst_usec 0",
+        "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=106116\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=98662"
+      }
+    },
+    {
+      "at": 1792337518.103943,
+      "totals": {
+        "Rss": 813648,
+        "Pss": 484062,
+        "Private_Dirty": 291648,
+        "SwapPss": 0,
+        "ticks": 322,
+        "major_faults": 0
+      },
+      "count": 8,
+      "processes": [
+        {
+          "pid": 17237,
+          "ppid": 17234,
+          "name": "firefox",
+          "ticks": 225,
+          "major_faults": 0,
+          "Rss": 374148,
+          "Pss": 284601,
+          "Private_Dirty": 186424,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17298,
+          "ppid": 17237,
+          "name": "Socket Process",
+          "ticks": 4,
+          "major_faults": 0,
+          "Rss": 65076,
+          "Pss": 23673,
+          "Private_Dirty": 9276,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17305,
+          "ppid": 17237,
+          "name": "forkserver",
+          "ticks": 2,
+          "major_faults": 0,
+          "Rss": 50388,
+          "Pss": 13558,
+          "Private_Dirty": 440,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17313,
+          "ppid": 17237,
+          "name": "glycin-image-rs",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 4152,
+          "Pss": 3519,
+          "Private_Dirty": 400,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17321,
+          "ppid": 17305,
+          "name": "WebExtensions",
+          "ticks": 27,
+          "major_faults": 0,
+          "Rss": 108964,
+          "Pss": 55163,
+          "Private_Dirty": 35500,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17329,
+          "ppid": 17305,
+          "name": "RDD Process",
+          "ticks": 1,
+          "major_faults": 0,
+          "Rss": 41092,
+          "Pss": 16048,
+          "Private_Dirty": 3596,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17353,
+          "ppid": 17305,
+          "name": "Privileged Cont",
+          "ticks": 63,
+          "major_faults": 0,
+          "Rss": 141036,
+          "Pss": 81256,
+          "Private_Dirty": 54464,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17410,
+          "ppid": 17305,
+          "name": "Utility Process",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 28792,
+          "Pss": 6244,
+          "Private_Dirty": 1548,
+          "SwapPss": 0
+        }
+      ],
+      "unreadable": [],
+      "cgroup": {
+        "memory.current": "673030144",
+        "memory.peak": "1073778688",
+        "memory.events": "low 0\nhigh 0\nmax 1601\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+        "cpu.stat": "usage_usec 553161620\nuser_usec 428227070\nsystem_usec 124934549\nnice_usec 8000\ncore_sched.force_idle_usec 0\nnr_periods 12251\nnr_throttled 435\nthrottled_usec 14961411\nnr_bursts 0\nburst_usec 0",
+        "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=106116\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=98662"
+      }
+    },
+    {
+      "at": 1792337518.654678,
+      "totals": {
+        "Rss": 815544,
+        "Pss": 485958,
+        "Private_Dirty": 293544,
+        "SwapPss": 0,
+        "ticks": 332,
+        "major_faults": 0
+      },
+      "count": 8,
+      "processes": [
+        {
+          "pid": 17237,
+          "ppid": 17234,
+          "name": "firefox",
+          "ticks": 235,
+          "major_faults": 0,
+          "Rss": 376044,
+          "Pss": 286497,
+          "Private_Dirty": 188320,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17298,
+          "ppid": 17237,
+          "name": "Socket Process",
+          "ticks": 4,
+          "major_faults": 0,
+          "Rss": 65076,
+          "Pss": 23673,
+          "Private_Dirty": 9276,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17305,
+          "ppid": 17237,
+          "name": "forkserver",
+          "ticks": 2,
+          "major_faults": 0,
+          "Rss": 50388,
+          "Pss": 13558,
+          "Private_Dirty": 440,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17313,
+          "ppid": 17237,
+          "name": "glycin-image-rs",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 4152,
+          "Pss": 3519,
+          "Private_Dirty": 400,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17321,
+          "ppid": 17305,
+          "name": "WebExtensions",
+          "ticks": 27,
+          "major_faults": 0,
+          "Rss": 108964,
+          "Pss": 55163,
+          "Private_Dirty": 35500,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17329,
+          "ppid": 17305,
+          "name": "RDD Process",
+          "ticks": 1,
+          "major_faults": 0,
+          "Rss": 41092,
+          "Pss": 16048,
+          "Private_Dirty": 3596,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17353,
+          "ppid": 17305,
+          "name": "Privileged Cont",
+          "ticks": 63,
+          "major_faults": 0,
+          "Rss": 141036,
+          "Pss": 81256,
+          "Private_Dirty": 54464,
+          "SwapPss": 0
+        },
+        {
+          "pid": 17410,
+          "ppid": 17305,
+          "name": "Utility Process",
+          "ticks": 0,
+          "major_faults": 0,
+          "Rss": 28792,
+          "Pss": 6244,
+          "Private_Dirty": 1548,
+          "SwapPss": 0
+        }
+      ],
+      "unreadable": [],
+      "cgroup": {
+        "memory.current": "689491968",
+        "memory.peak": "1073778688",
+        "memory.events": "low 0\nhigh 0\nmax 1601\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 13",
+        "cpu.stat": "usage_usec 553304338\nuser_usec 428300057\nsystem_usec 125004281\nnice_usec 8000\ncore_sched.force_idle_usec 0\nnr_periods 12256\nnr_throttled 435\nthrottled_usec 14961411\nnr_bursts 0\nburst_usec 0",
+        "memory.pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=106116\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=98662"
+      }
+    }
+  ],
+  "buildconfig": "Build Configuration\n\nPlease be aware that this page doesn't reflect all the options used to build Firefox.\n\nSource\n\nBuilt from https://hg.mozilla.org/releases/mozilla-release/rev/2d490a949ec649b79bfdecbc07b7531472dc41a0\n\nBuild platform\ntarget\nx86_64-alpine-linux-musl\nBuild tools\nCompiler\tVersion\tCompiler flags\n/usr/bin/clang-22\t22.1.3\t-pthread -ffunction-sections -fdata-sections -fno-math-errno -fPIC -Os -Wformat -Werror=format-security -fno-plt -g -g0 -O2\n/usr/bin/clang++-22 -std=gnu++20\t22.1.3\t-fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -Os -Wformat -Werror=format-security -D_GLIBCXX_ASSERTIONS=1 -D_LIBCPP_ENABLE_THREAD_SAFETY_ANNOTATIONS=1 -D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -fno-plt -g -g0 -O2 -Wno-deprecated-builtins -Wno-deprecated-declarations -Os -Wformat -Werror=format-security -fno-plt -g -g0 -O2 -fomit-frame-pointer -funwind-tables\n/usr/bin/rustc\t1.96.0\t\nConfigure options\n\n--host=x86_64-alpine-linux-musl --target=x86_64-alpine-linux-musl MOZILLA_OFFICIAL=1 --enable-update-channel=release MOZBUILD_STATE_PATH=/home/buildozer/aports/community/firefox/src/mozbuild --prefix=/usr --disable-tests 'CFLAGS=-Os -Wformat -Werror=format-security -fno-plt -g -g0 -O2' 'CXXFLAGS=-Os -Wformat -Werror=format-security -D_GLIBCXX_ASSERTIONS=1 -D_LIBCPP_ENABLE_THREAD_SAFETY_ANNOTATIONS=1 -D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -fno-plt -g -g0 -O2 -Wno-deprecated-builtins -Wno-deprecated-declarations' 'LDFLAGS=-Wl,--as-needed,-O1,--sort-common -Wl,-z,pack-relative-relocs -Wl,--thinlto-jobs=48 -Wl,-rpath,/usr/lib/firefox' '--enable-optimize=-Os -Wformat -Werror=format-security -fno-plt -g -g0 -O2' CC=clang-22 CXX=clang++-22 --enable-linker=lld --disable-debug-symbols --enable-hardening --disable-jemalloc --enable-profile-use=cross --with-pgo-profile-path=/home/buildozer/aports/community/firefox/src/firefox-151.0.3/merged.profdata --with-pgo-jarlog=/home/buildozer/aports/community/firefox/src/firefox-151.0.3/jarlog --enable-lto=cross --with-distribution-id=org.alpinelinux --enable-alsa --disable-cargo-incremental --with-libclang-path=/usr/lib --with-system-ffi --with-system-icu --enable-default-toolkit=cairo-gtk3-wayland --with-mozilla-api-keyfile=/home/buildozer/aports/community/firefox/src/firefox-151.0.3/mozilla-api-key --with-system-webp --enable-packed-relative-relocs --with-unsigned-addon-scopes=app,system --allow-addon-sideload --with-system-libvpx --with-system-jpeg --with-system-png --with-wasi-sysroot=/usr/share/wasi-sysroot --with-system-nss --disable-updater --enable-official-branding MOZ_APP_REMOTINGNAME=firefox --with-system-libevent --disable-crashreporter --enable-system-pixman --disable-install-strip --with-system-zlib",
+  "javascript": [
+    {
+      "checksum": 58277562446.38358,
+      "ms": 21
+    },
+    {
+      "checksum": 58277562446.38358,
+      "ms": 31
+    },
+    {
+      "checksum": 58277562446.38358,
+      "ms": 29
+    },
+    {
+      "checksum": 58277562446.38358,
+      "ms": 28
+    },
+    {
+      "checksum": 58277562446.38358,
+      "ms": 25
+    },
+    {
+      "checksum": 58277562446.38358,
+      "ms": 24
+    }
+  ],
+  "gfx": {
+    "featureLog": {
+      "fallbacks": [],
+      "features": [
+        {
+          "description": "Compositing",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "message": "Acceleration blocked by platform",
+              "status": "blocked",
+              "type": "env"
+            }
+          ],
+          "name": "HW_COMPOSITING",
+          "status": "blocked"
+        },
+        {
+          "description": "OpenGL Compositing",
+          "log": [
+            {
+              "failureId": "FEATURE_FAILURE_OPENGL_NEED_HWCOMP",
+              "message": "Hardware compositing is disabled",
+              "status": "unavailable",
+              "type": "default"
+            }
+          ],
+          "name": "OPENGL_COMPOSITING",
+          "status": "unavailable"
+        },
+        {
+          "description": "WebRender",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_SOFTWARE_GL",
+              "message": "Blocklisted by gfxInfo",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "WEBRENDER",
+          "status": "blocklisted"
+        },
+        {
+          "description": "WebRender native compositor",
+          "log": [
+            {
+              "failureId": "FEATURE_FAILURE_DISABLED",
+              "message": "Disabled by default",
+              "status": "disabled",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_WEBRENDER_COMPOSITOR_DISABLED",
+              "message": "Blocklisted by gfxInfo",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "WEBRENDER_COMPOSITOR",
+          "status": "blocklisted"
+        },
+        {
+          "description": "WebRender partial present",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "WEBRENDER_PARTIAL",
+          "status": "available"
+        },
+        {
+          "description": "WebRender shader disk cache",
+          "log": [
+            {
+              "failureId": "FEATURE_FAILURE_DISABLED",
+              "message": "Disabled by default",
+              "status": "disabled",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_WR_DISABLED",
+              "message": "WebRender disabled",
+              "status": "unavailable",
+              "type": "runtime"
+            }
+          ],
+          "name": "WEBRENDER_SHADER_CACHE",
+          "status": "unavailable"
+        },
+        {
+          "description": "WebRender optimized shaders",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_WR_DISABLED",
+              "message": "WebRender disabled",
+              "status": "unavailable",
+              "type": "runtime"
+            }
+          ],
+          "name": "WEBRENDER_OPTIMIZED_SHADERS",
+          "status": "unavailable"
+        },
+        {
+          "description": "WebRender ANGLE",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_OS_NOT_SUPPORTED",
+              "message": "OS not supported",
+              "status": "unavailable",
+              "type": "env"
+            }
+          ],
+          "name": "WEBRENDER_ANGLE",
+          "status": "unavailable"
+        },
+        {
+          "description": "WebRender DirectComposition",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_DCOMP_PREF_DISABLED",
+              "message": "User disabled via pref",
+              "status": "disabled",
+              "type": "user"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_NO_GPU_PROCESS",
+              "message": "Requires GPU process",
+              "status": "unavailable",
+              "type": "env"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_DCOMP_NOT_ANGLE",
+              "message": "Requires ANGLE",
+              "status": "unavailable",
+              "type": "runtime"
+            }
+          ],
+          "name": "WEBRENDER_DCOMP_PRESENT",
+          "status": "unavailable"
+        },
+        {
+          "description": "WebRender scissored cache clears",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "WEBRENDER_SCISSORED_CACHE_CLEARS",
+          "status": "available"
+        },
+        {
+          "description": "WebGPU",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "WEBGPU",
+          "status": "available"
+        },
+        {
+          "description": "X11 EGL",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "X11_EGL",
+          "status": "available"
+        },
+        {
+          "description": "DMABUF",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_NO_DRM_DEVICE",
+              "message": "Failed to configure",
+              "status": "failed",
+              "type": "runtime"
+            }
+          ],
+          "name": "DMABUF",
+          "status": "failed"
+        },
+        {
+          "description": "Hardware video decoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_DECODING_TEST_FAILED",
+              "message": "Blocklisted by gfxInfo",
+              "status": "blocklisted",
+              "type": "env"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_DECODING_TEST_FAILED",
+              "message": "Force disabled by gfxInfo",
+              "status": "unavailable",
+              "type": "runtime"
+            }
+          ],
+          "name": "HARDWARE_VIDEO_DECODING",
+          "status": "unavailable"
+        },
+        {
+          "description": "Hardware video encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "HARDWARE_VIDEO_ENCODING",
+          "status": "available"
+        },
+        {
+          "description": "WebGL DMABuf surface export",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_BROKEN_DRIVER",
+              "message": "Blocklisted by gfxInfo",
+              "status": "blocked",
+              "type": "env"
+            }
+          ],
+          "name": "DMABUF_SURFACE_EXPORT",
+          "status": "blocked"
+        },
+        {
+          "description": "Backdrop filter",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "BACKDROP_FILTER",
+          "status": "available"
+        },
+        {
+          "description": "canvas renderer thread",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "CANVAS_RENDERER_THREAD",
+          "status": "available"
+        },
+        {
+          "description": "Accelerated Canvas2D",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_DISABLED_BY_SOFTWARE_WEBRENDER",
+              "message": "Disabled by Software WebRender",
+              "status": "blocked",
+              "type": "env"
+            }
+          ],
+          "name": "ACCELERATED_CANVAS2D",
+          "status": "blocked"
+        },
+        {
+          "description": "DMABuf for WebGL",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "DMABUF_WEBGL",
+          "status": "available"
+        },
+        {
+          "description": "VP8 hardware encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "message": "#BLOCKLIST_FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "VP8_HW_ENCODE",
+          "status": "blocklisted"
+        },
+        {
+          "description": "VP9 hardware encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "message": "#BLOCKLIST_FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "VP9_HW_ENCODE",
+          "status": "blocklisted"
+        },
+        {
+          "description": "H.264 hardware encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "message": "#BLOCKLIST_FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "H264_HW_ENCODE",
+          "status": "blocklisted"
+        },
+        {
+          "description": "AV1 hardware encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "message": "#BLOCKLIST_FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "AV1_HW_ENCODE",
+          "status": "blocklisted"
+        },
+        {
+          "description": "HEVC hardware encoding",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "message": "#BLOCKLIST_FEATURE_FAILURE_VIDEO_ENCODING_MISSING",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "HEVC_HW_ENCODE",
+          "status": "blocklisted"
+        },
+        {
+          "description": "OpenGL normalized 16-bit texture formats",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "GL_NORM16_TEXTURES",
+          "status": "available"
+        },
+        {
+          "description": "WebGPU external textures",
+          "log": [
+            {
+              "failureId": "FEATURE_FAILURE_DISABLED",
+              "message": "Disabled by default",
+              "status": "disabled",
+              "type": "default"
+            },
+            {
+              "failureId": "WEBGPU_EXTERNAL_TEXTURE_UNSUPPORTED_OS",
+              "message": "WebGPU external textures are not supported on this Operating Sy",
+              "status": "blocked",
+              "type": "runtime"
+            }
+          ],
+          "name": "WEBGPU_EXTERNAL_TEXTURE",
+          "status": "blocked"
+        },
+        {
+          "description": "Mesa glthread enabled",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_EGL_X11",
+              "message": "No glthread with EGL and X11",
+              "status": "failed",
+              "type": "env"
+            }
+          ],
+          "name": "MESA_THREADING",
+          "status": "failed"
+        },
+        {
+          "description": "WebGL",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            }
+          ],
+          "name": "WEBGL",
+          "status": "available"
+        },
+        {
+          "description": "HDR video supported",
+          "log": [
+            {
+              "status": "available",
+              "type": "default"
+            },
+            {
+              "failureId": "FEATURE_FAILURE_VIDEO_DECODING_TEST_FAILED",
+              "message": "Blocklisted by gfxInfo",
+              "status": "blocklisted",
+              "type": "env"
+            }
+          ],
+          "name": "VIDEO_HDR",
+          "status": "blocklisted"
+        }
+      ]
+    },
+    "features": {
+      "compositor": "webrender_software",
+      "gpuProcess": {
+        "status": "unused"
+      },
+      "hwCompositing": {
+        "status": "blocked:"
+      },
+      "openglCompositing": {
+        "status": "unavailable:FEATURE_FAILURE_OPENGL_NEED_HWCOMP"
+      },
+      "webrender": {
+        "status": "blocklisted:FEATURE_FAILURE_SOFTWARE_GL"
+      },
+      "wrCompositor": {
+        "status": "blocklisted:FEATURE_FAILURE_WEBRENDER_COMPOSITOR_DISABLED"
+      }
+    }
+  },
+  "status": "ok",
+  "ended": 1792337527.158943
+}

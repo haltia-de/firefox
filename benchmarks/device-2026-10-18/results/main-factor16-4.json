@@ -1,0 +1,680 @@
+{
+  "variant": "factor16",
+  "repeat": 4,
+  "pressure_run": false,
+  "started": 1792357410.7743013,
+  "status": "ok",
+  "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+  "harness_sha256": "a77c10459d2866394c2c36723fe0b0628d03777d68bc1027ca19bb30f324a3ee",
+  "binary": "/home/user/.local/state/b8k-firefox-validation/firefox-app/firefox",
+  "pid": 10075,
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "151.0.3",
+    "platformName": "linux",
+    "setWindowRect": true,
+    "unhandledPromptBehavior": "dismiss and notify",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64; Mobile; rv:151.0) Gecko/20100101 Firefox/151.0",
+    "moz:buildID": "20260602093637",
+    "moz:headless": false,
+    "moz:platformVersion": "7.1.0-b8000h25-g7dd245445adf-dirty",
+    "moz:processID": 10075,
+    "moz:profile": "/home/user/.local/state/b8k-firefox-validation/runs/main-factor16-4/home/.config/mozilla/firefox/b8k.default",
+    "moz:shutdownTimeout": 60000,
+    "pageLoadStrategy": "normal",
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "strictFileInteractability": false,
+    "moz:accessibilityChecks": false,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "proxy": {}
+  },
+  "runtime": {
+    "abi": "arm-eabi-gcc3",
+    "version": "151.0.3",
+    "prefs": {
+      "dom.ipc.processCount": 1,
+      "fission.autostart": false,
+      "layout.frame_rate": -1,
+      "dom.ipc.processPrelaunch.enabled": false,
+      "general.config.filename": "b8k-firefox.cfg",
+      "image.mem.surfacecache.size_factor": 16,
+      "browser.tabs.unloadOnLowMemory": true,
+      "browser.tabs.min_inactive_duration_before_unload": 60000,
+      "browser.low_commit_space_threshold_percent": 10,
+      "browser.low_commit_space_threshold_mb": 200,
+      "browser.cache.disk.enable": true,
+      "javascript.options.ion": true
+    },
+    "gfx": {
+      "compositor": "webrender_software",
+      "hwCompositing": {
+        "status": "blocked:"
+      },
+      "gpuProcess": {
+        "status": "unused"
+      },
+      "webrender": {
+        "status": "blocklisted:FEATURE_FAILURE_SOFTWARE_GL"
+      },
+      "wrCompositor": {
+        "status": "blocklisted:FEATURE_FAILURE_WEBRENDER_COMPOSITOR_DISABLED"
+      },
+      "openglCompositing": {
+        "status": "unavailable:FEATURE_FAILURE_OPENGL_NEED_HWCOMP"
+      }
+    },
+    "policy": 1,
+    "ubOL": true
+  },
+  "session_ready_seconds": 41.9283127784729,
+  "fixture": [
+    {
+      "ready": true,
+      "images": 16,
+      "decoded": 16,
+      "width": 1160,
+      "height": 671,
+      "visibility": "visible"
+    },
+    {
+      "ready": true,
+      "images": 16,
+      "decoded": 16,
+      "width": 1160,
+      "height": 671,
+      "visibility": "visible"
+    },
+    {
+      "ready": true,
+      "images": 16,
+      "decoded": 16,
+      "width": 1160,
+      "height": 671,
+      "visibility": "visible"
+    }
+  ],
+  "loaded_samples": [
+    {
+      "time": 1792357473.4427314,
+      "processes": [
+        {
+          "pid": 10075,
+          "ppid": 1874,
+          "start": "165103",
+          "ticks": 6620,
+          "Rss": 369688,
+          "Pss": 289413,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10115,
+          "ppid": 10075,
+          "start": "165325",
+          "ticks": 26,
+          "Rss": 37196,
+          "Pss": 11801,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10150,
+          "ppid": 10075,
+          "start": "165528",
+          "ticks": 15,
+          "Rss": 26596,
+          "Pss": 5372,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10225,
+          "ppid": 10150,
+          "start": "166337",
+          "ticks": 1081,
+          "Rss": 221788,
+          "Pss": 158315,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10234,
+          "ppid": 10150,
+          "start": "166340",
+          "ticks": 21,
+          "Rss": 30216,
+          "Pss": 8335,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10360,
+          "ppid": 10150,
+          "start": "167572",
+          "ticks": 352,
+          "Rss": 95552,
+          "Pss": 39521,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10397,
+          "ppid": 10150,
+          "start": "168374",
+          "ticks": 13,
+          "Rss": 23596,
+          "Pss": 4391,
+          "SwapPss": 0
+        }
+      ],
+      "totals_kib": {
+        "Pss": 517148,
+        "SwapPss": 0,
+        "Rss": 804632
+      },
+      "available_kib": 408948,
+      "system_swap_used_kib": 100564
+    },
+    {
+      "time": 1792357474.5585208,
+      "processes": [
+        {
+          "pid": 10075,
+          "ppid": 1874,
+          "start": "165103",
+          "ticks": 6620,
+          "Rss": 369676,
+          "Pss": 289401,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10115,
+          "ppid": 10075,
+          "start": "165325",
+          "ticks": 26,
+          "Rss": 37196,
+          "Pss": 11801,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10150,
+          "ppid": 10075,
+          "start": "165528",
+          "ticks": 15,
+          "Rss": 26596,
+          "Pss": 5372,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10225,
+          "ppid": 10150,
+          "start": "166337",
+          "ticks": 1081,
+          "Rss": 221788,
+          "Pss": 158315,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10234,
+          "ppid": 10150,
+          "start": "166340",
+          "ticks": 21,
+          "Rss": 30216,
+          "Pss": 8335,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10360,
+          "ppid": 10150,
+          "start": "167572",
+          "ticks": 352,
+          "Rss": 95552,
+          "Pss": 39521,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10397,
+          "ppid": 10150,
+          "start": "168374",
+          "ticks": 13,
+          "Rss": 23596,
+          "Pss": 4391,
+          "SwapPss": 0
+        }
+      ],
+      "totals_kib": {
+        "Pss": 517136,
+        "SwapPss": 0,
+        "Rss": 804620
+      },
+      "available_kib": 409576,
+      "system_swap_used_kib": 100564
+    },
+    {
+      "time": 1792357475.674543,
+      "processes": [
+        {
+          "pid": 10075,
+          "ppid": 1874,
+          "start": "165103",
+          "ticks": 6621,
+          "Rss": 369676,
+          "Pss": 289401,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10115,
+          "ppid": 10075,
+          "start": "165325",
+          "ticks": 26,
+          "Rss": 37196,
+          "Pss": 11801,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10150,
+          "ppid": 10075,
+          "start": "165528",
+          "ticks": 15,
+          "Rss": 26596,
+          "Pss": 5372,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10225,
+          "ppid": 10150,
+          "start": "166337",
+          "ticks": 1081,
+          "Rss": 221788,
+          "Pss": 158315,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10234,
+          "ppid": 10150,
+          "start": "166340",
+          "ticks": 21,
+          "Rss": 30216,
+          "Pss": 8335,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10360,
+          "ppid": 10150,
+          "start": "167572",
+          "ticks": 353,
+          "Rss": 94512,
+          "Pss": 38481,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10397,
+          "ppid": 10150,
+          "start": "168374",
+          "ticks": 13,
+          "Rss": 23596,
+          "Pss": 4391,
+          "SwapPss": 0
+        }
+      ],
+      "totals_kib": {
+        "Pss": 516096,
+        "SwapPss": 0,
+        "Rss": 803580
+      },
+      "available_kib": 411376,
+      "system_swap_used_kib": 100564
+    }
+  ],
+  "tabs_loaded": [
+    {
+      "pending": false,
+      "selected": false,
+      "age": 17263
+    },
+    {
+      "pending": false,
+      "selected": false,
+      "age": 12448
+    },
+    {
+      "pending": false,
+      "selected": true,
+      "age": 0
+    }
+  ],
+  "scroll": {
+    "frames": 110,
+    "elapsed": 8001.880000000001,
+    "visibility": "visible",
+    "cpu_seconds": 14.67,
+    "before": {
+      "time": 1792357475.81664,
+      "processes": [
+        {
+          "pid": 10075,
+          "ppid": 1874,
+          "start": "165103",
+          "ticks": 6623,
+          "Rss": 369696,
+          "Pss": 289421,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10115,
+          "ppid": 10075,
+          "start": "165325",
+          "ticks": 26,
+          "Rss": 37196,
+          "Pss": 11801,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10150,
+          "ppid": 10075,
+          "start": "165528",
+          "ticks": 15,
+          "Rss": 26596,
+          "Pss": 5372,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10225,
+          "ppid": 10150,
+          "start": "166337",
+          "ticks": 1081,
+          "Rss": 221788,
+          "Pss": 158315,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10234,
+          "ppid": 10150,
+          "start": "166340",
+          "ticks": 21,
+          "Rss": 30216,
+          "Pss": 8335,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10360,
+          "ppid": 10150,
+          "start": "167572",
+          "ticks": 353,
+          "Rss": 94512,
+          "Pss": 38481,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10397,
+          "ppid": 10150,
+          "start": "168374",
+          "ticks": 13,
+          "Rss": 23596,
+          "Pss": 4391,
+          "SwapPss": 0
+        }
+      ],
+      "totals_kib": {
+        "Pss": 516116,
+        "SwapPss": 0,
+        "Rss": 803600
+      },
+      "available_kib": 411376,
+      "system_swap_used_kib": 100564
+    },
+    "after": {
+      "time": 1792357484.0118124,
+      "processes": [
+        {
+          "pid": 10075,
+          "ppid": 1874,
+          "start": "165103",
+          "ticks": 7692,
+          "Rss": 408880,
+          "Pss": 310480,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10115,
+          "ppid": 10075,
+          "start": "165325",
+          "ticks": 26,
+          "Rss": 37196,
+          "Pss": 11801,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10150,
+          "ppid": 10075,
+          "start": "165528",
+          "ticks": 15,
+          "Rss": 26596,
+          "Pss": 5372,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10225,
+          "ppid": 10150,
+          "start": "166337",
+          "ticks": 1478,
+          "Rss": 219144,
+          "Pss": 137550,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10234,
+          "ppid": 10150,
+          "start": "166340",
+          "ticks": 21,
+          "Rss": 30216,
+          "Pss": 8335,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10360,
+          "ppid": 10150,
+          "start": "167572",
+          "ticks": 354,
+          "Rss": 94500,
+          "Pss": 38467,
+          "SwapPss": 0
+        },
+        {
+          "pid": 10397,
+          "ppid": 10150,
+          "start": "168374",
+          "ticks": 13,
+          "Rss": 23596,
+          "Pss": 4391,
+          "SwapPss": 0
+        }
+      ],
+      "totals_kib": {
+        "Pss": 516396,
+        "SwapPss": 0,
+        "Rss": 840128
+      },
+      "available_kib": 414204,
+      "system_swap_used_kib": 100564
+    }
+  },
+  "before_discard": {
+    "time": 1792357491.1294901,
+    "processes": [
+      {
+        "pid": 10075,
+        "ppid": 1874,
+        "start": "165103",
+        "ticks": 7742,
+        "Rss": 410228,
+        "Pss": 311827,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10115,
+        "ppid": 10075,
+        "start": "165325",
+        "ticks": 26,
+        "Rss": 37196,
+        "Pss": 11801,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10150,
+        "ppid": 10075,
+        "start": "165528",
+        "ticks": 15,
+        "Rss": 26596,
+        "Pss": 5372,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10225,
+        "ppid": 10150,
+        "start": "166337",
+        "ticks": 1494,
+        "Rss": 219212,
+        "Pss": 137618,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10234,
+        "ppid": 10150,
+        "start": "166340",
+        "ticks": 21,
+        "Rss": 30216,
+        "Pss": 8335,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10360,
+        "ppid": 10150,
+        "start": "167572",
+        "ticks": 354,
+        "Rss": 93988,
+        "Pss": 37955,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10397,
+        "ppid": 10150,
+        "start": "168374",
+        "ticks": 13,
+        "Rss": 23596,
+        "Pss": 4391,
+        "SwapPss": 0
+      }
+    ],
+    "totals_kib": {
+      "Pss": 517299,
+      "SwapPss": 0,
+      "Rss": 841032
+    },
+    "available_kib": 416980,
+    "system_swap_used_kib": 100564
+  },
+  "discard": [
+    true,
+    true,
+    false
+  ],
+  "after_discard": {
+    "time": 1792357498.4600205,
+    "processes": [
+      {
+        "pid": 10075,
+        "ppid": 1874,
+        "start": "165103",
+        "ticks": 7843,
+        "Rss": 406452,
+        "Pss": 309759,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10115,
+        "ppid": 10075,
+        "start": "165325",
+        "ticks": 26,
+        "Rss": 37196,
+        "Pss": 11795,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10150,
+        "ppid": 10075,
+        "start": "165528",
+        "ticks": 15,
+        "Rss": 26596,
+        "Pss": 5365,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10225,
+        "ppid": 10150,
+        "start": "166337",
+        "ticks": 1504,
+        "Rss": 209368,
+        "Pss": 129407,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10234,
+        "ppid": 10150,
+        "start": "166340",
+        "ticks": 21,
+        "Rss": 30216,
+        "Pss": 8335,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10360,
+        "ppid": 10150,
+        "start": "167572",
+        "ticks": 355,
+        "Rss": 93732,
+        "Pss": 37689,
+        "SwapPss": 0
+      },
+      {
+        "pid": 10397,
+        "ppid": 10150,
+        "start": "168374",
+        "ticks": 13,
+        "Rss": 23596,
+        "Pss": 4391,
+        "SwapPss": 0
+      }
+    ],
+    "totals_kib": {
+      "Pss": 506741,
+      "SwapPss": 0,
+      "Rss": 827156
+    },
+    "available_kib": 428844,
+    "system_swap_used_kib": 100564
+  },
+  "tabs_after_discard": [
+    {
+      "pending": true,
+      "selected": false,
+      "age": 40047
+    },
+    {
+      "pending": true,
+      "selected": false,
+      "age": 35232
+    },
+    {
+      "pending": false,
+      "selected": true,
+      "age": 0
+    }
+  ],
+  "restored": {
+    "ready": true,
+    "images": 16,
+    "location": "http://127.0.0.1:38149/article?tab=0"
+  },
+  "finished": 1792357502.0900366
+}

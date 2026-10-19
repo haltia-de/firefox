@@ -1,0 +1,33 @@
+{
+  "codec": "vp9",
+  "repeat": 1,
+  "started": 1792337954.535139,
+  "autoplay": {
+    "allowed": false,
+    "error": "NotAllowedError"
+  },
+  "before": {
+    "dropped": 1,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 1.102332,
+    "total": 35,
+    "width": 640
+  },
+  "after": {
+    "dropped": 1,
+    "error": null,
+    "height": 360,
+    "paused": false,
+    "ready": 4,
+    "time": 5.176731,
+    "total": 157,
+    "width": 640
+  },
+  "cpu_s": 1.99,
+  "pss_mib": 508.689453125,
+  "status": "ok",
+  "ended": 1792337980.170378
+}

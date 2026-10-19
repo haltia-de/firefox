@@ -1,0 +1,37 @@
+[
+  {
+    "file": "image/SurfaceCache.cpp",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/image/SurfaceCache.cpp",
+    "bytes": 70290,
+    "checks": [
+      "  // Maximum size of the surface cache, in kilobytes.\n  uint64_t surfaceCacheMaxSizeKB =\n      StaticPrefs::image_mem_surfacecache_max_size_kb_AtStartup();\n\n  if (sizeof(uintptr_t) <= 4) {",
+      "\n  if (sizeof(uintptr_t) <= 4) {\n    // Limit surface cache to 1 GB if our address space is 32 bit.\n    surfaceCacheMaxSizeKB = 1024 * 1024;\n  }",
+      "    // Limit surface cache to 1 GB if our address space is 32 bit.\n    surfaceCacheMaxSizeKB = 1024 * 1024;\n  }\n\n  // A knob determining the actual size of the surface cache. Currently the",
+      "  // Compute the size of the surface cache.\n  uint64_t memorySize = PR_GetPhysicalMemorySize();\n  if (memorySize == 0) {\n#if !defined(__DragonFly__)\n    MOZ_ASSERT_UNREACHABLE(\"PR_GetPhysicalMemorySize not implemented here\");",
+      "#if !defined(__DragonFly__)\n    MOZ_ASSERT_UNREACHABLE(\"PR_GetPhysicalMemorySize not implemented here\");\n#endif\n    memorySize = 256 * 1024 * 1024;  // Fall back to 256MB.\n  }"
+    ]
+  },
+  {
+    "file": "netwerk/cache2/CacheObserver.cpp",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/netwerk/cache2/CacheObserver.cpp",
+    "bytes": 7399,
+    "checks": [
+      "  static int32_t sAutoMemoryCacheCapacity = ([] {\n    uint64_t bytes = PR_GetPhysicalMemorySize();\n    // If getting the physical memory failed, arbitrarily assume\n    // 32 MB of RAM. We use a low default to have a reasonable\n    // size on all the devices we support."
+    ]
+  },
+  {
+    "file": "xpcom/base/AvailableMemoryWatcherLinux.cpp",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/xpcom/base/AvailableMemoryWatcherLinux.cpp",
+    "bytes": 17011,
+    "checks": [
+      "\n  return memoryAsPercentage <=\n             StaticPrefs::browser_low_commit_space_threshold_percent() ||\n         memInfo.memAvailable <\n             StaticPrefs::browser_low_commit_space_threshold_mb() * 1024;",
+      "         memInfo.memAvailable <\n             StaticPrefs::browser_low_commit_space_threshold_mb() * 1024;\n}\n\nvoid nsAvailableMemoryWatcher::ShutDown() {"
+    ]
+  },
+  {
+    "file": "modules/libpref/init/StaticPrefList.yaml",
+    "url": "https://raw.githubusercontent.com/mozilla-firefox/firefox/FIREFOX_151_0_3_RELEASE/modules/libpref/init/StaticPrefList.yaml",
+    "bytes": 587512,
+    "checks": []
+  }
+]

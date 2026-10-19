@@ -1,0 +1,33 @@
+{
+  "host": {
+    "architecture": "x86_64",
+    "kernel": "7.0.0-34-generic",
+    "logical_cpus": 4,
+    "python": "3.12.3"
+  },
+  "container": {
+    "image": "alpine:3.24",
+    "alpine": "3.24.2",
+    "firefox": "151.0.3-r0",
+    "geckodriver": "0.36.0-r0",
+    "musl": "1.2.6-r2",
+    "memory_bytes": 1073741824,
+    "swap_bytes": 0,
+    "cpu_quota_cores": 2,
+    "screen": "Xvfb 1280x800x24",
+    "network": "external network disconnected before screening; loopback fixture only",
+    "allocator": "x86_64 binary links libscudo.so; differs from ARMv7 recipe",
+    "firefox_source_stamp": "2d490a949ec649b79bfdecbc07b7531472dc41a0"
+  },
+  "git_head": "5e6821b393f8c0417f784bc662fc2fe67530975e",
+  "input_sha256": {
+    "b8k-ram.js": "5924960144a61565b11e53fba7d485cf99117c03e08a019043d08e335af0b840",
+    "b8k-lean.js": "01a4d72e736f04790035f6ad99eb6b4460845ac2f6abb13fc442142d9e3bffea",
+    "b8k-calm.js": "28b2d65b1d3eceace87744079e494946e84a0ed4f7697a265de4c2b4c21174a7",
+    "b8k-firefox-profile": "a144788aeccc7b422951bcbc9401cd6b4587f636cc93279c2b91ef2310abf9e2",
+    "b8k-policies.py": "cddfc1034b3ea843b238504376c8db263d7032c43b8c5ded8c0bc92f22fe34ec",
+    "install.sh": "0b57187086f74e41947e58b2b7d0373d1d7dd3b7bfb639a54eefacfe7daa50b2"
+  },
+  "scope": "Isolated local mechanism tests; not target-device, live-site, battery or full-rebuild validation",
+  "clk_tck": 100
+}

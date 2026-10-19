@@ -1,0 +1,110 @@
+[
+  {
+    "name": "syntax:install.sh",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:b8k-firefox-configure",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:b8k-firefox-profile",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:packaging/alpine/APKBUILD",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:packaging/alpine/b8k-firefox.post-install",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:packaging/alpine/b8k-firefox.post-upgrade",
+    "status": "pass",
+    "evidence": ""
+  },
+  {
+    "name": "syntax:python",
+    "status": "pass",
+    "evidence": "ast.parse"
+  },
+  {
+    "name": "policy-preservation",
+    "status": "pass",
+    "evidence": {
+      "DisableTelemetry": true,
+      "ExtensionSettings": {
+        "other@test": {
+          "installation_mode": "allowed"
+        },
+        "uBlock0@raymondhill.net": {
+          "installation_mode": "blocked"
+        },
+        "uBOLiteRedux@raymondhill.net": {
+          "installation_mode": "normal_installed",
+          "install_url": "file:///usr/share/b8k-firefox/ubol.xpi",
+          "default_area": "menupanel"
+        },
+        "langpack-ru@firefox.mozilla.org": {
+          "installation_mode": "force_installed",
+          "install_url": "file:///usr/share/b8k-firefox/langpack-ru.xpi"
+        }
+      },
+      "RequestedLocales": [
+        "ru",
+        "en-US"
+      ],
+      "3rdparty": {
+        "Extensions": {
+          "uBOLiteRedux@raymondhill.net": {
+            "defaultFiltering": "complete"
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "profile-idempotence",
+    "status": "pass",
+    "evidence": {
+      "user.js": "3deb08883b417e5bbdf372d3e3fd41922b64ee776083de953c10aa2666d3852d",
+      "chrome/userChrome.css": "9f2f475b044bddb6b9d1c223c0729d47604ad970b3ae9857e81a1e385f0f486b",
+      "chrome/userContent.css": "51a622656b39dae05ed89bce4f61d3d16c29be88c79fe0f97965c29aa13bb2fc"
+    }
+  },
+  {
+    "name": "profile-shell-toggle",
+    "status": "pass",
+    "evidence": "Shell padding removed by regular profile run"
+  },
+  {
+    "name": "profile-experiment-override",
+    "status": "finding",
+    "evidence": [
+      "user_pref(\"dom.ipc.processCount\", 2);",
+      "user_pref(\"dom.ipc.processCount\", 1);"
+    ]
+  },
+  {
+    "name": "installer-source-vs-installed-configure",
+    "status": "finding",
+    "evidence": {
+      "ubol_file_exists": true,
+      "source_configure_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin-lite/latest.xpi",
+      "installed_configure_url": "file:///usr/share/b8k-firefox/ubol.xpi",
+      "installer_exit": 0,
+      "stderr": "b8k-firefox: no langpack-ru.xpi\n"
+    }
+  },
+  {
+    "name": "missing-langpack-download",
+    "status": "pass",
+    "evidence": "Installer continues without missing XPI, as implemented"
+  }
+]

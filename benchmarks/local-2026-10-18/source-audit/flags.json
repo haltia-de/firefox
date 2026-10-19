@@ -1,0 +1,168 @@
+{
+  "--with-arch": [
+    {
+      "file": "build_moz.configure_arm.configure",
+      "lines": [
+        29,
+        37
+      ]
+    }
+  ],
+  "--with-thumb": [
+    {
+      "file": "build_moz.configure_arm.configure",
+      "lines": [
+        46,
+        67,
+        78,
+        86
+      ]
+    }
+  ],
+  "--with-fpu": [
+    {
+      "file": "build_moz.configure_arm.configure",
+      "lines": [
+        97,
+        104
+      ]
+    }
+  ],
+  "--with-float-abi": [
+    {
+      "file": "build_moz.configure_arm.configure",
+      "lines": [
+        113,
+        120
+      ]
+    }
+  ],
+  "--disable-jit": [
+    {
+      "file": "js_moz.configure",
+      "lines": [
+        281,
+        515
+      ]
+    }
+  ],
+  "--disable-ion": [
+    {
+      "file": "js_moz.configure",
+      "lines": [
+        281
+      ]
+    }
+  ],
+  "--enable-jemalloc": [
+    {
+      "file": "js_moz.configure",
+      "lines": [
+        1430
+      ]
+    },
+    {
+      "file": "build_moz.configure_memory.configure",
+      "lines": [
+        16,
+        19,
+        26,
+        27,
+        30,
+        49,
+        78,
+        99,
+        108
+      ]
+    },
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        235,
+        3988
+      ]
+    }
+  ],
+  "--enable-lto": [
+    {
+      "file": "build_moz.configure_lto-pgo.configure",
+      "lines": [
+        246,
+        266,
+        273,
+        307,
+        309,
+        338
+      ]
+    }
+  ],
+  "--enable-profile": [
+    {
+      "file": "build_moz.configure_lto-pgo.configure",
+      "lines": [
+        10,
+        17,
+        27,
+        33,
+        69,
+        82,
+        96,
+        215,
+        225,
+        278,
+        280,
+        330
+      ]
+    }
+  ],
+  "MOZ_DEVTOOLS": [
+    {
+      "file": "browser_moz.configure",
+      "lines": [
+        17
+      ]
+    },
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        41
+      ]
+    }
+  ],
+  "--disable-webrtc": [
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        1475,
+        1481
+      ]
+    }
+  ],
+  "--disable-webspeech": [
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        1241,
+        1244
+      ]
+    }
+  ],
+  "--disable-accessibility": [
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        1988,
+        2002
+      ]
+    }
+  ],
+  "--disable-webdriver": [
+    {
+      "file": "toolkit_moz.configure",
+      "lines": [
+        1384,
+        1389
+      ]
+    }
+  ]
+}

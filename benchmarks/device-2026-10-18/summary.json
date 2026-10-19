@@ -1,0 +1,1087 @@
+{
+  "groups": {
+    "baseline": {
+      "n": 5,
+      "loaded_pss_mib": {
+        "median": 606.42578125,
+        "min": 345.1669921875,
+        "max": 618.138671875
+      },
+      "loaded_pss_swap_mib": {
+        "median": 618.138671875,
+        "min": 385.9033203125,
+        "max": 620.140625
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 50.56038689613342,
+        "min": 41.42243719100952,
+        "max": 55.556599855422974
+      },
+      "total_seconds": {
+        "median": 101.10206246376038,
+        "min": 91.27145385742188,
+        "max": 109.30934119224548
+      },
+      "scroll_cpu_seconds": {
+        "median": 14.35,
+        "min": 13.92,
+        "max": 15.7
+      },
+      "scroll_cpu_per_8s": {
+        "median": 14.271141790379605,
+        "min": 13.900504542379311,
+        "max": 15.562158183886227
+      },
+      "scroll_elapsed_ms": {
+        "median": 8070.860000000001,
+        "min": 8011.220000000001,
+        "max": 8112.200000000001
+      },
+      "raf_hz": {
+        "median": 15.103816896802233,
+        "min": 12.514155864430803,
+        "max": 15.57418920770985
+      },
+      "before_discard_pss_swap_mib": {
+        "median": 641.88671875,
+        "min": 388.9560546875,
+        "max": 652.9375
+      },
+      "after_discard_pss_swap_mib": {
+        "median": 632.6416015625,
+        "min": 389.76171875,
+        "max": 643.1640625
+      },
+      "discard_delta_mib": {
+        "median": -9.2451171875,
+        "min": -9.7734375,
+        "max": 1.150390625
+      },
+      "tabs_pending_after_discard": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "pressure-baseline": {
+      "n": 1,
+      "loaded_pss_mib": {
+        "median": 620.3984375,
+        "min": 620.3984375,
+        "max": 620.3984375
+      },
+      "loaded_pss_swap_mib": {
+        "median": 620.3984375,
+        "min": 620.3984375,
+        "max": 620.3984375
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 43.13528275489807,
+        "min": 43.13528275489807,
+        "max": 43.13528275489807
+      },
+      "total_seconds": {
+        "median": 134.03717494010925,
+        "min": 134.03717494010925,
+        "max": 134.03717494010925
+      },
+      "pressure_allocated_mib": {
+        "median": 128,
+        "min": 128,
+        "max": 128
+      },
+      "max_pending_pressure": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "factor16": {
+      "n": 5,
+      "loaded_pss_mib": {
+        "median": 497.24609375,
+        "min": 361.3232421875,
+        "max": 505.015625
+      },
+      "loaded_pss_swap_mib": {
+        "median": 497.24609375,
+        "min": 405.4140625,
+        "max": 505.015625
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 44.593138217926025,
+        "min": 41.9283127784729,
+        "max": 50.69827651977539
+      },
+      "total_seconds": {
+        "median": 93.83361196517944,
+        "min": 91.31573534011841,
+        "max": 103.32703757286072
+      },
+      "scroll_cpu_seconds": {
+        "median": 14.54,
+        "min": 13.33,
+        "max": 14.9
+      },
+      "scroll_cpu_per_8s": {
+        "median": 14.523298207061877,
+        "min": 13.25253891007064,
+        "max": 14.86755156870131
+      },
+      "scroll_elapsed_ms": {
+        "median": 8017.459999999999,
+        "min": 8001.880000000001,
+        "max": 8046.759999999998
+      },
+      "raf_hz": {
+        "median": 14.842606012377987,
+        "min": 13.746769509165345,
+        "max": 15.731908305448732
+      },
+      "before_discard_pss_swap_mib": {
+        "median": 498.6240234375,
+        "min": 411.798828125,
+        "max": 505.1748046875
+      },
+      "after_discard_pss_swap_mib": {
+        "median": 488.828125,
+        "min": 404.537109375,
+        "max": 494.8642578125
+      },
+      "discard_delta_mib": {
+        "median": -10.310546875,
+        "min": -13.5771484375,
+        "max": -7.26171875
+      },
+      "tabs_pending_after_discard": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "factor8": {
+      "n": 5,
+      "loaded_pss_mib": {
+        "median": 558.634765625,
+        "min": 358.505859375,
+        "max": 568.2080078125
+      },
+      "loaded_pss_swap_mib": {
+        "median": 559.724609375,
+        "min": 404.337890625,
+        "max": 568.4228515625
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 44.32441735267639,
+        "min": 41.21106433868408,
+        "max": 51.31337070465088
+      },
+      "total_seconds": {
+        "median": 95.34291052818298,
+        "min": 91.06159496307373,
+        "max": 107.36958026885986
+      },
+      "scroll_cpu_seconds": {
+        "median": 14.45,
+        "min": 14.1,
+        "max": 16.27
+      },
+      "scroll_cpu_per_8s": {
+        "median": 14.434155808150818,
+        "min": 13.965581280178284,
+        "max": 15.310135099708127
+      },
+      "scroll_elapsed_ms": {
+        "median": 8077,
+        "min": 8007.580000000002,
+        "max": 9017.5
+      },
+      "raf_hz": {
+        "median": 13.986747556690034,
+        "min": 11.422234543942334,
+        "max": 15.473782460900846
+      },
+      "before_discard_pss_swap_mib": {
+        "median": 561.244140625,
+        "min": 360.568359375,
+        "max": 571.52734375
+      },
+      "after_discard_pss_swap_mib": {
+        "median": 551.5537109375,
+        "min": 361.7998046875,
+        "max": 561.5078125
+      },
+      "discard_delta_mib": {
+        "median": -9.6904296875,
+        "min": -12.1416015625,
+        "max": 1.2314453125
+      },
+      "tabs_pending_after_discard": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "fps30": {
+      "n": 5,
+      "loaded_pss_mib": {
+        "median": 593.74609375,
+        "min": 321.853515625,
+        "max": 612.6787109375
+      },
+      "loaded_pss_swap_mib": {
+        "median": 618.0283203125,
+        "min": 362.3427734375,
+        "max": 622.3193359375
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 42.65729022026062,
+        "min": 42.2941734790802,
+        "max": 51.16444659233093
+      },
+      "total_seconds": {
+        "median": 92.70436000823975,
+        "min": 92.41736078262329,
+        "max": 103.29014778137207
+      },
+      "scroll_cpu_seconds": {
+        "median": 14.04,
+        "min": 13.73,
+        "max": 14.63
+      },
+      "scroll_cpu_per_8s": {
+        "median": 13.910286577663292,
+        "min": 13.690025126630239,
+        "max": 14.61556712746163
+      },
+      "scroll_elapsed_ms": {
+        "median": 8016.939999999999,
+        "min": 8007.9000000000015,
+        "max": 8074.5999999999985
+      },
+      "raf_hz": {
+        "median": 14.7375721397964,
+        "min": 13.358969236915705,
+        "max": 15.609585534284891
+      },
+      "before_discard_pss_swap_mib": {
+        "median": 650.7978515625,
+        "min": 396.9873046875,
+        "max": 657.0419921875
+      },
+      "after_discard_pss_swap_mib": {
+        "median": 638.646484375,
+        "min": 397.6220703125,
+        "max": 644.8544921875
+      },
+      "discard_delta_mib": {
+        "median": -12.1513671875,
+        "min": -12.1875,
+        "max": 0.8681640625
+      },
+      "tabs_pending_after_discard": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "pressure-inactive30": {
+      "n": 1,
+      "loaded_pss_mib": {
+        "median": 618.1083984375,
+        "min": 618.1083984375,
+        "max": 618.1083984375
+      },
+      "loaded_pss_swap_mib": {
+        "median": 618.1083984375,
+        "min": 618.1083984375,
+        "max": 618.1083984375
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 45.802751302719116,
+        "min": 45.802751302719116,
+        "max": 45.802751302719116
+      },
+      "total_seconds": {
+        "median": 137.00780153274536,
+        "min": 137.00780153274536,
+        "max": 137.00780153274536
+      },
+      "pressure_allocated_mib": {
+        "median": 124,
+        "min": 124,
+        "max": 124
+      },
+      "max_pending_pressure": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "installed": {
+      "n": 5,
+      "loaded_pss_mib": {
+        "median": 621.2548828125,
+        "min": 381.490234375,
+        "max": 624.603515625
+      },
+      "loaded_pss_swap_mib": {
+        "median": 621.2548828125,
+        "min": 415.798828125,
+        "max": 624.603515625
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 49.94496297836304,
+        "min": 44.96539115905762,
+        "max": 56.61603403091431
+      },
+      "total_seconds": {
+        "median": 99.62680196762085,
+        "min": 94.55638527870178,
+        "max": 111.70836567878723
+      },
+      "scroll_cpu_seconds": {
+        "median": 14.46,
+        "min": 14.14,
+        "max": 16.09
+      },
+      "scroll_cpu_per_8s": {
+        "median": 14.44119034956969,
+        "min": 14.11741214057508,
+        "max": 15.887003808832638
+      },
+      "scroll_elapsed_ms": {
+        "median": 8019.080000000002,
+        "min": 8010.419999999998,
+        "max": 8102.220000000001
+      },
+      "raf_hz": {
+        "median": 14.590202367353857,
+        "min": 10.120682973308549,
+        "max": 15.177640598446906
+      },
+      "before_discard_pss_swap_mib": {
+        "median": 653.8056640625,
+        "min": 381.1015625,
+        "max": 658.7890625
+      },
+      "after_discard_pss_swap_mib": {
+        "median": 642.8505859375,
+        "min": 381.8876953125,
+        "max": 644.2890625
+      },
+      "discard_delta_mib": {
+        "median": -11.9248046875,
+        "min": -14.5,
+        "max": 0.7861328125
+      },
+      "tabs_pending_after_discard": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "pressure-threshold15": {
+      "n": 1,
+      "loaded_pss_mib": {
+        "median": 620.814453125,
+        "min": 620.814453125,
+        "max": 620.814453125
+      },
+      "loaded_pss_swap_mib": {
+        "median": 620.814453125,
+        "min": 620.814453125,
+        "max": 620.814453125
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 45.09632873535156,
+        "min": 45.09632873535156,
+        "max": 45.09632873535156
+      },
+      "total_seconds": {
+        "median": 136.91448259353638,
+        "min": 136.91448259353638,
+        "max": 136.91448259353638
+      },
+      "pressure_allocated_mib": {
+        "median": 124,
+        "min": 124,
+        "max": 124
+      },
+      "max_pending_pressure": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    },
+    "pressure-threshold25": {
+      "n": 1,
+      "loaded_pss_mib": {
+        "median": 617.484375,
+        "min": 617.484375,
+        "max": 617.484375
+      },
+      "loaded_pss_swap_mib": {
+        "median": 617.484375,
+        "min": 617.484375,
+        "max": 617.484375
+      },
+      "tabs_pending_loaded": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "session_ready_seconds": {
+        "median": 45.19650959968567,
+        "min": 45.19650959968567,
+        "max": 45.19650959968567
+      },
+      "total_seconds": {
+        "median": 136.3469431400299,
+        "min": 136.3469431400299,
+        "max": 136.3469431400299
+      },
+      "pressure_allocated_mib": {
+        "median": 56,
+        "min": 56,
+        "max": 56
+      },
+      "max_pending_pressure": {
+        "median": 2,
+        "min": 2,
+        "max": 2
+      }
+    }
+  },
+  "rows": [
+    {
+      "run": "main-baseline-0",
+      "variant": "baseline",
+      "repeat": 0,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 378.8486328125,
+      "loaded_pss_swap_mib": 419.5703125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 55.556599855422974,
+      "total_seconds": 109.30934119224548,
+      "scroll_cpu_seconds": 15.7,
+      "scroll_cpu_per_8s": 15.562158183886227,
+      "scroll_elapsed_ms": 8070.860000000001,
+      "raf_hz": 12.514155864430803,
+      "before_discard_pss_swap_mib": 388.9560546875,
+      "after_discard_pss_swap_mib": 389.76171875,
+      "discard_delta_mib": 0.8056640625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-baseline-1",
+      "variant": "baseline",
+      "repeat": 1,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 345.1669921875,
+      "loaded_pss_swap_mib": 385.9033203125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 49.51706123352051,
+      "total_seconds": 103.49120736122131,
+      "scroll_cpu_seconds": 13.92,
+      "scroll_cpu_per_8s": 13.900504542379311,
+      "scroll_elapsed_ms": 8011.220000000001,
+      "raf_hz": 15.103816896802233,
+      "before_discard_pss_swap_mib": 422.611328125,
+      "after_discard_pss_swap_mib": 423.76171875,
+      "discard_delta_mib": 1.150390625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-baseline-2",
+      "variant": "baseline",
+      "repeat": 2,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 606.42578125,
+      "loaded_pss_swap_mib": 620.140625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 51.213907957077026,
+      "total_seconds": 101.10206246376038,
+      "scroll_cpu_seconds": 14.41,
+      "scroll_cpu_per_8s": 14.271141790379605,
+      "scroll_elapsed_ms": 8077.84,
+      "raf_hz": 14.360274528834442,
+      "before_discard_pss_swap_mib": 645.720703125,
+      "after_discard_pss_swap_mib": 636.1865234375,
+      "discard_delta_mib": -9.5341796875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-baseline-3",
+      "variant": "baseline",
+      "repeat": 3,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 618.138671875,
+      "loaded_pss_swap_mib": 618.138671875,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 41.42243719100952,
+      "total_seconds": 91.27145385742188,
+      "scroll_cpu_seconds": 14.35,
+      "scroll_cpu_per_8s": 14.303335368360726,
+      "scroll_elapsed_ms": 8026.0999999999985,
+      "raf_hz": 15.57418920770985,
+      "before_discard_pss_swap_mib": 652.9375,
+      "after_discard_pss_swap_mib": 643.1640625,
+      "discard_delta_mib": -9.7734375,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-baseline-4",
+      "variant": "baseline",
+      "repeat": 4,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 616.06640625,
+      "loaded_pss_swap_mib": 618.14453125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 50.56038689613342,
+      "total_seconds": 100.41014528274536,
+      "scroll_cpu_seconds": 14.27,
+      "scroll_cpu_per_8s": 14.07263134538103,
+      "scroll_elapsed_ms": 8112.200000000001,
+      "raf_hz": 15.408890313355192,
+      "before_discard_pss_swap_mib": 641.88671875,
+      "after_discard_pss_swap_mib": 632.6416015625,
+      "discard_delta_mib": -9.2451171875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor16-0",
+      "variant": "factor16",
+      "repeat": 0,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 394.17578125,
+      "loaded_pss_swap_mib": 443.2255859375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 50.69827651977539,
+      "total_seconds": 103.32703757286072,
+      "scroll_cpu_seconds": 13.33,
+      "scroll_cpu_per_8s": 13.25253891007064,
+      "scroll_elapsed_ms": 8046.759999999998,
+      "raf_hz": 14.912834482450082,
+      "before_discard_pss_swap_mib": 445.7060546875,
+      "after_discard_pss_swap_mib": 432.12890625,
+      "discard_delta_mib": -13.5771484375,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor16-1",
+      "variant": "factor16",
+      "repeat": 1,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 361.3232421875,
+      "loaded_pss_swap_mib": 405.4140625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 50.23265194892883,
+      "total_seconds": 103.13020849227905,
+      "scroll_cpu_seconds": 13.47,
+      "scroll_cpu_per_8s": 13.402751693378475,
+      "scroll_elapsed_ms": 8040.139999999999,
+      "raf_hz": 13.805729750974487,
+      "before_discard_pss_swap_mib": 411.798828125,
+      "after_discard_pss_swap_mib": 404.537109375,
+      "discard_delta_mib": -7.26171875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor16-2",
+      "variant": "factor16",
+      "repeat": 2,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 500.1767578125,
+      "loaded_pss_swap_mib": 500.1767578125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 44.593138217926025,
+      "total_seconds": 93.83361196517944,
+      "scroll_cpu_seconds": 14.54,
+      "scroll_cpu_per_8s": 14.523298207061877,
+      "scroll_elapsed_ms": 8009.200000000001,
+      "raf_hz": 15.731908305448732,
+      "before_discard_pss_swap_mib": 501.3134765625,
+      "after_discard_pss_swap_mib": 489.2421875,
+      "discard_delta_mib": -12.0712890625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor16-3",
+      "variant": "factor16",
+      "repeat": 3,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 497.24609375,
+      "loaded_pss_swap_mib": 497.24609375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 42.89806008338928,
+      "total_seconds": 91.84740257263184,
+      "scroll_cpu_seconds": 14.9,
+      "scroll_cpu_per_8s": 14.86755156870131,
+      "scroll_elapsed_ms": 8017.459999999999,
+      "raf_hz": 14.842606012377987,
+      "before_discard_pss_swap_mib": 498.6240234375,
+      "after_discard_pss_swap_mib": 488.828125,
+      "discard_delta_mib": -9.7958984375,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor16-4",
+      "variant": "factor16",
+      "repeat": 4,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 505.015625,
+      "loaded_pss_swap_mib": 505.015625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 41.9283127784729,
+      "total_seconds": 91.31573534011841,
+      "scroll_cpu_seconds": 14.67,
+      "scroll_cpu_per_8s": 14.666553359960407,
+      "scroll_elapsed_ms": 8001.880000000001,
+      "raf_hz": 13.746769509165345,
+      "before_discard_pss_swap_mib": 505.1748046875,
+      "after_discard_pss_swap_mib": 494.8642578125,
+      "discard_delta_mib": -10.310546875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor8-0",
+      "variant": "factor8",
+      "repeat": 0,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 370.0078125,
+      "loaded_pss_swap_mib": 413.0,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 50.96265530586243,
+      "total_seconds": 105.80761671066284,
+      "scroll_cpu_seconds": 15.33,
+      "scroll_cpu_per_8s": 15.310135099708127,
+      "scroll_elapsed_ms": 8010.380000000001,
+      "raf_hz": 11.73477413056559,
+      "before_discard_pss_swap_mib": 384.1064453125,
+      "after_discard_pss_swap_mib": 384.953125,
+      "discard_delta_mib": 0.8466796875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor8-1",
+      "variant": "factor8",
+      "repeat": 1,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 358.505859375,
+      "loaded_pss_swap_mib": 404.337890625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 51.31337070465088,
+      "total_seconds": 107.36958026885986,
+      "scroll_cpu_seconds": 16.27,
+      "scroll_cpu_per_8s": 14.434155808150818,
+      "scroll_elapsed_ms": 9017.5,
+      "raf_hz": 11.422234543942334,
+      "before_discard_pss_swap_mib": 360.568359375,
+      "after_discard_pss_swap_mib": 361.7998046875,
+      "discard_delta_mib": 1.2314453125,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor8-2",
+      "variant": "factor8",
+      "repeat": 2,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 568.2080078125,
+      "loaded_pss_swap_mib": 568.4228515625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 43.60165524482727,
+      "total_seconds": 93.05276846885681,
+      "scroll_cpu_seconds": 14.37,
+      "scroll_cpu_per_8s": 14.23092825364129,
+      "scroll_elapsed_ms": 8078.18,
+      "raf_hz": 15.473782460900846,
+      "before_discard_pss_swap_mib": 571.52734375,
+      "after_discard_pss_swap_mib": 561.5078125,
+      "discard_delta_mib": -10.01953125,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor8-3",
+      "variant": "factor8",
+      "repeat": 3,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 558.634765625,
+      "loaded_pss_swap_mib": 559.724609375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 41.21106433868408,
+      "total_seconds": 91.06159496307373,
+      "scroll_cpu_seconds": 14.45,
+      "scroll_cpu_per_8s": 14.436321585297927,
+      "scroll_elapsed_ms": 8007.580000000002,
+      "raf_hz": 13.986747556690034,
+      "before_discard_pss_swap_mib": 561.244140625,
+      "after_discard_pss_swap_mib": 551.5537109375,
+      "discard_delta_mib": -9.6904296875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-factor8-4",
+      "variant": "factor8",
+      "repeat": 4,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 563.056640625,
+      "loaded_pss_swap_mib": 563.056640625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 44.32441735267639,
+      "total_seconds": 95.34291052818298,
+      "scroll_cpu_seconds": 14.1,
+      "scroll_cpu_per_8s": 13.965581280178284,
+      "scroll_elapsed_ms": 8077,
+      "raf_hz": 13.99034294911477,
+      "before_discard_pss_swap_mib": 566.1630859375,
+      "after_discard_pss_swap_mib": 554.021484375,
+      "discard_delta_mib": -12.1416015625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-fps30-0",
+      "variant": "fps30",
+      "repeat": 0,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 321.853515625,
+      "loaded_pss_swap_mib": 362.3427734375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 51.16444659233093,
+      "total_seconds": 103.04101133346558,
+      "scroll_cpu_seconds": 13.73,
+      "scroll_cpu_per_8s": 13.690025126630239,
+      "scroll_elapsed_ms": 8023.360000000001,
+      "raf_hz": 15.454871774418695,
+      "before_discard_pss_swap_mib": 396.9873046875,
+      "after_discard_pss_swap_mib": 397.6220703125,
+      "discard_delta_mib": 0.634765625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-fps30-1",
+      "variant": "fps30",
+      "repeat": 1,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 326.8193359375,
+      "loaded_pss_swap_mib": 366.36328125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 51.04973006248474,
+      "total_seconds": 103.29014778137207,
+      "scroll_cpu_seconds": 13.82,
+      "scroll_cpu_per_8s": 13.803435876947665,
+      "scroll_elapsed_ms": 8009.5999999999985,
+      "raf_hz": 13.358969236915705,
+      "before_discard_pss_swap_mib": 397.8369140625,
+      "after_discard_pss_swap_mib": 398.705078125,
+      "discard_delta_mib": 0.8681640625,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-fps30-2",
+      "variant": "fps30",
+      "repeat": 2,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 595.2890625,
+      "loaded_pss_swap_mib": 618.0283203125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 42.645551443099976,
+      "total_seconds": 92.70436000823975,
+      "scroll_cpu_seconds": 14.39,
+      "scroll_cpu_per_8s": 14.359593560635357,
+      "scroll_elapsed_ms": 8016.939999999999,
+      "raf_hz": 14.594096999603343,
+      "before_discard_pss_swap_mib": 650.7978515625,
+      "after_discard_pss_swap_mib": 638.646484375,
+      "discard_delta_mib": -12.1513671875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-fps30-3",
+      "variant": "fps30",
+      "repeat": 3,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 612.6787109375,
+      "loaded_pss_swap_mib": 622.3193359375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 42.65729022026062,
+      "total_seconds": 92.41736078262329,
+      "scroll_cpu_seconds": 14.63,
+      "scroll_cpu_per_8s": 14.61556712746163,
+      "scroll_elapsed_ms": 8007.9000000000015,
+      "raf_hz": 15.609585534284891,
+      "before_discard_pss_swap_mib": 657.0419921875,
+      "after_discard_pss_swap_mib": 644.8544921875,
+      "discard_delta_mib": -12.1875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-fps30-4",
+      "variant": "fps30",
+      "repeat": 4,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 593.74609375,
+      "loaded_pss_swap_mib": 621.8564453125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 42.2941734790802,
+      "total_seconds": 92.50744318962097,
+      "scroll_cpu_seconds": 14.04,
+      "scroll_cpu_per_8s": 13.910286577663292,
+      "scroll_elapsed_ms": 8074.5999999999985,
+      "raf_hz": 14.7375721397964,
+      "before_discard_pss_swap_mib": 655.935546875,
+      "after_discard_pss_swap_mib": 643.7607421875,
+      "discard_delta_mib": -12.1748046875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-installed-0",
+      "variant": "installed",
+      "repeat": 0,
+      "boot_id": "before-reboot",
+      "pressure": false,
+      "loaded_pss_mib": 381.490234375,
+      "loaded_pss_swap_mib": 415.798828125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 56.61603403091431,
+      "total_seconds": 111.70836567878723,
+      "scroll_cpu_seconds": 16.09,
+      "scroll_cpu_per_8s": 15.887003808832638,
+      "scroll_elapsed_ms": 8102.220000000001,
+      "raf_hz": 10.120682973308549,
+      "before_discard_pss_swap_mib": 381.1015625,
+      "after_discard_pss_swap_mib": 381.8876953125,
+      "discard_delta_mib": 0.7861328125,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-installed-1",
+      "variant": "installed",
+      "repeat": 1,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 620.7548828125,
+      "loaded_pss_swap_mib": 620.7548828125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 52.04220390319824,
+      "total_seconds": 102.20410227775574,
+      "scroll_cpu_seconds": 14.14,
+      "scroll_cpu_per_8s": 14.11741214057508,
+      "scroll_elapsed_ms": 8012.799999999999,
+      "raf_hz": 14.227236421725241,
+      "before_discard_pss_swap_mib": 650.01953125,
+      "after_discard_pss_swap_mib": 638.0947265625,
+      "discard_delta_mib": -11.9248046875,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-installed-2",
+      "variant": "installed",
+      "repeat": 2,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 624.603515625,
+      "loaded_pss_swap_mib": 624.603515625,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 46.136430740356445,
+      "total_seconds": 95.3912091255188,
+      "scroll_cpu_seconds": 14.79,
+      "scroll_cpu_per_8s": 14.754809778677851,
+      "scroll_elapsed_ms": 8019.080000000002,
+      "raf_hz": 14.590202367353857,
+      "before_discard_pss_swap_mib": 658.7890625,
+      "after_discard_pss_swap_mib": 644.2890625,
+      "discard_delta_mib": -14.5,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-installed-3",
+      "variant": "installed",
+      "repeat": 3,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 622.845703125,
+      "loaded_pss_swap_mib": 622.845703125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 49.94496297836304,
+      "total_seconds": 99.62680196762085,
+      "scroll_cpu_seconds": 14.27,
+      "scroll_cpu_per_8s": 14.202290579661465,
+      "scroll_elapsed_ms": 8038.139999999999,
+      "raf_hz": 15.177640598446906,
+      "before_discard_pss_swap_mib": 653.8056640625,
+      "after_discard_pss_swap_mib": 642.8505859375,
+      "discard_delta_mib": -10.955078125,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "main-installed-4",
+      "variant": "installed",
+      "repeat": 4,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": false,
+      "loaded_pss_mib": 621.2548828125,
+      "loaded_pss_swap_mib": 621.2548828125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 44.96539115905762,
+      "total_seconds": 94.55638527870178,
+      "scroll_cpu_seconds": 14.46,
+      "scroll_cpu_per_8s": 14.44119034956969,
+      "scroll_elapsed_ms": 8010.419999999998,
+      "raf_hz": 14.980487914491377,
+      "before_discard_pss_swap_mib": 655.5146484375,
+      "after_discard_pss_swap_mib": 643.400390625,
+      "discard_delta_mib": -12.1142578125,
+      "tabs_pending_after_discard": 2,
+      "restored_first": true
+    },
+    {
+      "run": "pressure-baseline-0",
+      "variant": "baseline",
+      "repeat": 0,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": true,
+      "loaded_pss_mib": 620.3984375,
+      "loaded_pss_swap_mib": 620.3984375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 43.13528275489807,
+      "total_seconds": 134.03717494010925,
+      "pressure_reached": true,
+      "pressure_allocated_mib": 128,
+      "max_pending_pressure": 0,
+      "guard": null
+    },
+    {
+      "run": "pressure-inactive30-0",
+      "variant": "inactive30",
+      "repeat": 0,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": true,
+      "loaded_pss_mib": 618.1083984375,
+      "loaded_pss_swap_mib": 618.1083984375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 45.802751302719116,
+      "total_seconds": 137.00780153274536,
+      "pressure_reached": true,
+      "pressure_allocated_mib": 124,
+      "max_pending_pressure": 2,
+      "guard": null
+    },
+    {
+      "run": "pressure-threshold15-0",
+      "variant": "threshold15",
+      "repeat": 0,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": true,
+      "loaded_pss_mib": 620.814453125,
+      "loaded_pss_swap_mib": 620.814453125,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 45.09632873535156,
+      "total_seconds": 136.91448259353638,
+      "pressure_reached": true,
+      "pressure_allocated_mib": 124,
+      "max_pending_pressure": 2,
+      "guard": null
+    },
+    {
+      "run": "pressure-threshold25-0",
+      "variant": "threshold25",
+      "repeat": 0,
+      "boot_id": "12920d02-a0cf-49d8-9180-69f97efc8236",
+      "pressure": true,
+      "loaded_pss_mib": 617.484375,
+      "loaded_pss_swap_mib": 617.484375,
+      "tabs_pending_loaded": 0,
+      "session_ready_seconds": 45.19650959968567,
+      "total_seconds": 136.3469431400299,
+      "pressure_reached": true,
+      "pressure_allocated_mib": 56,
+      "max_pending_pressure": 2,
+      "guard": null
+    }
+  ]
+}

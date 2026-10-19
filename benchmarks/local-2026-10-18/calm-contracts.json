@@ -1,0 +1,28 @@
+[
+  {
+    "name": "shipped-polling",
+    "status": "pass",
+    "recurringTimers": 1,
+    "intervalMs": 400,
+    "focusCounts": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "note": "Mocks; no touch keyboard or real Firefox startup timing verified"
+  },
+  {
+    "name": "event-prototype",
+    "status": "pass",
+    "recurringTimers": 0,
+    "intervalMs": null,
+    "focusCounts": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "note": "Mocks; no touch keyboard or real Firefox startup timing verified"
+  }
+]

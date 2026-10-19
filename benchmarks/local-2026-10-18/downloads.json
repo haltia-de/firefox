@@ -1,0 +1,23 @@
+[
+  {
+    "file": "ubol.xpi",
+    "url": "https://github.com/uBlockOrigin/uBOL-home/releases/download/2026.1012.1545/uBOLite_2026.1012.1545.firefox.signed.xpi",
+    "bytes": 9100007,
+    "sha256": "0a55b67791c0987bae74ae4648cd2034e47fcc33ebd2a45e2ea0706b13af0e3d",
+    "pin_verified": true
+  },
+  {
+    "file": "autotab.xpi",
+    "url": "https://addons.mozilla.org/firefox/downloads/latest/auto-tab-discard/latest.xpi",
+    "bytes": 252877,
+    "sha256": "cdd4d4467e7e091469f6edad0213461d90736f6e7fc8234666525cca763753c3",
+    "pin_verified": false
+  },
+  {
+    "file": "betterfox.js",
+    "url": "https://raw.githubusercontent.com/yokoffing/Betterfox/067172a4b0dc90e78e5b8b94d9abfe6430c6a7be/user.js",
+    "sha256": "38a971c7b15225987baf26dd98b884bfb114531b4f6a8f2e0e281fb0352d5240",
+    "pin_verified": true,
+    "bytes": 9867
+  }
+]
