@@ -26,34 +26,64 @@ packs, so LANGPACK is the path of Mozilla's signed Russian one on the
 tablet; without it the menus stay English.
 """
 import json
+import os
 import sys
+import tempfile
 
 UBO = "uBlock0@raymondhill.net"
 UBOL = "uBOLiteRedux@raymondhill.net"
 
-src, dst = sys.argv[1], sys.argv[2]
-xpi = sys.argv[3] if len(sys.argv) > 3 and sys.argv[3] else None
-langpack = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else None
-with open(src) as fh:
-    data = json.load(fh)
-policies = data["policies"]
-settings = policies.setdefault("ExtensionSettings", {})
-settings[UBO] = {"installation_mode": "blocked"}
-settings[UBOL] = {
-    "installation_mode": "normal_installed",
-    "install_url": "file://" + xpi if xpi else
-    "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin-lite/latest.xpi",
-    "default_area": "menupanel",
-}
-if langpack:
-    settings["langpack-ru@firefox.mozilla.org"] = {
-        "installation_mode": "force_installed",
-        "install_url": "file://" + langpack,
+
+def atomic_write(path, text):
+    """Replace path with text. A crash keeps the previous file."""
+    path = os.fspath(path)
+    directory = os.path.dirname(path) or "."
+    fd, tmp = tempfile.mkstemp(prefix=".haltia-", dir=directory)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(text)
+            fh.flush()
+            os.fsync(fh.fileno())
+        mode = 0o644
+        if os.path.lexists(path):
+            mode = os.lstat(path).st_mode & 0o777
+        os.chmod(tmp, mode)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
+def main(argv):
+    src, dst = argv[1], argv[2]
+    xpi = argv[3] if len(argv) > 3 and argv[3] else None
+    langpack = argv[4] if len(argv) > 4 and argv[4] else None
+    with open(src) as fh:
+        data = json.load(fh)
+    policies = data["policies"]
+    settings = policies.setdefault("ExtensionSettings", {})
+    settings[UBO] = {"installation_mode": "blocked"}
+    settings[UBOL] = {
+        "installation_mode": "normal_installed",
+        "install_url": "file://" + xpi if xpi else
+        "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin-lite/latest.xpi",
+        "default_area": "menupanel",
     }
-policies["RequestedLocales"] = ["ru", "en-US"]
-policies.setdefault("3rdparty", {}).setdefault("Extensions", {})[UBOL] = {
-    "defaultFiltering": "complete",
-}
-with open(dst, "w") as fh:
-    json.dump(data, fh, indent=4, ensure_ascii=False)
-    fh.write("\n")
+    if langpack:
+        settings["langpack-ru@firefox.mozilla.org"] = {
+            "installation_mode": "force_installed",
+            "install_url": "file://" + langpack,
+        }
+    policies["RequestedLocales"] = ["ru", "en-US"]
+    policies.setdefault("3rdparty", {}).setdefault("Extensions", {})[UBOL] = {
+        "defaultFiltering": "complete",
+    }
+    text = json.dumps(data, indent=4, ensure_ascii=False) + "\n"
+    atomic_write(dst, text)
+
+
+if __name__ == "__main__":
+    main(sys.argv)
