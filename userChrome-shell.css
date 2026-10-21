@@ -1,10 +1,20 @@
 /* Added by haltia-firefox-profile --shell (the Haltia shell): reserve
-   110px at both ends of both toolbar rows for the shell's home and close
-   buttons in either orientation. */
-#TabsToolbar,
-#nav-bar {
+   110px at both ends of the tab row for the shell's home and close
+   buttons in either orientation. They stand within its 104px, so the
+   address row below takes the whole width. */
+#TabsToolbar {
   padding-inline-start: 110px !important;
   padding-inline-end: 110px !important;
+}
+
+/* The address field fills the row: no flexible spaces beside it. */
+#nav-bar toolbarspring {
+  display: none !important;
+}
+
+#urlbar-container {
+  max-width: none !important;
+  flex: 1000 1000 auto !important;
 }
 
 /* The tab row is the header of every other Haltia program: 88px tall
