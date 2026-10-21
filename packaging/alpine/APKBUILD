@@ -11,6 +11,9 @@ replaces="b8k-firefox"
 license="GPL-2.0-only"
 depends="firefox mobile-config-firefox python3"
 install="$pkgname.post-install $pkgname.post-upgrade"
+# firefox and mobile-config-firefox both install into this directory.
+# Their upgrades do not run our post-install, so the trigger does.
+triggers="$pkgname.trigger=/usr/lib/firefox"
 options="!check net"
 source="$pkgname-$pkgver.tar.gz::https://github.com/haltia-de/firefox/archive/v$pkgver.tar.gz"
 builddir="$srcdir/firefox-$pkgver"

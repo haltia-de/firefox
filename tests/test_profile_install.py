@@ -4,6 +4,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -79,6 +80,94 @@ class ProfileInstallTests(unittest.TestCase):
         result = self.prepare('--help')
         self.assertIn('--image-cache-factor', result.stdout)
         self.assertFalse(self.profile.exists())
+
+    def test_malformed_block_is_left_alone_and_other_profiles_continue(self):
+        bad = self.home / '.config/mozilla/firefox/bad.profile'
+        good = self.home / '.mozilla/firefox/good.profile'
+        bad.mkdir(parents=True)
+        good.mkdir(parents=True)
+        begin = '// BEGIN b8k-firefox managed prefs\n'
+        end = '// END b8k-firefox managed prefs\n'
+        original = begin + 'user_pref("a", 1);\n' + end + begin + 'user_pref("b", 2);\n' + end
+        (bad / 'user.js').write_text(original)
+        (good / 'user.js').write_text('user_pref("unrelated", "keep");\n')
+        result = self.prepare()
+        self.assertEqual((bad / 'user.js').read_text(), original)
+        self.assertIn('malformed b8k-firefox block', result.stderr)
+        good_text = (good / 'user.js').read_text()
+        self.assertEqual(good_text.count(begin), 1)
+        self.assertIn('user_pref("unrelated", "keep");\n', good_text)
+        self.assertEqual(list(bad.glob('.haltia-*')), [])
+
+    def test_running_firefox_lock_refuses_prefs_js_edit(self):
+        self.prepare('--fps', '30')
+        prefs = self.profile / 'prefs.js'
+        original = 'user_pref("layout.frame_rate", 30);\nuser_pref("unrelated", true);\n'
+        prefs.write_text(original)
+        # Firefox's Unix lock is a symlink to a path that does not exist.
+        lock = self.profile / 'lock'
+        lock.symlink_to('127.0.0.1:+1')
+        self.assertFalse(lock.exists())
+        result = self.prepare('--reset-optimizations')
+        self.assertIn('not changing prefs.js', result.stderr)
+        self.assertEqual(prefs.read_text(), original)
+        self.assertNotIn('layout.frame_rate', (self.profile / 'user.js').read_text())
+        self.assertEqual(list(self.profile.glob('.haltia-*')), [])
+
+    def test_stale_parentlock_does_not_block_prefs_reset(self):
+        self.prepare('--fps', '30')
+        prefs = self.profile / 'prefs.js'
+        prefs.write_text('user_pref("layout.frame_rate", 30);\n')
+        (self.profile / '.parentlock').write_text('')
+        self.prepare('--reset-optimizations')
+        self.assertEqual(prefs.read_text(), '')
+
+    def test_policies_replace_atomically_and_keep_mode(self):
+        src = self.home / 'policies-src.json'
+        dst = self.home / 'policies.json'
+        src.write_text(json.dumps({'policies': {'DisableTelemetry': True}}))
+        dst.write_text('not json\n')
+        dst.chmod(0o640)
+        subprocess.run([sys.executable, str(ROOT / 'haltia-policies.py'),
+                        str(src), str(dst)], check=True)
+        text = dst.read_text()
+        self.assertTrue(text.endswith('\n'))
+        self.assertTrue(json.loads(text)['policies']['DisableTelemetry'])
+        self.assertEqual(dst.stat().st_mode & 0o777, 0o640)
+        self.assertEqual(list(self.home.glob('.haltia-*')), [])
+
+    def test_configure_strips_old_loader_without_leftover_temp_files(self):
+        stage = self.home / 'configured'
+        ff = stage / 'usr/lib/firefox'
+        ff.mkdir(parents=True)
+        block = (
+            'try {\n'
+            '  Components.classes["@mozilla.org/moz/jssubscript-loader;1"]\n'
+            '    .getService(Components.interfaces.mozIJSSubScriptLoader)\n'
+            '    .loadSubScript("file:///usr/share/b8k/b8k-webapp.js");\n'
+            '} catch (e) {}\n'
+        )
+        mc = ff / 'mobile-config-autoconfig.js'
+        mc.write_text('before\n' + block + 'after\n')
+        mc.chmod(0o644)
+        env = dict(self.env, ROOT=str(stage))
+        subprocess.run(['sh', str(ROOT / 'haltia-firefox-configure')],
+                       env=env, check=True, capture_output=True, text=True)
+        text = mc.read_text()
+        self.assertNotIn('b8k-webapp.js', text)
+        self.assertEqual(text, 'before\nafter\n')
+        self.assertEqual(mc.stat().st_mode & 0o777, 0o644)
+        self.assertEqual(list(ff.glob('.haltia-*')), [])
+
+    def test_apkbuild_triggers_configure_on_firefox_directory(self):
+        apkbuild = (ROOT / 'packaging/alpine/APKBUILD').read_text()
+        self.assertIn('triggers="$pkgname.trigger=/usr/lib/firefox"', apkbuild)
+        trigger = (ROOT / 'packaging/alpine/haltia-firefox.trigger').read_text()
+        self.assertIn('/usr/share/haltia-firefox/haltia-firefox-configure', trigger)
+        calm = (ROOT / 'haltia-calm.js').read_text()
+        self.assertNotIn('nsITimer', calm)
+        self.assertIn('browser-delayed-startup-finished', calm)
+        self.assertIn('domwindowopened', calm)
 
     def test_manual_overrides_follow_managed_block(self):
         self.prepare('--fps', '30')

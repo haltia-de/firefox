@@ -3,8 +3,11 @@
 """Maintain our user.js block; leave manual overrides after it intact."""
 import argparse
 import json
+import os
 from pathlib import Path
 import re
+import sys
+import tempfile
 
 # The markers keep the name before ADR 0004: they are in people's user.js.
 BEGIN = '// BEGIN b8k-firefox managed prefs\n'
@@ -34,50 +37,88 @@ def pref(key, value):
     return f'user_pref({json.dumps(key)}, {json.dumps(value)});\n'
 
 
+def atomic_write(path, text):
+    """Replace path with text. A crash keeps the previous file."""
+    path = os.fspath(path)
+    directory = os.path.dirname(path) or '.'
+    fd, tmp = tempfile.mkstemp(prefix='.haltia-', dir=directory)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8', newline='\n') as fh:
+            fh.write(text)
+            fh.flush()
+            os.fsync(fh.fileno())
+        mode = 0o644
+        if os.path.lexists(path):
+            mode = os.lstat(path).st_mode & 0o777
+        os.chmod(tmp, mode)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def write_changed(path, text):
     if not path.exists() or path.read_text() != text:
-        path.write_text(text)
+        atomic_write(path, text)
 
 
 def update(profile, args):
     path = profile / 'user.js'
     text = path.read_text() if path.exists() else ''
     values = dict(BASE)
+    malformed = False
     if BEGIN in text or END in text:
-        if text.count(BEGIN) != 1 or text.count(END) != 1:
-            raise ValueError(f'{path}: malformed b8k-firefox block')
-        before, block = text.split(BEGIN)
-        block, after = block.split(END)
-        # Read only the generated format, never execute JavaScript.
-        for key in OPTIONS.values():
-            match = re.search(r'^user_pref\(' + re.escape(json.dumps(key))
-                              + r', (\d+)\);$', block, re.M)
-            if match:
-                values[key] = int(match[1])
-        text = before + after
-    # Migrate the exact lines emitted by the old shell tool. Non-default
-    # manual settings survive, including processCount=2 and startup.page=0.
-    legacy = {pref(key, value).rstrip('\n') for key, value in LEGACY.items()}
-    text = ''.join(line for line in text.splitlines(keepends=True)
-                   if line.rstrip('\r\n') not in legacy)
+        # A raise here exits under the profile loop's set -eu and skips
+        # every profile after this one. Leave this file alone.
+        counts_wrong = text.count(BEGIN) != 1 or text.count(END) != 1
+        end_before_begin = BEGIN in text and END not in text.split(BEGIN, 1)[1]
+        if counts_wrong or end_before_begin:
+            print(f'{path}: malformed b8k-firefox block', file=sys.stderr)
+            malformed = True
+        else:
+            before, block = text.split(BEGIN, 1)
+            block, after = block.split(END, 1)
+            # Read only the generated format, never execute JavaScript.
+            for key in OPTIONS.values():
+                match = re.search(r'^user_pref\(' + re.escape(json.dumps(key))
+                                  + r', (\d+)\);$', block, re.M)
+                if match:
+                    values[key] = int(match[1])
+            text = before + after
+    if not malformed:
+        # Migrate the exact lines emitted by the old shell tool. Non-default
+        # manual settings survive, including processCount=2 and startup.page=0.
+        legacy = {pref(key, value).rstrip('\n') for key, value in LEGACY.items()}
+        text = ''.join(line for line in text.splitlines(keepends=True)
+                       if line.rstrip('\r\n') not in legacy)
+        if args.reset_optimizations:
+            for key in OPTIONS.values():
+                values.pop(key, None)
+        for option, key in OPTIONS.items():
+            value = getattr(args, option)
+            if value is not None:
+                values[key] = value * 1000 if option == 'unload_after' else value
+        managed = BEGIN + ''.join(pref(key, value) for key, value in values.items()) + END
+        write_changed(path, managed + text)
     if args.reset_optimizations:
-        for key in OPTIONS.values():
-            values.pop(key, None)
         # Removing user.js lines alone does not reset persisted Firefox prefs.
         # This explicit reset also removes these four keys from prefs.js.
+        # Firefox holds <profile>/lock (a symlink whose target does not exist)
+        # while it runs and rewrites prefs.js as it exits.
         persisted = profile / 'prefs.js'
         if persisted.exists():
-            pattern = re.compile(r'^user_pref\("(?:' + '|'.join(
-                re.escape(key) for key in OPTIONS.values()) + r')",.*\);\s*$')
-            write_changed(persisted, ''.join(
-                line for line in persisted.read_text().splitlines(keepends=True)
-                if not pattern.fullmatch(line.rstrip('\r\n'))))
-    for option, key in OPTIONS.items():
-        value = getattr(args, option)
-        if value is not None:
-            values[key] = value * 1000 if option == 'unload_after' else value
-    managed = BEGIN + ''.join(pref(key, value) for key, value in values.items()) + END
-    write_changed(path, managed + text)
+            if os.path.lexists(profile / 'lock'):
+                print(f'{persisted}: Firefox is running; not changing prefs.js',
+                      file=sys.stderr)
+            else:
+                pattern = re.compile(r'^user_pref\("(?:' + '|'.join(
+                    re.escape(key) for key in OPTIONS.values()) + r')",.*\);\s*$')
+                write_changed(persisted, ''.join(
+                    line for line in persisted.read_text().splitlines(keepends=True)
+                    if not pattern.fullmatch(line.rstrip('\r\n'))))
 
 
 def main():
