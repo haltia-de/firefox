@@ -14,7 +14,8 @@ Firefox update, or when it was stopped before saving them): 270-340 MB on
 this 1 GB tablet, which once filled the swap and froze the session.
 uBlock Origin Lite ships its rules precompiled for the browser to apply,
 and its process stays near 37 MB. Its filtering mode is set to complete
-(cosmetic filtering included) through its managed settings.
+(cosmetic filtering included), and RU AdList (ruleset rus-0) is added to
+its default lists, through its managed settings.
 
 XPI is the path of a signed uBlock Origin Lite on the tablet. Firefox
 installs it from there: addons.mozilla.org answers 406 from some networks,
@@ -83,6 +84,8 @@ def main(argv):
     policies["DisplayBookmarksToolbar"] = "never"
     policies.setdefault("3rdparty", {}).setdefault("Extensions", {})[UBOL] = {
         "defaultFiltering": "complete",
+        # RU AdList on top of the default lists: Russian sites' ads.
+        "rulesets": ["+rus-0"],
     }
     text = json.dumps(data, indent=4, ensure_ascii=False) + "\n"
     atomic_write(dst, text)
