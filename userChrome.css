@@ -107,9 +107,11 @@
   min-height: 34px !important;
 }
 
-/* One size for every toolbar button, in the tab row and the row below:
-   a 30px picture in a 46px target. The account picture and the tab-count
-   badge draw their own image, so they are listed by name. */
+/* Toolbar buttons elsewhere (the tab row without the shell, panels): a
+   30px picture in a 46px target. The address row above has its own 56px
+   ones, and the shell's tab row 72px ones (userChrome-shell.css). The
+   account picture and the tab-count badge draw their own image, so they
+   are listed by name. */
 .toolbarbutton-1 > .toolbarbutton-icon,
 .toolbarbutton-1 > .toolbarbutton-badge-stack {
   width: 46px !important;
