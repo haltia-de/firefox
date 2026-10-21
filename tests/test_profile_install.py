@@ -150,7 +150,7 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertTrue(json.loads(text)['policies']['DisableTelemetry'])
         self.assertEqual(json.loads(text)['policies']['DisplayBookmarksToolbar'], 'never')
         ubol = json.loads(text)['policies']['3rdparty']['Extensions']['uBOLiteRedux@raymondhill.net']
-        self.assertEqual(ubol['rulesets'], ['+rus-0'])
+        self.assertEqual(ubol['rulesets'], ['+default', '+rus-0'])
         self.assertEqual(dst.stat().st_mode & 0o777, 0o640)
         self.assertEqual(list(self.home.glob('.haltia-*')), [])
 
