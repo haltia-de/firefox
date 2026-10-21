@@ -40,7 +40,13 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertEqual(first, js.read_bytes())
         self.assertIn('padding-inline-end: 110px',
                       (self.profile / 'chrome/userChrome.css').read_text())
+        self.assertIn('#TabsToolbar,\n#nav-bar {\n'
+                      '  padding-inline-start: 110px !important;\n'
+                      '  padding-inline-end: 110px !important;\n}',
+                      (self.profile / 'chrome/userChrome.css').read_text())
         self.prepare()
+        self.assertNotIn('padding-inline-start: 110px',
+                         (self.profile / 'chrome/userChrome.css').read_text())
         self.assertNotIn('padding-inline-end: 110px',
                          (self.profile / 'chrome/userChrome.css').read_text())
 
