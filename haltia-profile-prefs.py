@@ -110,7 +110,7 @@ def update(profile, args):
         # while it runs and rewrites prefs.js as it exits.
         persisted = profile / 'prefs.js'
         if persisted.exists():
-            if (profile / 'lock').lexists():
+            if os.path.lexists(profile / 'lock'):
                 print(f'{persisted}: Firefox is running; not changing prefs.js',
                       file=sys.stderr)
             else:
