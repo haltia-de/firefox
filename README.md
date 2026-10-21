@@ -2,7 +2,7 @@
 
 Firefox для сенсорного экрана и слабого железа — для планшета Lenovo YOGA
 Tablet 10 (B8000-H) с оболочкой
-[lenovo-b8000h-linux](https://github.com/haltia-de/device-lenovo-b8000h), но
+[device-lenovo-b8000h](https://github.com/haltia-de/device-lenovo-b8000h), но
 пригодно и без неё (поверх mobile-config-firefox).
 
 - `userChrome.css` — крупные вкладки и кнопки панели; `userContent.css`.
