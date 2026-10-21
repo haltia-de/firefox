@@ -78,6 +78,9 @@ def main(argv):
             "install_url": "file://" + langpack,
         }
     policies["RequestedLocales"] = ["ru", "en-US"]
+    # No bookmarks toolbar: a third row of small links took height from the
+    # page and offered «Импорт закладок» to someone who has none.
+    policies["DisplayBookmarksToolbar"] = "never"
     policies.setdefault("3rdparty", {}).setdefault("Extensions", {})[UBOL] = {
         "defaultFiltering": "complete",
     }

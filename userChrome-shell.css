@@ -6,3 +6,64 @@
   padding-inline-start: 110px !important;
   padding-inline-end: 110px !important;
 }
+
+/* The tab row is the header of every other Haltia program: 88px tall
+   buttons and tabs with 8px above and below, so the shell's two buttons
+   (88px, 8px from the top) line up with it. */
+#TabsToolbar {
+  min-height: 104px !important;
+}
+
+#tabbrowser-tabs,
+#tabbrowser-tabs[orient="horizontal"] {
+  --tab-min-height: 88px !important;
+  --tab-block-margin: 8px !important;
+}
+
+.tabbrowser-tab,
+.tab-stack,
+.tab-content {
+  min-height: 88px !important;
+}
+
+.tab-label,
+.tab-text {
+  font-size: 24px !important;
+}
+
+.tab-icon-image {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.tab-close-button,
+#tabbrowser-tabs .tabbrowser-tab .tab-close-button,
+#new-tab-button,
+#tabs-newtab-button {
+  width: 72px !important;
+  height: 72px !important;
+  min-width: 72px !important;
+  min-height: 72px !important;
+}
+
+.tab-close-button > .toolbarbutton-icon {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+#TabsToolbar .toolbarbutton-1 > .toolbarbutton-icon,
+#TabsToolbar .toolbarbutton-1 > .toolbarbutton-badge-stack {
+  width: 72px !important;
+  height: 72px !important;
+  padding: 18px !important;
+}
+
+/* Firefox's own window buttons: the shell's «✕» closes every program. */
+.titlebar-buttonbox-container,
+.titlebar-buttonbox,
+.titlebar-close,
+.titlebar-min,
+.titlebar-max,
+.titlebar-restore {
+  display: none !important;
+}
