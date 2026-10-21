@@ -12,7 +12,7 @@ Tablet 10 (B8000-H) с оболочкой
 - `haltia-firefox.cfg` + `haltia-calm.js` — autoconfig: снимает фокус с
   адресной строки нового окна, чтобы экранная клавиатура не выезжала сама.
 - `haltia-policies.py` — политики mobile-config-firefox с uBlock Origin Lite
-  (полный режим) и русским языковым пакетом вместо uBlock Origin; панели
+  (полный режим, со списком RU AdList) и русским языковым пакетом вместо uBlock Origin; панели
   закладок нет.
 - `haltia-firefox-profile [--shell]` — готовит профили (стили, нужные
   настройки в `user.js`); с `--shell` строка вкладок оставляет по 110 px
