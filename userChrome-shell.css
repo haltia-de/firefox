@@ -77,3 +77,9 @@
 .titlebar-restore {
   display: none !important;
 }
+
+/* No full screen from the main menu: without the window buttons and the
+   panel, a finger has no way out of it. */
+#appMenu-fullscreen-button2 {
+  display: none !important;
+}

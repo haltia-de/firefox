@@ -47,6 +47,10 @@ class ProfileInstallTests(unittest.TestCase):
         shell_css = (self.profile / 'chrome/userChrome.css').read_text()
         self.assertIn('#TabsToolbar {\n  min-height: 104px !important;\n}', shell_css)
         self.assertIn('.titlebar-close,', shell_css)
+        self.assertIn('#appMenu-fullscreen-button2 {\n  display: none !important;\n}', shell_css)
+        # Only the tab row leaves room for the shell's buttons.
+        self.assertNotIn('#nav-bar {\n  padding-inline-start: 110px', shell_css)
+        self.assertNotIn('#TabsToolbar,\n#nav-bar', shell_css)
         self.prepare()
         self.assertNotIn('padding-inline-start: 110px',
                          (self.profile / 'chrome/userChrome.css').read_text())
