@@ -11,8 +11,11 @@
 оболочки. Слева оставлено место для кнопки «домой» оболочки.
 
 В меню больше нет полноэкранного режима, из которого нельзя выйти касанием.
-Главное меню открывается под адресной строкой и прокручивается, больше не
-заходя под кнопку «✕» оболочки.
+В альбомной ориентации главное меню открывается под адресной строкой и
+прокручивается, больше не заходя под кнопку «✕» оболочки.
+
+uBlock Origin Lite теперь блокирует рекламу и на русских сайтах: RU AdList
+включён по умолчанию вместе со стандартными списками.
 
 ### English
 
@@ -26,6 +29,9 @@ Firefox close button have been removed; the shell's buttons close and
 minimise the window. Space on the left is reserved for the shell's home
 button.
 
-The menu no longer offers full screen, which has no touch way out. The main
-menu opens below the address row and scrolls, no longer reaching under the
-shell's «✕» button.
+The menu no longer offers full screen, which has no touch way out. In
+landscape, the main menu opens below the address row and scrolls, no longer
+reaching under the shell's «✕» button.
+
+uBlock Origin Lite now also blocks ads on Russian sites: RU AdList is
+enabled by default alongside the standard lists.
