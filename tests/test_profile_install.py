@@ -48,7 +48,8 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertIn('#TabsToolbar {\n  min-height: 104px !important;\n}', shell_css)
         self.assertIn('.titlebar-close,', shell_css)
         self.assertIn('#appMenu-fullscreen-button2 {\n  display: none !important;\n}', shell_css)
-        self.assertIn('#appMenu-popup {\n  max-height: 610px !important;\n}', shell_css)
+        self.assertIn('@media (max-height: 900px) {\n  #appMenu-popup {\n'
+                      '    max-height: 610px !important;\n  }\n}', shell_css)
         # Only the tab row leaves room for the shell's buttons.
         self.assertNotIn('#nav-bar {\n  padding-inline-start: 110px', shell_css)
         self.assertNotIn('#TabsToolbar,\n#nav-bar', shell_css)
@@ -149,7 +150,7 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertTrue(json.loads(text)['policies']['DisableTelemetry'])
         self.assertEqual(json.loads(text)['policies']['DisplayBookmarksToolbar'], 'never')
         ubol = json.loads(text)['policies']['3rdparty']['Extensions']['uBOLiteRedux@raymondhill.net']
-        self.assertEqual(ubol['rulesets'], ['+rus-0'])
+        self.assertEqual(ubol['rulesets'], ['+default', '+rus-0'])
         self.assertEqual(dst.stat().st_mode & 0o777, 0o640)
         self.assertEqual(list(self.home.glob('.haltia-*')), [])
 

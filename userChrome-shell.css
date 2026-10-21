@@ -86,7 +86,10 @@
 
 /* The main menu opens below the address row and scrolls when it must,
    rather than rising into the tab row under the shell's «✕»: 800px less
-   the tab row (104px), the address row (70px) and a margin. */
-#appMenu-popup {
-  max-height: 610px !important;
+   the tab row (104px), the address row (70px) and a margin. A portrait
+   window has room for all of it. */
+@media (max-height: 900px) {
+  #appMenu-popup {
+    max-height: 610px !important;
+  }
 }
