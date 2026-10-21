@@ -40,10 +40,13 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertEqual(first, js.read_bytes())
         self.assertIn('padding-inline-end: 110px',
                       (self.profile / 'chrome/userChrome.css').read_text())
-        self.assertIn('#TabsToolbar,\n#nav-bar {\n'
+        self.assertIn('#TabsToolbar {\n'
                       '  padding-inline-start: 110px !important;\n'
                       '  padding-inline-end: 110px !important;\n}',
                       (self.profile / 'chrome/userChrome.css').read_text())
+        shell_css = (self.profile / 'chrome/userChrome.css').read_text()
+        self.assertIn('#TabsToolbar {\n  min-height: 104px !important;\n}', shell_css)
+        self.assertIn('.titlebar-close,', shell_css)
         self.prepare()
         self.assertNotIn('padding-inline-start: 110px',
                          (self.profile / 'chrome/userChrome.css').read_text())
@@ -139,6 +142,7 @@ class ProfileInstallTests(unittest.TestCase):
         text = dst.read_text()
         self.assertTrue(text.endswith('\n'))
         self.assertTrue(json.loads(text)['policies']['DisableTelemetry'])
+        self.assertEqual(json.loads(text)['policies']['DisplayBookmarksToolbar'], 'never')
         self.assertEqual(dst.stat().st_mode & 0o777, 0o640)
         self.assertEqual(list(self.home.glob('.haltia-*')), [])
 

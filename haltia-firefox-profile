@@ -6,8 +6,9 @@
 # (userChrome.css) and userContent.css into every profile's chrome folder,
 # and adds the UI prefs it needs to user.js. Hardware defaults come from
 # haltia-ram.js, so manual profile overrides remain effective. With
-# --shell (the Haltia shell), the toolbars also end short of the shell's
-# close button in the top right corner (userChrome-shell.css). Run it before
+# --shell (the Haltia shell), the toolbars also leave room for the shell's
+# home and close buttons, the tab row is as tall as the other programs'
+# header, and Firefox's own window buttons are gone (userChrome-shell.css). Run it before
 # starting Firefox; it changes only what differs.
 set -eu
 here=$(cd "$(dirname "$0")" && pwd)
