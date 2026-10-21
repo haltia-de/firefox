@@ -48,7 +48,8 @@ class ProfileInstallTests(unittest.TestCase):
         self.assertIn('#TabsToolbar {\n  min-height: 104px !important;\n}', shell_css)
         self.assertIn('.titlebar-close,', shell_css)
         self.assertIn('#appMenu-fullscreen-button2 {\n  display: none !important;\n}', shell_css)
-        self.assertIn('#appMenu-popup {\n  max-height: 610px !important;\n}', shell_css)
+        self.assertIn('@media (max-height: 900px) {\n  #appMenu-popup {\n'
+                      '    max-height: 610px !important;\n  }\n}', shell_css)
         # Only the tab row leaves room for the shell's buttons.
         self.assertNotIn('#nav-bar {\n  padding-inline-start: 110px', shell_css)
         self.assertNotIn('#TabsToolbar,\n#nav-bar', shell_css)
