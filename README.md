@@ -1,8 +1,9 @@
 # firefox
 
 Firefox для сенсорного экрана и слабого железа — для планшета Lenovo YOGA
-Tablet 10 (B8000-H) с оболочкой
-[device-lenovo-b8000h](https://github.com/haltia-de/device-lenovo-b8000h), но
+Tablet 10 (B8000-H,
+[device-lenovo-b8000h](https://github.com/haltia-de/device-lenovo-b8000h))
+с оболочкой [Haltia](https://github.com/haltia-de/shell), но
 пригодно и без неё (поверх mobile-config-firefox).
 
 - `userChrome.css` — крупные вкладки и кнопки панели; `userContent.css`.
@@ -75,8 +76,3 @@ python3 -m unittest discover -s tests -v
 ```
 
 Лицензия — GPL-2.0.
-
-До ADR 0004 пакет назывался `b8k-firefox`: `haltia-firefox` заменяет его при
-`apk upgrade`, команда `b8k-firefox-profile` остаётся ссылкой до 3.0. Каталог
-профиля `b8k.default` и метки блока в `user.js` не переименовываются: это
-данные человека.
