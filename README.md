@@ -76,8 +76,3 @@ python3 -m unittest discover -s tests -v
 ```
 
 Лицензия — GPL-2.0.
-
-До ADR 0004 пакет назывался `b8k-firefox`: `haltia-firefox` заменяет его при
-`apk upgrade`, команда `b8k-firefox-profile` остаётся ссылкой до 3.0. Каталог
-профиля `b8k.default` и метки блока в `user.js` не переименовываются: это
-данные человека.
